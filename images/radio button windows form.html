@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://dtec2/bugzilla/show_bug.cgi?id=352 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>352 – Staff Security List - Show active/inactive/all filter to filter users.</title>
+
+      
+
+<link href="./radio button windows form_files/7aa6ea67750936a0368541421bdcd5ee.css" rel="stylesheet" type="text/css">
+
+
+
+    
+<script type="text/javascript" src="./radio button windows form_files/01d1b8200ec3d6070e858c3636a8f000.js.download"></script>
+
+    <script type="text/javascript">
+    <!--
+        YAHOO.namespace('bugzilla');
+        YAHOO.util.Event.addListener = function (el, sType, fn, obj, overrideContext) {
+               if ( ("onpagehide" in window || YAHOO.env.ua.gecko) && sType === "unload") { sType = "pagehide"; };
+               var capture = ((sType == "focusin" || sType == "focusout") && !YAHOO.env.ua.ie) ? true : false;
+               return this._addListener(el, this._getType(sType), fn, obj, overrideContext, capture);
+         };
+        if ( "onpagehide" in window || YAHOO.env.ua.gecko) {
+            YAHOO.util.Event._simpleRemove(window, "unload", 
+                                           YAHOO.util.Event._unload);
+        }
+        
+        function unhide_language_selector() { 
+            YAHOO.util.Dom.removeClass(
+                'lang_links_container', 'bz_default_hidden'
+            ); 
+        } 
+        YAHOO.util.Event.onDOMReady(unhide_language_selector);
+
+        
+        var BUGZILLA = {
+            param: {
+                cookiepath: '\/',
+                maxusermatches: 1000
+            },
+            constant: {
+                COMMENT_COLS: 80
+            },
+            string: {
+                
+
+                attach_desc_required:
+                    "You must enter a Description for this attachment.",
+                component_required:
+                    "You must select a Component for this bug.",
+                description_required:
+                    "You must enter a Description for this bug.",
+                short_desc_required:
+                    "You must enter a Summary for this bug.",
+                version_required:
+                    "You must select a Version for this bug."
+            }
+              , api_token: 'jluI3T6MDb'
+        };
+
+    if (history && history.replaceState) {
+      if(!document.location.href.match(/show_bug\.cgi/)) {
+        history.replaceState( null,
+                             "352 – Staff Security List - Show active\/inactive\/all filter to filter users.",
+                             "show_bug.cgi?id=352" );
+        document.title = "352 – Staff Security List - Show active\/inactive\/all filter to filter users.";
+      }
+      if (document.location.href.match(/show_bug\.cgi\?.*list_id=/)) {
+        var href = document.location.href;
+        href = href.replace(/[\?&]+list_id=(\d+|cookie)/, '');
+        history.replaceState(null, "352 – Staff Security List - Show active\/inactive\/all filter to filter users.", href);
+      }
+    }
+    YAHOO.util.Event.onDOMReady(function() {
+      initDirtyFieldTracking();
+
+        YAHOO.bugzilla.bugUserLastVisit.update(352);
+    });
+    // -->
+    </script>
+<script type="text/javascript" src="./radio button windows form_files/78b0d9928c58ed4fbe8d18b6c6a1945b.js.download"></script>
+
+    
+
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Bugzilla" href="http://dtec2/bugzilla/search_plugin.cgi">
+    <link rel="shortcut icon" href="http://dtec2/bugzilla/images/favicon.ico">
+  </head>
+
+  <body class="dtec2
+                 bz_bug
+                 bz_status_CONFIRMED
+                 bz_product_dtec
+                 bz_component_UI
+                 bz_bug_352 yui-skin-sam">
+
+  <div id="header"><div id="banner">
+  </div>
+
+    <div id="titles">
+      <span id="title">Bugzilla – Bug&nbsp;352</span>
+
+        <span id="subtitle" class="subheader">Staff Security List - Show active/inactive/all filter to filter users.</span>
+
+        <span id="information" class="header_addl_info">Last modified: 2017-12-19 14:59:40 PST</span>
+    </div>
+
+
+    <div id="common_links"><ul class="links">
+  <li><a href="http://dtec2/bugzilla/">Home</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/query.cgi">Search</a></li>
+
+  <li class="form">
+    <span class="separator">| </span>
+    <form action="http://dtec2/bugzilla/buglist.cgi" method="get" onsubmit="if (this.quicksearch.value == &#39;&#39;)
+                  { alert(&#39;Please enter one or more search terms first.&#39;);
+                    return false; } return true;">
+    <input type="hidden" id="no_redirect_top" name="no_redirect" value="1">
+    <script type="text/javascript">
+      if (history && history.replaceState) {
+        var no_redirect = document.getElementById("no_redirect_top");
+        no_redirect.value = 1;
+      }
+    </script>
+    <input class="txt" type="text" id="quicksearch_top" name="quicksearch" title="Quick Search" value="">
+    <input class="btn" type="submit" value="Search" id="find_top"></form>
+  <a href="http://dtec2/bugzilla/page.cgi?id=quicksearch.html" title="Quicksearch Help">[?]</a></li>
+
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/report.cgi">Reports</a></li>
+
+  <li></li>
+
+
+    <li><span class="separator">| </span><a href="http://dtec2/bugzilla/userprefs.cgi">Preferences</a></li>
+      <li><span class="separator">| </span><a href="http://dtec2/bugzilla/admin.cgi">Administration</a></li>
+<li>
+        <span class="separator">| </span>
+        <a href="https://bugzilla.readthedocs.org/en/5.0/using/understanding.html" target="_blank">Help</a>
+      </li>
+
+    <li>
+      <span class="separator">| </span>
+        <a href="http://dtec2/bugzilla/index.cgi?logout=1">Log&nbsp;out</a>
+        vivek@distrib-u-tec.com</li>
+</ul>
+    </div>
+  </div>
+
+  <div id="bugzilla-body">
+
+<div class="navigation">
+  <b>Bug List:</b>
+
+  (2 of 7)
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=350&amp;list_id=377">First</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=359&amp;list_id=377">Last</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=350&amp;list_id=377">Prev</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=353&amp;list_id=377">Next</a>
+
+  &nbsp;&nbsp;<a href="http://dtec2/bugzilla/buglist.cgi?regetlastlist=377">Show last search results</a>
+  </div>
+<div id="bz_ctag_div" class="bz_default_hidden">
+      <a href="javascript:void(0)" onclick="YAHOO.bugzilla.commentTagging.hideInput()">x</a>
+      <div class="yui-ac">
+        <input id="bz_ctag_add" size="10" placeholder="add tag" maxlength="24" class="yui-ac-input" autocomplete="off">
+        <span id="bz_ctag_autocomp" class="yui-ac-container"><div class="yui-ac-content" style="display: none;"><div class="yui-ac-hd" style="display: none;"></div><div class="yui-ac-bd"><ul><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li></ul></div><div class="yui-ac-ft" style="display: none;"></div></div></span>
+      </div>
+      &nbsp;
+    </div>
+    <div id="bz_ctag_error" class="bz_default_hidden">
+      <a href="javascript:void(0)" onclick="YAHOO.bugzilla.commentTagging.hideError()">x</a>
+      <span id="bz_ctag_error_msg"></span>
+    </div>
+    <script type="text/javascript">
+      YAHOO.bugzilla.commentTagging.init(true);
+      YAHOO.bugzilla.commentTagging.min_len = 3;
+      YAHOO.bugzilla.commentTagging.max_len = 24;
+      YAHOO.bugzilla.commentTagging.label = 'Comment Tags:';
+      YAHOO.bugzilla.commentTagging.min_len_error =
+        'Comment tags must be at least 3 characters.';
+      YAHOO.bugzilla.commentTagging.max_len_error =
+        'Comment tags cannot be longer than 24 characters.';
+    </script>
+
+<script type="text/javascript">
+<!--
+  var bz_remaining_time = 0.00;
+
+  /* Index all classifications so we can keep track of the classification
+   * for the selected product, which could control field visibility.
+   */
+  var all_classifications = new Array(4);
+      all_classifications['distrib-u-tec'] = 'Unclassified';
+      all_classifications['dtec'] = 'Unclassified';
+      all_classifications['dtec Installer'] = 'Unclassified';
+      all_classifications['TestProduct'] = 'Unclassified';
+//-->
+</script>
+
+<form name="changeform" id="changeform" method="post" action="http://dtec2/bugzilla/process_bug.cgi">
+
+  <input type="hidden" name="delta_ts" value="2017-12-19 14:59:40">
+  <input type="hidden" name="id" value="352">
+  <input type="hidden" name="token" value="1514595727-_bgaJKrt2p9cX903-FTJOYgp1GMa3C2k-j6gjdj6bVM">
+<div class="bz_short_desc_container edit_form"><div class="knob-buttons">
+      <input type="submit" value="Save Changes" id="commit_top">
+    </div>
+     <a href="http://dtec2/bugzilla/show_bug.cgi?id=352"><b>Bug&nbsp;352</b></a> <span id="summary_container">
+      - <span id="short_desc_nonedit_display">Staff Security List - Show active/inactive/all filter to filter users.</span>
+        <small>(<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="summary_edit_action">edit</a>)</small>
+     </span>
+
+    <div id="summary_input" class="bz_default_hidden"><span class="field_label " id="field_label_short_desc">
+
+    <label for="short_desc" accesskey="s">
+
+  <a title="The bug summary is a short sentence which succinctly describes what the bug is about." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#short_desc">Summary:</a>
+</label>
+</span><input id="short_desc" name="short_desc" class="text_input" value="Staff Security List - Show active/inactive/all filter to filter users." size="80" maxlength="255" spellcheck="true">
+    </div>
+  </div>
+  <script type="text/javascript">
+    hideEditableField('summary_container',
+                      'summary_input',
+                      'summary_edit_action',
+                      'short_desc',
+                      'Staff Security List - Show active\/inactive\/all filter to filter users.' );
+  </script>
+  <table class="edit_form">
+    <tbody><tr>
+      
+      <td id="bz_show_bug_column_1" class="bz_show_bug_column">     
+        <table>
+          <tbody><tr>
+    <th class="field_label">
+      <a href="http://dtec2/bugzilla/page.cgi?id=fields.html#bug_status">Status</a>:
+    </th>
+    <td id="bz_field_status">
+      <span id="static_bug_status">CONFIRMED
+          (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#add_comment" onclick="window.setTimeout(function() { document.getElementById(&#39;bug_status&#39;).focus(); }, 10)">edit</a>)
+      </span>
+    </td>
+  </tr>
+<tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+<tr><th class="field_label " id="field_label_alias">
+
+
+  <a title="A short, unique name assigned to a bug in order to assist with looking it up and referring to it in other places in Bugzilla." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#alias">Alias:</a>
+
+</th>
+    <td>
+        None
+        <span id="alias_edit_area_showhide_container">
+          (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="alias_edit_area_showhide">edit</a>)
+        </span>
+        <br>
+        <div id="alias_edit_area" class="bz_default_hidden">
+          <div>
+            <label for="newalias" class="field_label">Add</label>
+            <br>
+            <input name="newalias" id="newalias" size="20">
+          </div>
+        </div>
+        <script type="text/javascript">
+          hideEditableField( 'alias_edit_area_showhide_container',
+                             'alias_edit_area',
+                             'alias_edit_area_showhide',
+                             '',
+                             '');
+        </script>
+    </td>
+  </tr>
+<tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+<tr><th class="field_label " id="field_label_product">
+
+    <label for="product">
+
+  <a title="Bugs are categorised into Products and Components." class="field_help_link" href="http://dtec2/bugzilla/describecomponents.cgi">Product:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_product">
+      
+        <input type="hidden" id="product_dirty">
+        <select id="product" name="product">
+            <option value="distrib-u-tec" id="v3_product">distrib-u-tec</option>
+            <option value="dtec" id="v4_product" selected="selected">dtec</option>
+            <option value="dtec Installer" id="v2_product">dtec Installer</option>
+            <option value="TestProduct" id="v1_product">TestProduct</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('product');
+          
+        //-->
+      </script>
+
+
+</td>
+    </tr>
+
+    
+    <tr class="bz_default_hidden"><th class="field_label " id="field_label_classification">
+
+    <label for="classification">
+
+  <a title="Bugs are categorised into Classifications, Products and Components. classifications is the top-level categorisation." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#classification">Classification:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_classification">
+      
+        <input type="hidden" id="classification_dirty">
+        <select id="classification" name="classification">
+            <option value="Unclassified" id="v1_classification" selected="selected">Unclassified</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('classification');
+          YAHOO.util.Event.on('product', 'change', setClassification);
+        //-->
+      </script>
+
+
+</td>
+    </tr>
+        
+    
+    
+    <tr><th class="field_label " id="field_label_component">
+
+    <label for="component">
+
+  <a title="Components are second-level categories; each belongs to a particular Product. Select a Product to narrow down this list." class="field_help_link" href="http://dtec2/bugzilla/describecomponents.cgi?product=dtec">Component:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_component">
+      
+        <input type="hidden" id="component_dirty">
+        <select id="component" name="component">
+            <option value="Control Library" id="v14_component">Control Library</option>
+            <option value="FoxPro" id="v20_component">FoxPro</option>
+            <option value="License Service" id="v12_component">License Service</option>
+            <option value="Maintenance Service" id="v18_component">Maintenance Service</option>
+            <option value="Reporting Service" id="v15_component">Reporting Service</option>
+            <option value="UI" id="v13_component" selected="selected">UI</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('component');
+          
+        //-->
+      </script>
+
+
+  (<a href="http://dtec2/bugzilla/buglist.cgi?component=UI&amp;product=dtec&amp;bug_status=__open__" target="_blank">show other bugs</a>)
+</td>
+    </tr>
+    <tr><th class="field_label " id="field_label_version">
+
+    <label for="version">
+
+  <a title="The version field defines the version of the software the bug was found in." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#version">Version:</a>
+</label>
+</th>
+<td>1.0
+  </td>
+    </tr>
+        
+    
+        
+    <tr><th class="field_label " id="field_label_rep_platform">
+
+    <label for="rep_platform" accesskey="h">
+
+  <a title="The hardware platform the bug was observed on. Note: When searching, selecting the option &quot;All&quot; only finds bugs whose value for this field is literally the word &quot;All&quot;." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#rep_platform">Hardware:</a>
+</label>
+</th>
+      <td class="field_value"><input type="hidden" id="rep_platform_dirty">
+        <select id="rep_platform" name="rep_platform">
+            <option value="All" id="v1_rep_platform">All</option>
+            <option value="PC" id="v2_rep_platform" selected="selected">PC</option>
+            <option value="Macintosh" id="v3_rep_platform">Macintosh</option>
+            <option value="Other" id="v4_rep_platform">Other</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('rep_platform');
+          
+        //-->
+      </script>
+        <input type="hidden" id="op_sys_dirty">
+        <select id="op_sys" name="op_sys">
+            <option value="All" id="v1_op_sys">All</option>
+            <option value="Windows" id="v2_op_sys" selected="selected">Windows</option>
+            <option value="Mac OS" id="v3_op_sys">Mac OS</option>
+            <option value="Linux" id="v4_op_sys">Linux</option>
+            <option value="Other" id="v5_op_sys">Other</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('op_sys');
+          
+        //-->
+      </script>
+      </td>
+    </tr>
+          <tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+          
+          <tr>
+      <th class="field_label">
+        <label for="priority" accesskey="i">
+          <a href="http://dtec2/bugzilla/page.cgi?id=fields.html#importance"><u>I</u>mportance</a></label>:
+      </th>
+      <td><input type="hidden" id="priority_dirty">
+        <select id="priority" name="priority">
+            <option value="Highest" id="v1_priority">Highest</option>
+            <option value="High" id="v2_priority">High</option>
+            <option value="Normal" id="v3_priority" selected="selected">Normal</option>
+            <option value="Low" id="v4_priority">Low</option>
+            <option value="Lowest" id="v5_priority">Lowest</option>
+            <option value="---" id="v6_priority">---</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('priority');
+          
+        //-->
+      </script>
+       <input type="hidden" id="bug_severity_dirty">
+        <select id="bug_severity" name="bug_severity">
+            <option value="blocker" id="v1_bug_severity">blocker</option>
+            <option value="critical" id="v2_bug_severity">critical</option>
+            <option value="major" id="v3_bug_severity">major</option>
+            <option value="normal" id="v4_bug_severity" selected="selected">normal</option>
+            <option value="minor" id="v5_bug_severity">minor</option>
+            <option value="trivial" id="v6_bug_severity">trivial</option>
+            <option value="enhancement" id="v7_bug_severity">enhancement</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('bug_severity');
+          
+        //-->
+      </script>
+      </td>
+    </tr>
+          
+          <tr><th class="field_label " id="field_label_assigned_to">
+
+    <label for="assigned_to">
+
+  <a title="The person in charge of resolving the bug." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#assigned_to">Assignee:</a>
+</label>
+</th>
+      <td>
+          <div id="bz_assignee_edit_container" class="">
+            <span><span class="vcard"><a class="email" href="mailto:vivek@distrib-u-tec.com" title="Vivek Trivedi &lt;vivek@distrib-u-tec.com&gt;"> <span class="fn">Vivek Trivedi</span></a>
+</span>
+              (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="bz_assignee_edit_action">edit</a>)
+            </span>
+          </div>
+          <div id="bz_assignee_input" class="bz_default_hidden"><input name="assigned_to" value="vivek@distrib-u-tec.com" class="bz_userfield" size="30" id="assigned_to">
+            <br>
+            <input type="checkbox" id="set_default_assignee" name="set_default_assignee" value="1">
+            <label id="set_default_assignee_label" for="set_default_assignee" style="font-weight: normal;">Reset Assignee to default</label>
+          </div>
+          <script type="text/javascript">
+           hideEditableField('bz_assignee_edit_container', 
+                             'bz_assignee_input', 
+                             'bz_assignee_edit_action', 
+                             'assigned_to', 
+                             'vivek\x40distrib-u-tec.com' );
+           hideEditableField('bz_assignee_edit_container',
+                             'bz_assignee_input',
+                             'bz_assignee_take_action',
+                             'assigned_to',
+                             'vivek\x40distrib-u-tec.com',
+                             'vivek\x40distrib-u-tec.com' );
+           initDefaultCheckbox('assignee');                  
+          </script>
+      </td>
+    </tr>
+
+    <script type="text/javascript">
+      assignToDefaultOnChange(['product', 'component'],
+        'robert\x40distrib-u-tec.com',
+        '');
+    </script>
+          <tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+          <tr><th class="field_label " id="field_label_bug_file_loc">
+
+    <label for="bug_file_loc" accesskey="u">
+
+  <a title="Bugs can have a URL associated with them - for example, a pointer to a web site where the problem is seen." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#bug_file_loc">URL:</a>
+</label>
+</th>
+    <td>
+        <span id="bz_url_edit_container" class="bz_default_hidden"> 
+        (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="bz_url_edit_action">edit</a>)</span>
+      <span id="bz_url_input_area"><input id="bug_file_loc" name="bug_file_loc" class="text_input" value="" size="40">
+      </span>
+        <script type="text/javascript">
+          hideEditableField('bz_url_edit_container', 
+                            'bz_url_input_area', 
+                            'bz_url_edit_action', 
+                            'bug_file_loc', 
+                            "");
+        </script>
+    </td>
+  </tr>
+
+
+
+    <tr><th class="field_label " id="field_label_tag">
+
+    <label for="tag">
+
+  <a title="Unlike Keywords which are global and visible by all users, Personal Tags are personal and can only be viewed and edited by their author. Editing them won&#39;t send any notification to other users. Use them to tag and keep track of bugs." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#tag">Personal Tags:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_tag">
+       <div id="tag_container" class="yui-ac">
+         <input type="text" id="tag" size="40" class="text_input yui-ac-input" name="tag" value="" autocomplete="off">
+         <div id="tag_autocomplete" class="yui-ac-container"><div class="yui-ac-content" style="display: none;"><div class="yui-ac-hd" style="display: none;"></div><div class="yui-ac-bd"><ul><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li></ul></div><div class="yui-ac-ft" style="display: none;"></div></div></div>
+       </div>
+       <script type="text/javascript">
+         if (typeof YAHOO.bugzilla.field_array === "undefined")
+           YAHOO.bugzilla.field_array = [];
+         YAHOO.bugzilla.field_array["tag"] = [];
+         YAHOO.bugzilla.fieldAutocomplete.init('tag',
+                                               'tag_autocomplete');
+       </script>
+
+</td>
+    </tr>
+          <tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+
+          
+<tr><th class="field_label " id="field_label_dependson">
+
+
+  <a title="The bugs listed here must be resolved before this bug can be resolved." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#dependson">Depends on:</a>
+
+</th>
+
+  <td>
+    <span id="dependson_input_area">
+        <input name="dependson" id="dependson" class="text_input" value="">
+    </span>
+
+      <span id="dependson_edit_container" class="edit_me bz_default_hidden">
+        (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="dependson_edit_action">edit</a>)
+      </span>
+      <script type="text/javascript">
+        hideEditableField('dependson_edit_container', 
+                          'dependson_input_area', 
+                          'dependson_edit_action', 
+                          'dependson', 
+                          '');
+      </script>
+  </td>
+  </tr>
+  
+  <tr><th class="field_label " id="field_label_blocked">
+
+
+  <a title="This bug must be resolved before the bugs listed in this field can be resolved." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#blocked">Blocks:</a>
+
+</th>
+
+  <td>
+    <span id="blocked_input_area">
+        <input name="blocked" id="blocked" class="text_input" value="">
+    </span>
+
+      <span id="blocked_edit_container" class="edit_me bz_default_hidden">
+        (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="blocked_edit_action">edit</a>)
+      </span>
+      <script type="text/javascript">
+        hideEditableField('blocked_edit_container', 
+                          'blocked_input_area', 
+                          'blocked_edit_action', 
+                          'blocked', 
+                          '');
+      </script>
+  </td>
+  </tr>
+          
+        </tbody></table>
+      </td>
+      <td>
+        <div class="bz_column_spacer">&nbsp;</div>
+      </td>
+      
+      <td id="bz_show_bug_column_2" class="bz_show_bug_column">
+        <table>
+        <tbody><tr>
+    <th class="field_label">
+      Reported:
+    </th>
+    <td>2017-12-06 12:14 PST by <span class="vcard"><a class="email" href="mailto:robert@distrib-u-tec.com" title="Robert Dmytruk &lt;robert@distrib-u-tec.com&gt;"> <span class="fn">Robert Dmytruk</span></a>
+</span>
+    </td>
+  </tr>
+  
+  <tr>
+    <th class="field_label">
+      Modified:
+    </th>
+    <td>2017-12-19 14:59 PST
+      (<a href="http://dtec2/bugzilla/show_activity.cgi?id=352">History</a>)
+    </td>
+  
+  </tr>
+<tr>
+      <th class="field_label">
+        <label for="newcc" accesskey="a">
+          CC List:
+        </label>
+      </th>
+      <td>
+            <input type="checkbox" id="addselfcc" name="addselfcc">
+            <label for="addselfcc">Add me to CC list</label>
+            <br> 0 
+          users
+          <span id="cc_edit_area_showhide_container">
+            (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="cc_edit_area_showhide">edit</a>)
+          </span>
+        <div id="cc_edit_area" class="bz_default_hidden">
+          <br>
+            <div>
+              <div><label for="cc"><b>Add</b></label></div><input name="newcc" value="" class="bz_userfield" size="30" id="newcc">
+            </div>
+        </div>
+          <script type="text/javascript">
+            hideEditableField( 'cc_edit_area_showhide_container', 
+                               'cc_edit_area', 
+                               'cc_edit_area_showhide', 
+                               '', 
+                               '');  
+          </script>
+      </td>
+    </tr>
+<tr>
+      <th class="field_label">
+        <label for="bug_ignored" title="Ignore all email for this bug">
+          Ignore Bug Mail:
+        </label>
+      </th>
+      <td>
+        <input type="hidden" name="defined_bug_ignored" value="1">
+        <span title="You will still receive emails for flag requests directed at you.">
+          <input type="checkbox" name="bug_ignored" id="bug_ignored" value="1">
+          (never email me about this bug)
+        </span>
+      </td>
+    </tr>
+<tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+<tr><th class="field_label " id="field_label_see_also">
+
+    <label for="see_also">
+
+  <a title="This allows you to refer to bugs in other installations. You can enter a URL to a bug in the &#39;Add Bug URLs&#39; field to note that that bug is related to this one. You can enter multiple URLs at once by separating them with whitespace. You should normally use this field to refer to bugs in other installations. For bugs in this installation, it is better to use the Depends on and Blocks fields." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#see_also">See Also:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_see_also">
+         <span id="container_showhide_see_also">
+           (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="showhide_see_also">add</a>)
+         </span>
+         <div id="container_see_also" class="bz_default_hidden">
+           <input type="text" id="see_also" size="40" class="text_input" name="see_also">
+         </div>
+           <script type="text/javascript">
+             setupEditLink('see_also');
+           </script>
+
+</td>
+    </tr> 
+<tr>
+      <th class="field_label " id="field_label_cf_workorder_no">
+
+    <label for="cf_workorder_no">
+
+  <a title="Work Order Manager Work Order Number." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#cf_workorder_no">Work Order#:</a>
+</label>
+</th>
+  <td class="field_value " id="field_container_cf_workorder_no">
+        <input id="cf_workorder_no" class="text_input" name="cf_workorder_no" value="0" size="40" maxlength="255" pattern="-?\d+" title="The value must be a valid positive or negative integer">
+
+</td>
+    </tr>
+<tr>
+    <td colspan="2" class="bz_section_spacer"></td>
+  </tr>
+
+
+
+        </tbody></table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+          <hr id="bz_top_half_spacer">
+      </td>
+    </tr>
+  </tbody></table>
+
+  <table id="bz_big_form_parts">
+  <tbody><tr>
+  <td><table class="bz_time_tracking_table">
+    <tbody><tr><th class="field_label " id="field_label_estimated_time">
+
+    <label for="estimated_time">
+
+  <a title="The amount of time that has been estimated it will take to resolve this bug." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#estimated_time">Orig. Est.:</a>
+</label>
+</th>
+      <th>
+        Current Est.:
+      </th><th class="field_label " id="field_label_work_time">
+
+    <label for="work_time">
+
+  <a title="The total amount of time spent on this bug so far." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#work_time">Hours Worked:</a>
+</label>
+</th><th class="field_label " id="field_label_remaining_time">
+
+    <label for="remaining_time">
+
+  <a title="The number of hours of work left on this bug, calculated by subtracting the Hours Worked from the Orig. Est.." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#remaining_time">Hours Left:</a>
+</label>
+</th><th class="field_label " id="field_label_percentage_complete">
+
+    <label for="percentage_complete">
+
+  <a title="How close to 100% done this bug is, by comparing its Hours Worked to its Orig. Est.." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#percentage_complete">%Complete:</a>
+</label>
+</th>
+      <th>
+        Gain:
+      </th><th class="field_label " id="field_label_deadline">
+
+    <label for="deadline">
+
+  <a title="The date that this bug must be resolved by, entered in YYYY-MM-DD format." class="field_help_link" href="http://dtec2/bugzilla/page.cgi?id=fields.html#deadline">Deadline:</a>
+</label>
+</th>
+    </tr>
+    <tr>
+      <td>
+        <input name="estimated_time" id="estimated_time" value="0.0" size="6" maxlength="6">
+      </td>
+      <td>0.0
+      </td>
+      <td>0.0 +
+        <input name="work_time" id="work_time" value="0" size="3" maxlength="6" onchange="adjustRemainingTime();">
+      </td>
+      <td>
+        <input name="remaining_time" id="remaining_time" value="0.0" size="6" maxlength="6" onchange="updateRemainingTime();">
+      </td>
+      <td>0
+      </td>
+      <td>0.0
+      </td>
+       <td><input name="deadline" size="20" id="deadline" value="" onchange="updateCalendarFromField(this)">
+      <button type="button" class="calendar_button" id="button_calendar_deadline" onclick="showCalendar(&#39;deadline&#39;)">
+        <span>Calendar</span>
+      </button>
+
+      <div id="con_calendar_deadline" class="yui-calcontainer single"><table cellspacing="0" class="yui-calendar y2017" id="calendar_deadline">
+<thead>
+<tr>
+<th colspan="7" class="calhead">
+<div class="calheader">
+<a class="calnavleft" href="http://dtec2/bugzilla/show_bug.cgi?id=352#">Previous Month (November 2017)</a>
+December 2017
+<a class="calnavright" href="http://dtec2/bugzilla/show_bug.cgi?id=352#">Next Month (January 2018)</a>
+</div>
+</th>
+</tr>
+<tr class="calweekdayrow">
+<th class="calweekdaycell">Su</th>
+<th class="calweekdaycell">Mo</th>
+<th class="calweekdaycell">Tu</th>
+<th class="calweekdaycell">We</th>
+<th class="calweekdaycell">Th</th>
+<th class="calweekdaycell">Fr</th>
+<th class="calweekdaycell">Sa</th>
+</tr>
+</thead>
+<tbody class="m12 calbody">
+<tr class="w48">
+<td class="calcell oom calcelltop calcellleft" id="calendar_deadline_cell0">26</td>
+<td class="calcell oom calcelltop" id="calendar_deadline_cell1">27</td>
+<td class="calcell oom calcelltop" id="calendar_deadline_cell2">28</td>
+<td class="calcell oom calcelltop" id="calendar_deadline_cell3">29</td>
+<td class="calcell oom calcelltop" id="calendar_deadline_cell4">30</td>
+<td class="calcell wd5 d1 selectable calcelltop" id="calendar_deadline_cell5"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">1</a></td>
+<td class="calcell wd6 d2 selectable calcelltop calcellright" id="calendar_deadline_cell6"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">2</a></td>
+</tr>
+<tr class="w49">
+<td class="calcell wd0 d3 selectable calcellleft" id="calendar_deadline_cell7"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">3</a></td>
+<td class="calcell wd1 d4 selectable" id="calendar_deadline_cell8"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">4</a></td>
+<td class="calcell wd2 d5 selectable" id="calendar_deadline_cell9"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">5</a></td>
+<td class="calcell wd3 d6 selectable" id="calendar_deadline_cell10"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">6</a></td>
+<td class="calcell wd4 d7 selectable" id="calendar_deadline_cell11"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">7</a></td>
+<td class="calcell wd5 d8 selectable" id="calendar_deadline_cell12"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">8</a></td>
+<td class="calcell wd6 d9 selectable calcellright" id="calendar_deadline_cell13"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">9</a></td>
+</tr>
+<tr class="w50">
+<td class="calcell wd0 d10 selectable calcellleft" id="calendar_deadline_cell14"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">10</a></td>
+<td class="calcell wd1 d11 selectable" id="calendar_deadline_cell15"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">11</a></td>
+<td class="calcell wd2 d12 selectable" id="calendar_deadline_cell16"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">12</a></td>
+<td class="calcell wd3 d13 selectable" id="calendar_deadline_cell17"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">13</a></td>
+<td class="calcell wd4 d14 selectable" id="calendar_deadline_cell18"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">14</a></td>
+<td class="calcell wd5 d15 selectable" id="calendar_deadline_cell19"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">15</a></td>
+<td class="calcell wd6 d16 selectable calcellright" id="calendar_deadline_cell20"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">16</a></td>
+</tr>
+<tr class="w51">
+<td class="calcell wd0 d17 selectable calcellleft" id="calendar_deadline_cell21"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">17</a></td>
+<td class="calcell wd1 d18 selectable" id="calendar_deadline_cell22"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">18</a></td>
+<td class="calcell wd2 d19 selectable" id="calendar_deadline_cell23"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">19</a></td>
+<td class="calcell wd3 d20 selectable" id="calendar_deadline_cell24"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">20</a></td>
+<td class="calcell wd4 d21 selectable" id="calendar_deadline_cell25"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">21</a></td>
+<td class="calcell wd5 d22 selectable" id="calendar_deadline_cell26"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">22</a></td>
+<td class="calcell wd6 d23 selectable calcellright" id="calendar_deadline_cell27"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">23</a></td>
+</tr>
+<tr class="w52">
+<td class="calcell wd0 d24 selectable calcellleft" id="calendar_deadline_cell28"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">24</a></td>
+<td class="calcell wd1 d25 selectable" id="calendar_deadline_cell29"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">25</a></td>
+<td class="calcell wd2 d26 selectable" id="calendar_deadline_cell30"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">26</a></td>
+<td class="calcell wd3 d27 selectable" id="calendar_deadline_cell31"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">27</a></td>
+<td class="calcell wd4 d28 selectable" id="calendar_deadline_cell32"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">28</a></td>
+<td class="calcell wd5 d29 today selectable" id="calendar_deadline_cell33"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">29</a></td>
+<td class="calcell wd6 d30 selectable calcellright" id="calendar_deadline_cell34"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">30</a></td>
+</tr>
+<tr class="w1">
+<td class="calcell wd0 d31 selectable calcellleft calcellbottom" id="calendar_deadline_cell35"><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="selector">31</a></td>
+<td class="calcell oom calcellbottom" id="calendar_deadline_cell36">1</td>
+<td class="calcell oom calcellbottom" id="calendar_deadline_cell37">2</td>
+<td class="calcell oom calcellbottom" id="calendar_deadline_cell38">3</td>
+<td class="calcell oom calcellbottom" id="calendar_deadline_cell39">4</td>
+<td class="calcell oom calcellbottom" id="calendar_deadline_cell40">5</td>
+<td class="calcell oom calcellright calcellbottom" id="calendar_deadline_cell41">6</td>
+</tr>
+</tbody>
+</table></div>
+
+      <script type="text/javascript">
+        <!--
+          createCalendar('deadline');
+        //--></script>
+      </td>        
+    </tr>
+    <tr>
+      <td colspan="7" class="bz_summarize_time">
+        <a href="http://dtec2/bugzilla/summarize_time.cgi?id=352&amp;do_depends=1">
+        Summarize time (including time for bugs
+        blocking this bug)</a>
+      </td>
+    </tr>
+  </tbody></table>
+
+    
+<script type="text/javascript">
+<!--
+function toggle_display(link) {
+    var table = document.getElementById("attachment_table");
+    var view_all = document.getElementById("view_all");
+    var hide_obsolete_url_parameter = "&hide_obsolete=1";
+    // Store current height for scrolling later
+    var originalHeight = table.offsetHeight;
+    var rows = YAHOO.util.Dom.getElementsByClassName(
+        'bz_tr_obsolete', 'tr', table);
+
+    for (var i = 0; i < rows.length; i++) {
+        bz_toggleClass(rows[i], 'bz_default_hidden');
+    }
+
+    if (YAHOO.util.Dom.hasClass(rows[0], 'bz_default_hidden')) {
+        link.innerHTML = "Show Obsolete";
+        view_all.href = view_all.href + hide_obsolete_url_parameter 
+    }
+    else {
+        link.innerHTML = "Hide Obsolete";
+        view_all.href = view_all.href.replace(hide_obsolete_url_parameter,"");
+    }
+
+    var newHeight = table.offsetHeight;
+    // This scrolling makes the window appear to not move at all.
+    window.scrollBy(0, newHeight - originalHeight);
+
+    return false;
+}
+//-->
+</script>
+
+<br>
+<table id="attachment_table">
+  <tbody><tr id="a0">
+    <th colspan="2" class="left">
+      Attachments
+    </th>
+  </tr>
+
+
+
+  <tr class="bz_attach_footer">
+    <td colspan="2">
+        <a href="http://dtec2/bugzilla/attachment.cgi?bugid=352&amp;action=enter">Add an attachment</a>
+        (proposed patch, testcase, etc.)
+    </td>
+  </tr>
+</tbody></table>
+<br>
+<div id="add_comment" class="bz_section_additional_comments">
+      <label for="comment" accesskey="c"><b>Additional 
+        <u>C</u>omments</b></label>:
+
+
+      <!-- This table keeps the submit button aligned with the box. -->
+      <table><tbody><tr><td><textarea name="comment" id="comment" rows="10" cols="80" onfocus="this.rows=25"></textarea>
+        <br><div class="knob-buttons">
+      <input type="submit" value="Save Changes" id="commit">
+    </div>
+
+
+        <table id="bug_status_bottom" class="status">
+          <tbody><tr>
+            <th class="field_label">
+              <a href="http://dtec2/bugzilla/page.cgi?id=fields.html#bug_status">Status</a>:
+            </th>
+            <td><div id="status"><input type="hidden" id="bug_status_dirty">
+        <select id="bug_status" name="bug_status">
+            <option value="CONFIRMED" id="v2_bug_status" selected="selected">CONFIRMED</option>
+            <option value="IN_PROGRESS" id="v3_bug_status">IN_PROGRESS</option>
+            <option value="RESOLVED" id="v4_bug_status">RESOLVED</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('bug_status');
+          
+        //-->
+      </script>
+
+    <noscript>&lt;br&gt;resolved&amp;nbsp;as&amp;nbsp;</noscript>
+
+  <span id="resolution_settings" class="bz_default_hidden"><input type="hidden" id="resolution_dirty" value="">
+        <select id="resolution" name="resolution">
+            <option value=""></option><option value="FIXED" id="v2_resolution">FIXED</option>
+            <option value="INVALID" id="v3_resolution">INVALID</option>
+            <option value="WONTFIX" id="v4_resolution">WONTFIX</option>
+            <option value="DUPLICATE" id="v5_resolution">DUPLICATE</option>
+            <option value="WORKSFORME" id="v6_resolution">WORKSFORME</option>
+        </select>
+        
+
+      <script type="text/javascript">
+        <!--
+          initHidingOptionsForIE('resolution');
+          
+        //-->
+      </script>
+  </span>
+
+    <noscript>&lt;br&gt; duplicate</noscript>
+    <span id="duplicate_settings" class="bz_default_hidden">of
+      <span id="dup_id_container" class="bz_default_hidden">&lt;missing&gt;
+        (<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="dup_id_edit_action">edit</a>)
+      </span><input id="dup_id" name="dup_id" size="6" value="">
+    </span>
+    <div id="dup_id_discoverable" class="">
+      <a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" id="dup_id_discoverable_action">Mark as Duplicate</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+  var close_status_array = [
+      'RESOLVED'
+  ];
+  YAHOO.util.Dom.removeClass('dup_id_discoverable', 'bz_default_hidden');
+  hideEditableField( "dup_id_container", "dup_id", 'dup_id_edit_action',
+                     'dup_id', '' )
+  showHideStatusItems( "",  ['',
+                             'CONFIRMED']);
+  YAHOO.util.Event.addListener( 'bug_status', "change", showHideStatusItems,
+                                ['',
+                                 'CONFIRMED']);
+  YAHOO.util.Event.addListener( 'resolution', "change", showDuplicateItem);
+  YAHOO.util.Event.addListener( 'dup_id_discoverable_action',
+                                'click',
+                                setResolutionToDuplicate,
+                                'RESOLVED');
+  YAHOO.util.Event.addListener( window, 'load',  showHideStatusItems,
+                              ['',
+                               'CONFIRMED'] );
+
+</script>
+            </td>
+          </tr>
+        </tbody></table>
+      </td></tr></tbody></table>
+
+    
+  </div>
+  </td>
+  <td>
+  </td>
+  </tr></tbody></table>
+
+  
+  <div id="comments"><script src="./radio button windows form_files/comments.js.download" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+<!--
+  /* Adds the reply text to the 'comment' textarea */
+  function replyToComment(id, real_id, name) {
+      var prefix = "(In reply to " + name + " from comment #" + id + ")\n";
+      var replytext = "";
+        /* pre id="comment_name_N" */
+        var text_elem = document.getElementById('comment_text_'+id);
+        var text = getText(text_elem);
+        replytext = prefix + wrapReplyText(text);
+
+
+      /* <textarea id="comment"> */
+      var textarea = document.getElementById('comment');
+      if (textarea.value != replytext) {
+          textarea.value += replytext;
+      }
+
+      textarea.focus();
+  } 
+//-->
+</script>
+
+
+<!-- This auto-sizes the comments and positions the collapse/expand links 
+     to the right. -->
+<table class="bz_comment_table">
+<tbody><tr>
+<td>
+<div id="c0" class="bz_comment bz_first_comment">
+
+      <div class="bz_first_comment_head">
+          <span class="bz_comment_actions">
+              [<a class="bz_reply_link" href="http://dtec2/bugzilla/show_bug.cgi?id=352#add_comment" onclick="replyToComment(&#39;0&#39;, &#39;475&#39;, &#39;Robert Dmytruk&#39;); return false;">reply</a>]
+            <script type="text/javascript">
+              addCollapseLink(0, 0, 'Toggle comment display');
+            </script> <a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" class="bz_collapse_comment" id="comment_link_0" onclick="toggle_comment_display(this, 0); return false;" title="Toggle comment display">[−]</a> 
+          </span>
+
+
+        <span class="bz_comment_number">
+          <a href="http://dtec2/bugzilla/show_bug.cgi?id=352#c0">Description</a>
+        </span>
+
+        <span class="bz_comment_user">
+          <span class="vcard"><a class="email" href="mailto:robert@distrib-u-tec.com" title="Robert Dmytruk &lt;robert@distrib-u-tec.com&gt;"> <span class="fn">Robert Dmytruk</span></a>
+</span>
+        </span>
+
+        <span class="bz_comment_user_images">
+        </span>
+
+        <span class="bz_comment_time">
+          2017-12-06 12:14:23 PST
+        </span>
+
+      </div>
+
+
+        <div id="comment_tag_0" class="bz_comment_tags">
+          <span id="ct_0" class="bz_default_hidden">
+          </span>
+        </div>
+
+
+<pre class="bz_comment_text" id="comment_text_0">Need to filter the list by active, inactive, or all.</pre>
+    </div>
+
+  <div class="bz_add_comment">
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" onclick="return goto_add_comments();">
+       Add Comment</a>
+  </div>
+
+  
+
+</td>
+<td>
+    <ul class="bz_collapse_expand_comments">
+      <li><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" onclick="toggle_all_comments(&#39;collapse&#39;);
+                               return false;">Collapse All Comments</a></li>
+      <li><a href="http://dtec2/bugzilla/show_bug.cgi?id=352#" onclick="toggle_all_comments(&#39;expand&#39;);
+                               return false;">Expand All Comments</a></li>
+        <li><div id="comment_tags_collapse_expand_container"></div></li>
+    </ul>
+</td>
+</tr></tbody></table>
+  </div>
+        
+
+</form>
+
+<hr>
+<ul class="related_actions">
+    <li><a href="http://dtec2/bugzilla/show_bug.cgi?format=multiple&amp;id=352">Format For Printing</a></li>
+    <li>&nbsp;-&nbsp;<a href="http://dtec2/bugzilla/show_bug.cgi?ctype=xml&amp;id=352">XML</a></li>
+    <li>&nbsp;-&nbsp;<a href="http://dtec2/bugzilla/enter_bug.cgi?cloned_bug_id=352">Clone This Bug</a></li>
+    
+    <li>&nbsp;-&nbsp;<a href="http://dtec2/bugzilla/show_bug.cgi?id=352#">Top of page </a></li>
+    </ul>
+
+  <div class="navigation">
+  <b>Bug List:</b>
+
+  (2 of 7)
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=350&amp;list_id=377">First</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=359&amp;list_id=377">Last</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=350&amp;list_id=377">Prev</a>
+
+    <a href="http://dtec2/bugzilla/show_bug.cgi?id=353&amp;list_id=377">Next</a>
+
+  &nbsp;&nbsp;<a href="http://dtec2/bugzilla/buglist.cgi?regetlastlist=377">Show last search results</a>
+  </div>
+
+<br>
+</div>
+
+    <div id="footer">
+      <div class="intro"></div>
+<ul id="useful-links">
+  <li id="links-actions"><ul class="links">
+  <li><a href="http://dtec2/bugzilla/">Home</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/query.cgi">Search</a></li>
+
+  <li class="form">
+    <span class="separator">| </span>
+    <form action="http://dtec2/bugzilla/buglist.cgi" method="get" onsubmit="if (this.quicksearch.value == &#39;&#39;)
+                  { alert(&#39;Please enter one or more search terms first.&#39;);
+                    return false; } return true;">
+    <input type="hidden" id="no_redirect_bottom" name="no_redirect" value="1">
+    <script type="text/javascript">
+      if (history && history.replaceState) {
+        var no_redirect = document.getElementById("no_redirect_bottom");
+        no_redirect.value = 1;
+      }
+    </script>
+    <input class="txt" type="text" id="quicksearch_bottom" name="quicksearch" title="Quick Search" value="">
+    <input class="btn" type="submit" value="Search" id="find_bottom"></form>
+  <a href="http://dtec2/bugzilla/page.cgi?id=quicksearch.html" title="Quicksearch Help">[?]</a></li>
+
+  <li><span class="separator">| </span><a href="http://dtec2/bugzilla/report.cgi">Reports</a></li>
+
+  <li></li>
+
+
+    <li><span class="separator">| </span><a href="http://dtec2/bugzilla/userprefs.cgi">Preferences</a></li>
+      <li><span class="separator">| </span><a href="http://dtec2/bugzilla/admin.cgi">Administration</a></li>
+<li>
+        <span class="separator">| </span>
+        <a href="https://bugzilla.readthedocs.org/en/5.0/using/understanding.html" target="_blank">Help</a>
+      </li>
+
+    <li>
+      <span class="separator">| </span>
+        <a href="http://dtec2/bugzilla/index.cgi?logout=1">Log&nbsp;out</a>
+        vivek@distrib-u-tec.com</li>
+</ul>
+  </li>
+
+  
+
+    <li id="links-saved">
+      <ul class="links">
+          <li>
+            <a href="http://dtec2/bugzilla/buglist.cgi?resolution=---&amp;emailassigned_to1=1&amp;emailreporter1=1&amp;emailtype1=exact&amp;email1=vivek%40distrib-u-tec.com">My Bugs</a>
+          </li>
+
+      </ul>
+    </li>
+
+
+
+  
+</ul>
+
+      <div class="outro"></div>
+    </div>
+
+  
+</body></html>

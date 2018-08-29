@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0CEC07E-75FA-43E2-AFFC-042923F766B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SQL_Migration</RootNamespace>
+    <AssemblyName>SQL Migration</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FoxProFileStructure">
+      <HintPath>..\..\20170901\FoxProFileStructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUniqueID.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="FileHistory.cs" />
+    <Compile Include="FrmGetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGetPassword.Designer.cs">
+      <DependentUpon>FrmGetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQL.Designer.cs">
+      <DependentUpon>frmSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLCommandLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLCommandLogs.Designer.cs">
+      <DependentUpon>frmSQLCommandLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSQLResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLResults.Designer.cs">
+      <DependentUpon>frmSQLResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxAnalyzer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceSQLMigration.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceSQLMigration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SourceAnyWhereHelper.cs" />
+    <Compile Include="SQLExecutor.cs" />
+    <Compile Include="SqlResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SqlResults.Designer.cs">
+      <DependentUpon>SqlResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewExtensions.cs" />
+    <Compile Include="Variable.cs" />
+    <EmbeddedResource Include="FrmGetPassword.resx">
+      <DependentUpon>FrmGetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQL.resx">
+      <DependentUpon>frmSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLCommandLogs.resx">
+      <DependentUpon>frmSQLCommandLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSQLResults.resx">
+      <DependentUpon>frmSQLResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResourceSQLMigration.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceSQLMigration.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlResults.resx">
+      <DependentUpon>SqlResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CollapsiblePanel\CustomControls.csproj">
+      <Project>{e18bbcd6-decd-457e-b9fe-9df696964b78}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="MessageBoxProcessor\MessageBoxProcessor.csproj">
+      <Project>{aca29978-6c06-49d5-aeb7-a0545e0c4a16}</Project>
+      <Name>MessageBoxProcessor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\FoxProFileStructure.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
