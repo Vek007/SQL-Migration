@@ -18,7 +18,6 @@ namespace SQL_Migration
 
         public bool bAddDbStringTranslations = false;
 
-
         private string connString = "";
         private string rootFolder = "";
         private List<string> files = new List<string>();
@@ -73,7 +72,6 @@ namespace SQL_Migration
                     this.parentForm.AddTextToSmText(file +":"+ result.ToString());
                     this.parentForm.AddTextToSmText("########################################################################");
                 });
-
             }
         }
 
@@ -112,7 +110,6 @@ namespace SQL_Migration
                 List<SqlResults> sqlResults = sqlData.DataExecutor(selectCommand, connString);
 
                 int loop = 2;
-//                    continue;
 
                 if (sqlResults.Count() > 0)
                 {
