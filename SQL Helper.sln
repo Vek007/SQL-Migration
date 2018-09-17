@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSynker", "DBSynker\DBSynk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CollapsiblePanel\CustomControls.csproj", "{E18BBCD6-DECD-457E-B9FE-9DF696964B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSIS", "..\SSIS\SSIS.csproj", "{61A2FAB0-CC81-4474-A6AE-8590DE3F5E8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSIS", "SSIS\SSIS.csproj", "{61A2FAB0-CC81-4474-A6AE-8590DE3F5E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
