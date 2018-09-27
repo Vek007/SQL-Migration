@@ -24,42 +24,7 @@ namespace SSIS
 
         private void btnSSIS_Click(object sender, EventArgs e)
         {
-            /*
-            string[] csvLines = File.ReadAllLines("e:\\vivek\\st\\t_v.csv");
-
-            for(int i=1;i<csvLines.Length;i++)
-            {
-                t_x t = new t_x();
-                if (!t.PopulateFromCSVLine(csvLines[i], '|'))
-                {
-                    Debug.WriteLine(i);
-                    Debug.WriteLine(csvLines[i]);
-                }
-                else
-                {
-                    try
-                    {
-                        alDb.t_x.Add(t);
-                        alDb.SaveChanges();
-                        Debug.WriteLine(">> " + csvLines[i]);
-                    }
-                    catch (DbEntityValidationException dbEx)
-                    {
-                        foreach (var validationErrors in dbEx.EntityValidationErrors)
-                        {
-                            foreach (var validationError in validationErrors.ValidationErrors)
-                            {
-                                Debug.WriteLine("Property: {0} Error: {1}", validationError.PropertyName, validationError.ErrorMessage);
-                            }
-                        }
-                    }
-                }
-            }*/
-
-            alDb.PopulateArFromFile("E:\\vivek\\st\\ar\\t.txt");
-            alDb.PopulateArFromFile("E:\\vivek\\st\\ar\\tx.txt");
-            alDb.PopulateArFromFile("E:\\vivek\\st\\ar\\tx1.txt");
-            alDb.PopulateArFromFile("E:\\vivek\\st\\ar\\tx2.txt");
+            alDb.PopulateArFromFile("E:\\vivek\\st\\ar.txt");
         }
 
         private void cmdSymbols_Click(object sender, EventArgs e)
@@ -70,10 +35,7 @@ namespace SSIS
 
         private void btnPer_Click(object sender, EventArgs e)
         {
-            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pert.txt");
-            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx.txt");
-            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx1.txt");
-            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx2.txt");
+            alDb.PopulatePerFromFile("E:\\vivek\\st\\per.txt");
         }
 
         private void btnDumpSymbol_Click(object sender, EventArgs e)

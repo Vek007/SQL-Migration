@@ -545,7 +545,6 @@ namespace SQL_Migration
             txtQuery.Text = string.Empty;
             foreach (string line in lines)
             {
-                
                 if (!string.IsNullOrEmpty(line) )
                 {
                     if (!line.Trim().Contains(";"))
