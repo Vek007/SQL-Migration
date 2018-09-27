@@ -240,7 +240,7 @@
             this.lblIncrease.AutoSize = true;
             this.lblIncrease.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblIncrease.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIncrease.Location = new System.Drawing.Point(1279, 0);
+            this.lblIncrease.Location = new System.Drawing.Point(338, 0);
             this.lblIncrease.Margin = new System.Windows.Forms.Padding(0);
             this.lblIncrease.Name = "lblIncrease";
             this.lblIncrease.Size = new System.Drawing.Size(18, 20);
@@ -254,7 +254,7 @@
             this.lblDecreseSize.AutoSize = true;
             this.lblDecreseSize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblDecreseSize.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDecreseSize.Location = new System.Drawing.Point(1305, -1);
+            this.lblDecreseSize.Location = new System.Drawing.Point(360, -1);
             this.lblDecreseSize.Margin = new System.Windows.Forms.Padding(0);
             this.lblDecreseSize.Name = "lblDecreseSize";
             this.lblDecreseSize.Size = new System.Drawing.Size(14, 20);

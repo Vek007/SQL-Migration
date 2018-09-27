@@ -15,6 +15,8 @@ using System.Collections;
 using System.Text.RegularExpressions;
 using System.Security;
 using System.Text;
+using System.Diagnostics;
+using System.Data.Entity;
 
 namespace SQL_Migration
 {
@@ -49,6 +51,9 @@ namespace SQL_Migration
             this.lvColumns.View = View.Details;
             // Add columns and set their text.
             this.lvColumns.Columns[0].Width = 400;
+
+            dgvST.DataSource = Data.ST_DB.pers.ToList();
+            dgvST.Refresh();
 
         }
 
@@ -86,9 +91,15 @@ namespace SQL_Migration
                 flLayoyt.Controls.Clear();
                 foreach (SqlResults sr in sqlResults)
                 {
-                    //sr.Dock = DockStyle.Fill;
                     flLayoyt.Controls.Add(sr);
                 }
+
+                foreach (Control ct in flLayoyt.Controls)
+                {
+                    ct.Dock = DockStyle.Right;
+                }
+
+                flLayoyt.Refresh();
                 btnExecuteQuery.Enabled = true;
                 pnlWaitQuery.Visible = false;
             });
@@ -519,6 +530,35 @@ namespace SQL_Migration
                 btnExecuteQuery.Enabled = true;
             else
                 btnExecuteQuery.Enabled = false;
+
+            if (bFormatText)
+            {
+                FormatQueryTextBox();
+            }
+        }
+
+        private void FormatQueryTextBox()
+        {
+            String newText = String.Empty;
+            List<String> lines = txtQuery.Text.Split(new String[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+            txtQuery.Text = string.Empty;
+            foreach (string line in lines)
+            {
+                
+                if (!string.IsNullOrEmpty(line) )
+                {
+                    if (!line.Trim().Contains(";"))
+                    {
+                        txtQuery.Text += line.Trim() + ";" + Environment.NewLine;
+                    }
+                    else
+                    {
+                        txtQuery.Text += line.Trim() + Environment.NewLine;
+                    }
+                }
+            }
+            bFormatText = false;
         }
 
         private void txtQuery_KeyPress(object sender, KeyPressEventArgs e)
@@ -922,6 +962,8 @@ namespace SQL_Migration
         }
 
         List<List<Byte>> binLines = new List<List<byte>>();
+        private bool bFormatText = false;
+
         private long ProcessBinDataExt(byte[] binFile)
         {
             binLines.Clear();
@@ -2498,6 +2540,36 @@ namespace SQL_Migration
                     Thread thread = new Thread(() => ShowSQLCommandLogsForm());
                     thread.Start();
                 }
+            }
+        }
+
+        private void txtQuery_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.V)
+            {
+                bFormatText = true;
+                Debug.WriteLine(txtQuery.Text.Trim());
+            }
+        }
+
+        private void flLayoyt_ControlAdded(object sender, ControlEventArgs e)
+        {
+            e.Control.Width = flLayoyt.Width - 25;
+        }
+
+        private void frmSQL_ResizeEnd(object sender, EventArgs e)
+        {
+            foreach (Control c in flLayoyt.Controls)
+            {
+                c.Width = flLayoyt.Width - 25;
+            }
+        }
+
+        private void frmSQL_Resize(object sender, EventArgs e)
+        {
+            foreach (Control c in flLayoyt.Controls)
+            {
+                c.Width = flLayoyt.Width - 25;
             }
         }
     }

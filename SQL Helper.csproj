@@ -33,11 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="FoxProFileStructure">
       <HintPath>..\..\20170901\FoxProFileStructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddUniqueID.cs" />
+    <Compile Include="ar.cs">
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="FileHistory.cs" />
     <Compile Include="FrmGetPassword.cs">
@@ -77,6 +90,12 @@
       <DependentUpon>frmSQLResults.cs</DependentUpon>
     </Compile>
     <Compile Include="MessageBoxAnalyzer.cs" />
+    <Compile Include="per.cs">
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pr.cs">
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResourceSQLMigration.Designer.cs">
@@ -92,7 +111,28 @@
     <Compile Include="SqlResults.Designer.cs">
       <DependentUpon>SqlResults.cs</DependentUpon>
     </Compile>
+    <Compile Include="StEntity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StEntity.edmx</DependentUpon>
+    </Compile>
     <Compile Include="TreeViewExtensions.cs" />
+    <Compile Include="t_s.cs">
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="t_x.cs">
+      <DependentUpon>StEntity.tt</DependentUpon>
+    </Compile>
     <Compile Include="Variable.cs" />
     <EmbeddedResource Include="FrmGetPassword.resx">
       <DependentUpon>FrmGetPassword.cs</DependentUpon>
@@ -123,6 +163,7 @@
     <EmbeddedResource Include="SqlResults.resx">
       <DependentUpon>SqlResults.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,6 +173,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EntityDeploy Include="StEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="StEntity.edmx.diagram">
+      <DependentUpon>StEntity.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -148,6 +196,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lib\FoxProFileStructure.dll" />
+    <Content Include="StEntity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StEntity.edmx</DependentUpon>
+      <LastGenOutput>StEntity.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="StEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StEntity.edmx</DependentUpon>
+      <LastGenOutput>StEntity.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="tsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="tsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ar">
           <Key>
             <PropertyRef Name="rt" />
@@ -249,17 +249,46 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
     FROM [dbo].[t_s] AS [t_s]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="tsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="tsEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="t_x" EntityType="tsModel.t_x" />
-          <EntitySet Name="t_s" EntityType="tsModel.t_s" />
-          <EntitySet Name="ars" EntityType="tsModel.ar" />
-          <EntitySet Name="prs" EntityType="tsModel.pr" />
-          <EntitySet Name="pers" EntityType="tsModel.per" />
-        </EntityContainer>
+        <EntityType Name="ar">
+          <Key>
+            <PropertyRef Name="rt" />
+            <PropertyRef Name="ex" />
+          </Key>
+          <Property Name="rt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ex" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ht" Type="Double" />
+          <Property Name="lt" Type="Double" />
+          <Property Name="met" Type="Double" />
+          <Property Name="mdt" Type="Double" />
+        </EntityType>
+        <EntityType Name="per">
+          <Key>
+            <PropertyRef Name="rt" />
+            <PropertyRef Name="ex" />
+          </Key>
+          <Property Name="rt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ex" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ytd" Type="Double" />
+          <Property Name="five_day" Type="Double" />
+          <Property Name="one_month" Type="Double" />
+          <Property Name="three_month" Type="Double" />
+          <Property Name="one_year" Type="Double" />
+        </EntityType>
+        <EntityType Name="pr">
+          <Key>
+            <PropertyRef Name="rt" />
+            <PropertyRef Name="ex" />
+          </Key>
+          <Property Name="rt" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ex" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="price" Type="Double" />
+          <Property Name="timestamp" Type="DateTimeOffset" Precision="7" />
+        </EntityType>
         <EntityType Name="t_x">
           <Key>
             <PropertyRef Name="pkey" />
@@ -395,216 +424,188 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <Property Name="mineral_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="other_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="ar">
-          <Key>
-            <PropertyRef Name="rt" />
-            <PropertyRef Name="ex" />
-          </Key>
-          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="ht" Type="Double" />
-          <Property Name="lt" Type="Double" />
-          <Property Name="met" Type="Double" />
-          <Property Name="mdt" Type="Double" />
-        </EntityType>
-        <EntityType Name="pr">
-          <Key>
-            <PropertyRef Name="rt" />
-            <PropertyRef Name="ex" />
-          </Key>
-          <Property Name="rt" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="price" Type="Double" />
-          <Property Name="timestamp" Type="DateTimeOffset" Precision="7" />
-        </EntityType>
-        <EntityType Name="per">
-          <Key>
-            <PropertyRef Name="rt" />
-            <PropertyRef Name="ex" />
-          </Key>
-          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="ytd" Type="Double" />
-          <Property Name="five_day" Type="Double" />
-          <Property Name="one_month" Type="Double" />
-          <Property Name="three_month" Type="Double" />
-          <Property Name="one_year" Type="Double" />
-        </EntityType>
+        <EntityContainer Name="tsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ars" EntityType="Self.ar" />
+          <EntitySet Name="pers" EntityType="Self.per" />
+          <EntitySet Name="prs" EntityType="Self.pr" />
+          <EntitySet Name="t_x" EntityType="Self.t_x" />
+          <EntitySet Name="t_s" EntityType="Self.t_s" />
+        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="tsModelStoreContainer" CdmEntityContainer="tsEntities">
-          <EntitySetMapping Name="t_x">
-            <EntityTypeMapping TypeName="tsModel.t_x">
-              <MappingFragment StoreEntitySet="t_x">
-                <ScalarProperty Name="other_properties" ColumnName="other_properties" />
-                <ScalarProperty Name="mineral_properties" ColumnName="mineral_properties" />
-                <ScalarProperty Name="base__precious_metals" ColumnName="base__precious_metals" />
-                <ScalarProperty Name="Tungsten" ColumnName="Tungsten" />
-                <ScalarProperty Name="Coal" ColumnName="Coal" />
-                <ScalarProperty Name="Uranium" ColumnName="Uranium" />
-                <ScalarProperty Name="Lithium" ColumnName="Lithium" />
-                <ScalarProperty Name="Potash" ColumnName="Potash" />
-                <ScalarProperty Name="Rare_Earths" ColumnName="Rare_Earths" />
-                <ScalarProperty Name="Zinc" ColumnName="Zinc" />
-                <ScalarProperty Name="Lead" ColumnName="Lead" />
-                <ScalarProperty Name="Iron" ColumnName="Iron" />
-                <ScalarProperty Name="Platinum_PGM" ColumnName="Platinum_PGM" />
-                <ScalarProperty Name="Molybdenum" ColumnName="Molybdenum" />
-                <ScalarProperty Name="Diamond" ColumnName="Diamond" />
-                <ScalarProperty Name="Nickel" ColumnName="Nickel" />
-                <ScalarProperty Name="Copper" ColumnName="Copper" />
-                <ScalarProperty Name="Silver" ColumnName="Silver" />
-                <ScalarProperty Name="Gold" ColumnName="Gold" />
-                <ScalarProperty Name="Oil_Gas" ColumnName="Oil_Gas" />
-                <ScalarProperty Name="USA" ColumnName="USA" />
-                <ScalarProperty Name="UK_EUROPE" ColumnName="UK_EUROPE" />
-                <ScalarProperty Name="OTHER" ColumnName="OTHER" />
-                <ScalarProperty Name="LATIN_AMERICA" ColumnName="LATIN_AMERICA" />
-                <ScalarProperty Name="CHINA__ASIA" ColumnName="CHINA__ASIA" />
-                <ScalarProperty Name="CANADA" ColumnName="CANADA" />
-                <ScalarProperty Name="AUS_NZ_PNG" ColumnName="AUS_NZ_PNG" />
-                <ScalarProperty Name="AFRICA" ColumnName="AFRICA" />
-                <ScalarProperty Name="num_of_month_trading_data" ColumnName="num_of_month_trading_data" />
-                <ScalarProperty Name="num_traded_share_ytd" ColumnName="num_traded_share_ytd" />
-                <ScalarProperty Name="value__ytd" ColumnName="value__ytd" />
-                <ScalarProperty Name="volume_ytd" ColumnName="volume_ytd" />
-                <ScalarProperty Name="trust" ColumnName="trust" />
-                <ScalarProperty Name="Section" ColumnName="Section" />
-                <ScalarProperty Name="clean_tech_sub_sector" ColumnName="clean_tech_sub_sector" />
-                <ScalarProperty Name="clean_tech_primary" ColumnName="clean_tech_primary" />
-                <ScalarProperty Name="Asia_Region" ColumnName="Asia_Region" />
-                <ScalarProperty Name="USA_State" ColumnName="USA_State" />
-                <ScalarProperty Name="usa_city" ColumnName="usa_city" />
-                <ScalarProperty Name="hq_region" ColumnName="hq_region" />
-                <ScalarProperty Name="hq_location" ColumnName="hq_location" />
-                <ScalarProperty Name="Index" ColumnName="Index" />
-                <ScalarProperty Name="Ven_50_2018" ColumnName="Ven_50_2018" />
-                <ScalarProperty Name="formar_cpc_or_cpc" ColumnName="formar_cpc_or_cpc" />
-                <ScalarProperty Name="Interlisted" ColumnName="Interlisted" />
-                <ScalarProperty Name="Date_of_amalgamation" ColumnName="Date_of_amalgamation" />
-                <ScalarProperty Name="RTO_Date" ColumnName="RTO_Date" />
-                <ScalarProperty Name="QT_Date" ColumnName="QT_Date" />
-                <ScalarProperty Name="date_of_listing" ColumnName="date_of_listing" />
-                <ScalarProperty Name="type_of_listing" ColumnName="type_of_listing" />
-                <ScalarProperty Name="Sub_Sector" ColumnName="Sub_Sector" />
-                <ScalarProperty Name="Sector" ColumnName="Sector" />
-                <ScalarProperty Name="re" ColumnName="re" />
-                <ScalarProperty Name="cps" ColumnName="cps" />
-                <ScalarProperty Name="tech_sub_sec" ColumnName="tech_sub_sec" />
-                <ScalarProperty Name="OS_Shares" ColumnName="OS_Shares" />
-                <ScalarProperty Name="qmv" ColumnName="qmv" />
-                <ScalarProperty Name="Root_Ticker" ColumnName="Root_Ticker" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Exchange" ColumnName="Exchange" />
-                <ScalarProperty Name="PO_ID" ColumnName="PO_ID" />
-                <ScalarProperty Name="Co_ID" ColumnName="Co_ID" />
-                <ScalarProperty Name="pkey" ColumnName="pkey" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="t_s">
-            <EntityTypeMapping TypeName="tsModel.t_s">
-              <MappingFragment StoreEntitySet="t_s">
-                <ScalarProperty Name="other_properties" ColumnName="other_properties" />
-                <ScalarProperty Name="mineral_properties" ColumnName="mineral_properties" />
-                <ScalarProperty Name="base__precious_metals" ColumnName="base__precious_metals" />
-                <ScalarProperty Name="Tungsten" ColumnName="Tungsten" />
-                <ScalarProperty Name="Coal" ColumnName="Coal" />
-                <ScalarProperty Name="Uranium" ColumnName="Uranium" />
-                <ScalarProperty Name="Lithium" ColumnName="Lithium" />
-                <ScalarProperty Name="Potash" ColumnName="Potash" />
-                <ScalarProperty Name="Rare_Earths" ColumnName="Rare_Earths" />
-                <ScalarProperty Name="Zinc" ColumnName="Zinc" />
-                <ScalarProperty Name="Lead" ColumnName="Lead" />
-                <ScalarProperty Name="Iron" ColumnName="Iron" />
-                <ScalarProperty Name="Platinum_PGM" ColumnName="Platinum_PGM" />
-                <ScalarProperty Name="Molybdenum" ColumnName="Molybdenum" />
-                <ScalarProperty Name="Diamond" ColumnName="Diamond" />
-                <ScalarProperty Name="Nickel" ColumnName="Nickel" />
-                <ScalarProperty Name="Copper" ColumnName="Copper" />
-                <ScalarProperty Name="Silver" ColumnName="Silver" />
-                <ScalarProperty Name="Gold" ColumnName="Gold" />
-                <ScalarProperty Name="Oil_Gas" ColumnName="Oil_Gas" />
-                <ScalarProperty Name="USA" ColumnName="USA" />
-                <ScalarProperty Name="UK_EUROPE" ColumnName="UK_EUROPE" />
-                <ScalarProperty Name="OTHER" ColumnName="OTHER" />
-                <ScalarProperty Name="LATIN_AMERICA" ColumnName="LATIN_AMERICA" />
-                <ScalarProperty Name="CHINA__ASIA" ColumnName="CHINA__ASIA" />
-                <ScalarProperty Name="CANADA" ColumnName="CANADA" />
-                <ScalarProperty Name="AUS_NZ_PNG" ColumnName="AUS_NZ_PNG" />
-                <ScalarProperty Name="AFRICA" ColumnName="AFRICA" />
-                <ScalarProperty Name="num_of_month_trading_data" ColumnName="num_of_month_trading_data" />
-                <ScalarProperty Name="num_traded_share_ytd" ColumnName="num_traded_share_ytd" />
-                <ScalarProperty Name="value__ytd" ColumnName="value__ytd" />
-                <ScalarProperty Name="volume_ytd" ColumnName="volume_ytd" />
-                <ScalarProperty Name="income_trust_conversion" ColumnName="income_trust_conversion" />
-                <ScalarProperty Name="SP_Sub" ColumnName="SP_Sub" />
-                <ScalarProperty Name="sp_grouping" ColumnName="sp_grouping" />
-                <ScalarProperty Name="fundfamily" ColumnName="fundfamily" />
-                <ScalarProperty Name="place_inCopporated" ColumnName="place_inCopporated" />
-                <ScalarProperty Name="asia_region" ColumnName="asia_region" />
-                <ScalarProperty Name="USA_State" ColumnName="USA_State" />
-                <ScalarProperty Name="usa_city" ColumnName="usa_city" />
-                <ScalarProperty Name="technology_sub_sector" ColumnName="technology_sub_sector" />
-                <ScalarProperty Name="Index" ColumnName="Index" />
-                <ScalarProperty Name="former_cpc" ColumnName="former_cpc" />
-                <ScalarProperty Name="tsx_ven_grad" ColumnName="tsx_ven_grad" />
-                <ScalarProperty Name="interlisted_code_2" ColumnName="interlisted_code_2" />
-                <ScalarProperty Name="interlisted_code_1" ColumnName="interlisted_code_1" />
-                <ScalarProperty Name="hq_region" ColumnName="hq_region" />
-                <ScalarProperty Name="hq_location" ColumnName="hq_location" />
-                <ScalarProperty Name="date_of_listing" ColumnName="date_of_listing" />
-                <ScalarProperty Name="type_of_listing" ColumnName="type_of_listing" />
-                <ScalarProperty Name="Sub_Sector" ColumnName="Sub_Sector" />
-                <ScalarProperty Name="Sector" ColumnName="Sector" />
-                <ScalarProperty Name="re" ColumnName="re" />
-                <ScalarProperty Name="cps" ColumnName="cps" />
-                <ScalarProperty Name="tech_sub_sector" ColumnName="tech_sub_sector" />
-                <ScalarProperty Name="OS_Shares" ColumnName="OS_Shares" />
-                <ScalarProperty Name="QMV" ColumnName="QMV" />
-                <ScalarProperty Name="root__ticker" ColumnName="root__ticker" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="Exchange" ColumnName="Exchange" />
-                <ScalarProperty Name="Co_ID" ColumnName="Co_ID" />
-                <ScalarProperty Name="pKey" ColumnName="pKey" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="ars">
             <EntityTypeMapping TypeName="tsModel.ar">
               <MappingFragment StoreEntitySet="ar">
-                <ScalarProperty Name="mdt" ColumnName="mdt" />
-                <ScalarProperty Name="met" ColumnName="met" />
-                <ScalarProperty Name="lt" ColumnName="lt" />
+                <ScalarProperty Name="rt" ColumnName="rt" />
+                <ScalarProperty Name="ex" ColumnName="ex" />
                 <ScalarProperty Name="ht" ColumnName="ht" />
-                <ScalarProperty Name="ex" ColumnName="ex" />
-                <ScalarProperty Name="rt" ColumnName="rt" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="prs">
-            <EntityTypeMapping TypeName="tsModel.pr">
-              <MappingFragment StoreEntitySet="pr">
-                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
-                <ScalarProperty Name="price" ColumnName="price" />
-                <ScalarProperty Name="ex" ColumnName="ex" />
-                <ScalarProperty Name="rt" ColumnName="rt" />
+                <ScalarProperty Name="lt" ColumnName="lt" />
+                <ScalarProperty Name="met" ColumnName="met" />
+                <ScalarProperty Name="mdt" ColumnName="mdt" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="pers">
             <EntityTypeMapping TypeName="tsModel.per">
               <MappingFragment StoreEntitySet="per">
-                <ScalarProperty Name="one_year" ColumnName="one_year" />
-                <ScalarProperty Name="three_month" ColumnName="three_month" />
-                <ScalarProperty Name="one_month" ColumnName="one_month" />
-                <ScalarProperty Name="five_day" ColumnName="five_day" />
-                <ScalarProperty Name="ytd" ColumnName="ytd" />
-                <ScalarProperty Name="ex" ColumnName="ex" />
                 <ScalarProperty Name="rt" ColumnName="rt" />
+                <ScalarProperty Name="ex" ColumnName="ex" />
+                <ScalarProperty Name="ytd" ColumnName="ytd" />
+                <ScalarProperty Name="five_day" ColumnName="five_day" />
+                <ScalarProperty Name="one_month" ColumnName="one_month" />
+                <ScalarProperty Name="three_month" ColumnName="three_month" />
+                <ScalarProperty Name="one_year" ColumnName="one_year" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="prs">
+            <EntityTypeMapping TypeName="tsModel.pr">
+              <MappingFragment StoreEntitySet="pr">
+                <ScalarProperty Name="rt" ColumnName="rt" />
+                <ScalarProperty Name="ex" ColumnName="ex" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="t_x">
+            <EntityTypeMapping TypeName="tsModel.t_x">
+              <MappingFragment StoreEntitySet="t_x">
+                <ScalarProperty Name="pkey" ColumnName="pkey" />
+                <ScalarProperty Name="Co_ID" ColumnName="Co_ID" />
+                <ScalarProperty Name="PO_ID" ColumnName="PO_ID" />
+                <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Root_Ticker" ColumnName="Root_Ticker" />
+                <ScalarProperty Name="qmv" ColumnName="qmv" />
+                <ScalarProperty Name="OS_Shares" ColumnName="OS_Shares" />
+                <ScalarProperty Name="tech_sub_sec" ColumnName="tech_sub_sec" />
+                <ScalarProperty Name="cps" ColumnName="cps" />
+                <ScalarProperty Name="re" ColumnName="re" />
+                <ScalarProperty Name="Sector" ColumnName="Sector" />
+                <ScalarProperty Name="Sub_Sector" ColumnName="Sub_Sector" />
+                <ScalarProperty Name="type_of_listing" ColumnName="type_of_listing" />
+                <ScalarProperty Name="date_of_listing" ColumnName="date_of_listing" />
+                <ScalarProperty Name="QT_Date" ColumnName="QT_Date" />
+                <ScalarProperty Name="RTO_Date" ColumnName="RTO_Date" />
+                <ScalarProperty Name="Date_of_amalgamation" ColumnName="Date_of_amalgamation" />
+                <ScalarProperty Name="Interlisted" ColumnName="Interlisted" />
+                <ScalarProperty Name="formar_cpc_or_cpc" ColumnName="formar_cpc_or_cpc" />
+                <ScalarProperty Name="Ven_50_2018" ColumnName="Ven_50_2018" />
+                <ScalarProperty Name="Index" ColumnName="Index" />
+                <ScalarProperty Name="hq_location" ColumnName="hq_location" />
+                <ScalarProperty Name="hq_region" ColumnName="hq_region" />
+                <ScalarProperty Name="usa_city" ColumnName="usa_city" />
+                <ScalarProperty Name="USA_State" ColumnName="USA_State" />
+                <ScalarProperty Name="Asia_Region" ColumnName="Asia_Region" />
+                <ScalarProperty Name="clean_tech_primary" ColumnName="clean_tech_primary" />
+                <ScalarProperty Name="clean_tech_sub_sector" ColumnName="clean_tech_sub_sector" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="trust" ColumnName="trust" />
+                <ScalarProperty Name="volume_ytd" ColumnName="volume_ytd" />
+                <ScalarProperty Name="value__ytd" ColumnName="value__ytd" />
+                <ScalarProperty Name="num_traded_share_ytd" ColumnName="num_traded_share_ytd" />
+                <ScalarProperty Name="num_of_month_trading_data" ColumnName="num_of_month_trading_data" />
+                <ScalarProperty Name="AFRICA" ColumnName="AFRICA" />
+                <ScalarProperty Name="AUS_NZ_PNG" ColumnName="AUS_NZ_PNG" />
+                <ScalarProperty Name="CANADA" ColumnName="CANADA" />
+                <ScalarProperty Name="CHINA__ASIA" ColumnName="CHINA__ASIA" />
+                <ScalarProperty Name="LATIN_AMERICA" ColumnName="LATIN_AMERICA" />
+                <ScalarProperty Name="OTHER" ColumnName="OTHER" />
+                <ScalarProperty Name="UK_EUROPE" ColumnName="UK_EUROPE" />
+                <ScalarProperty Name="USA" ColumnName="USA" />
+                <ScalarProperty Name="Oil_Gas" ColumnName="Oil_Gas" />
+                <ScalarProperty Name="Gold" ColumnName="Gold" />
+                <ScalarProperty Name="Silver" ColumnName="Silver" />
+                <ScalarProperty Name="Copper" ColumnName="Copper" />
+                <ScalarProperty Name="Nickel" ColumnName="Nickel" />
+                <ScalarProperty Name="Diamond" ColumnName="Diamond" />
+                <ScalarProperty Name="Molybdenum" ColumnName="Molybdenum" />
+                <ScalarProperty Name="Platinum_PGM" ColumnName="Platinum_PGM" />
+                <ScalarProperty Name="Iron" ColumnName="Iron" />
+                <ScalarProperty Name="Lead" ColumnName="Lead" />
+                <ScalarProperty Name="Zinc" ColumnName="Zinc" />
+                <ScalarProperty Name="Rare_Earths" ColumnName="Rare_Earths" />
+                <ScalarProperty Name="Potash" ColumnName="Potash" />
+                <ScalarProperty Name="Lithium" ColumnName="Lithium" />
+                <ScalarProperty Name="Uranium" ColumnName="Uranium" />
+                <ScalarProperty Name="Coal" ColumnName="Coal" />
+                <ScalarProperty Name="Tungsten" ColumnName="Tungsten" />
+                <ScalarProperty Name="base__precious_metals" ColumnName="base__precious_metals" />
+                <ScalarProperty Name="mineral_properties" ColumnName="mineral_properties" />
+                <ScalarProperty Name="other_properties" ColumnName="other_properties" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="t_s">
+            <EntityTypeMapping TypeName="tsModel.t_s">
+              <MappingFragment StoreEntitySet="t_s">
+                <ScalarProperty Name="pKey" ColumnName="pKey" />
+                <ScalarProperty Name="Co_ID" ColumnName="Co_ID" />
+                <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="root__ticker" ColumnName="root__ticker" />
+                <ScalarProperty Name="QMV" ColumnName="QMV" />
+                <ScalarProperty Name="OS_Shares" ColumnName="OS_Shares" />
+                <ScalarProperty Name="tech_sub_sector" ColumnName="tech_sub_sector" />
+                <ScalarProperty Name="cps" ColumnName="cps" />
+                <ScalarProperty Name="re" ColumnName="re" />
+                <ScalarProperty Name="Sector" ColumnName="Sector" />
+                <ScalarProperty Name="Sub_Sector" ColumnName="Sub_Sector" />
+                <ScalarProperty Name="type_of_listing" ColumnName="type_of_listing" />
+                <ScalarProperty Name="date_of_listing" ColumnName="date_of_listing" />
+                <ScalarProperty Name="hq_location" ColumnName="hq_location" />
+                <ScalarProperty Name="hq_region" ColumnName="hq_region" />
+                <ScalarProperty Name="interlisted_code_1" ColumnName="interlisted_code_1" />
+                <ScalarProperty Name="interlisted_code_2" ColumnName="interlisted_code_2" />
+                <ScalarProperty Name="tsx_ven_grad" ColumnName="tsx_ven_grad" />
+                <ScalarProperty Name="former_cpc" ColumnName="former_cpc" />
+                <ScalarProperty Name="Index" ColumnName="Index" />
+                <ScalarProperty Name="technology_sub_sector" ColumnName="technology_sub_sector" />
+                <ScalarProperty Name="usa_city" ColumnName="usa_city" />
+                <ScalarProperty Name="USA_State" ColumnName="USA_State" />
+                <ScalarProperty Name="asia_region" ColumnName="asia_region" />
+                <ScalarProperty Name="place_inCopporated" ColumnName="place_inCopporated" />
+                <ScalarProperty Name="fundfamily" ColumnName="fundfamily" />
+                <ScalarProperty Name="sp_grouping" ColumnName="sp_grouping" />
+                <ScalarProperty Name="SP_Sub" ColumnName="SP_Sub" />
+                <ScalarProperty Name="income_trust_conversion" ColumnName="income_trust_conversion" />
+                <ScalarProperty Name="volume_ytd" ColumnName="volume_ytd" />
+                <ScalarProperty Name="value__ytd" ColumnName="value__ytd" />
+                <ScalarProperty Name="num_traded_share_ytd" ColumnName="num_traded_share_ytd" />
+                <ScalarProperty Name="num_of_month_trading_data" ColumnName="num_of_month_trading_data" />
+                <ScalarProperty Name="AFRICA" ColumnName="AFRICA" />
+                <ScalarProperty Name="AUS_NZ_PNG" ColumnName="AUS_NZ_PNG" />
+                <ScalarProperty Name="CANADA" ColumnName="CANADA" />
+                <ScalarProperty Name="CHINA__ASIA" ColumnName="CHINA__ASIA" />
+                <ScalarProperty Name="LATIN_AMERICA" ColumnName="LATIN_AMERICA" />
+                <ScalarProperty Name="OTHER" ColumnName="OTHER" />
+                <ScalarProperty Name="UK_EUROPE" ColumnName="UK_EUROPE" />
+                <ScalarProperty Name="USA" ColumnName="USA" />
+                <ScalarProperty Name="Oil_Gas" ColumnName="Oil_Gas" />
+                <ScalarProperty Name="Gold" ColumnName="Gold" />
+                <ScalarProperty Name="Silver" ColumnName="Silver" />
+                <ScalarProperty Name="Copper" ColumnName="Copper" />
+                <ScalarProperty Name="Nickel" ColumnName="Nickel" />
+                <ScalarProperty Name="Diamond" ColumnName="Diamond" />
+                <ScalarProperty Name="Molybdenum" ColumnName="Molybdenum" />
+                <ScalarProperty Name="Platinum_PGM" ColumnName="Platinum_PGM" />
+                <ScalarProperty Name="Iron" ColumnName="Iron" />
+                <ScalarProperty Name="Lead" ColumnName="Lead" />
+                <ScalarProperty Name="Zinc" ColumnName="Zinc" />
+                <ScalarProperty Name="Rare_Earths" ColumnName="Rare_Earths" />
+                <ScalarProperty Name="Potash" ColumnName="Potash" />
+                <ScalarProperty Name="Lithium" ColumnName="Lithium" />
+                <ScalarProperty Name="Uranium" ColumnName="Uranium" />
+                <ScalarProperty Name="Coal" ColumnName="Coal" />
+                <ScalarProperty Name="Tungsten" ColumnName="Tungsten" />
+                <ScalarProperty Name="base__precious_metals" ColumnName="base__precious_metals" />
+                <ScalarProperty Name="mineral_properties" ColumnName="mineral_properties" />
+                <ScalarProperty Name="other_properties" ColumnName="other_properties" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

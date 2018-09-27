@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSSIS = new System.Windows.Forms.Button();
+            this.btnImportAr = new System.Windows.Forms.Button();
             this.cmdSymbols = new System.Windows.Forms.Button();
+            this.btnPer = new System.Windows.Forms.Button();
+            this.btnDumpSymbol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnSSIS
+            // btnImportAr
             // 
-            this.btnSSIS.Location = new System.Drawing.Point(3, 3);
-            this.btnSSIS.Name = "btnSSIS";
-            this.btnSSIS.Size = new System.Drawing.Size(110, 23);
-            this.btnSSIS.TabIndex = 0;
-            this.btnSSIS.Text = "ssis";
-            this.btnSSIS.UseVisualStyleBackColor = true;
-            this.btnSSIS.Click += new System.EventHandler(this.btnSSIS_Click);
+            this.btnImportAr.Location = new System.Drawing.Point(3, 3);
+            this.btnImportAr.Name = "btnImportAr";
+            this.btnImportAr.Size = new System.Drawing.Size(110, 23);
+            this.btnImportAr.TabIndex = 0;
+            this.btnImportAr.Text = "An Res";
+            this.btnImportAr.UseVisualStyleBackColor = true;
+            this.btnImportAr.Click += new System.EventHandler(this.btnSSIS_Click);
             // 
             // cmdSymbols
             // 
@@ -52,13 +54,35 @@
             this.cmdSymbols.UseVisualStyleBackColor = true;
             this.cmdSymbols.Click += new System.EventHandler(this.cmdSymbols_Click);
             // 
+            // btnPer
+            // 
+            this.btnPer.Location = new System.Drawing.Point(3, 56);
+            this.btnPer.Name = "btnPer";
+            this.btnPer.Size = new System.Drawing.Size(110, 23);
+            this.btnPer.TabIndex = 2;
+            this.btnPer.Text = "Per";
+            this.btnPer.UseVisualStyleBackColor = true;
+            this.btnPer.Click += new System.EventHandler(this.btnPer_Click);
+            // 
+            // btnDumpSymbol
+            // 
+            this.btnDumpSymbol.Location = new System.Drawing.Point(3, 82);
+            this.btnDumpSymbol.Name = "btnDumpSymbol";
+            this.btnDumpSymbol.Size = new System.Drawing.Size(110, 23);
+            this.btnDumpSymbol.TabIndex = 3;
+            this.btnDumpSymbol.Text = "dump Sym";
+            this.btnDumpSymbol.UseVisualStyleBackColor = true;
+            this.btnDumpSymbol.Click += new System.EventHandler(this.btnDumpSymbol_Click);
+            // 
             // frmStart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(120, 76);
+            this.ClientSize = new System.Drawing.Size(120, 112);
+            this.Controls.Add(this.btnDumpSymbol);
+            this.Controls.Add(this.btnPer);
             this.Controls.Add(this.cmdSymbols);
-            this.Controls.Add(this.btnSSIS);
+            this.Controls.Add(this.btnImportAr);
             this.ForeColor = System.Drawing.Color.DarkCyan;
             this.Name = "frmStart";
             this.Text = "Dtec";
@@ -68,8 +92,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnSSIS;
+        private System.Windows.Forms.Button btnImportAr;
         private System.Windows.Forms.Button cmdSymbols;
+        private System.Windows.Forms.Button btnPer;
+        private System.Windows.Forms.Button btnDumpSymbol;
     }
 }
 

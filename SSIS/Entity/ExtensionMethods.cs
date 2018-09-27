@@ -211,6 +211,144 @@ namespace SSIS.Entity
             return true;
         }
 
+        public static bool PopulatePerFromFile(this tsEntities db, string fileName)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(fileName);
+
+                Debug.WriteLine(fileName);
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    Debug.WriteLine(i.ToString() + lines[i]);
+                    if (lines[i].Trim().Contains("-"))
+                    {
+                        per a = new per();
+                        string[] sy = lines[i].Split('-');
+                        a.rt = sy[0].Trim();
+                        a.ex = sy[1].Trim();
+                        i++; i++;
+
+                        if (a.rt.Trim().ToLower() == "")
+                        {
+                            int iii = 0;
+                        }
+
+
+                        double pr = 0;
+                        if (!double.TryParse(lines[i], out pr))
+                        {
+                            pr = 0;
+                        }
+                        i++;
+
+                        pr p = new pr();
+                        p.rt = a.rt;
+                        p.ex = a.ex;
+                        p.price = pr;
+
+                        try
+                        {
+                            pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            if (pd == null)
+                            {
+                                db.prs.Add(p);
+                                db.SaveChanges();
+                                db.RefreshDatabase(p);
+                            }
+                            else
+                            {
+                                pd.price = p.price;
+                                db.SaveChanges();
+                                db.RefreshDatabase(pd);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine(ex.ToString());
+                        }
+
+                        double ht = 0;
+                        lines[i]=lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out ht))
+                        {
+                            ht = 0;
+                        }
+                        i++;
+                        a.ytd = ht;
+
+                        double lt = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out lt))
+                        {
+                            lt = 0;
+                        }
+                        i++;
+                        a.five_day = lt;
+
+                        double oneM = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out oneM))
+                        {
+                            oneM = 0;
+                        }
+                        i++;
+                        a.one_month = oneM;
+
+                        double threeM = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out threeM))
+                        {
+                            threeM = 0;
+                        }
+                        i++;
+                        a.three_month = threeM;
+
+                        double oneY = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out oneY))
+                        {
+                            oneY = 0;
+                        }
+                        a.one_year = oneY;
+
+                        try
+                        {
+                            per ad = db.pers.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            if (ad == null)
+                            {
+                                db.pers.Add(a);
+                                db.SaveChanges();
+                                db.RefreshDatabase(a);
+                            }
+                            else
+                            {
+                                ad.ytd = a.ytd;
+                                ad.five_day = a.five_day;
+                                ad.one_month = a.one_month;
+                                ad.three_month = a.three_month;
+                                ad.one_year = a.one_year;
+                                db.SaveChanges();
+                                db.RefreshDatabase(ad);
+                            }
+
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine(ex.ToString());
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
+
+            return true;
+        }
+
         public static void DumpTsxvSym(this tsEntities db, string fileName)
         {
             foreach (var r in db.t_x.OrderBy(a => a.Root_Ticker))

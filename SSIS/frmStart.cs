@@ -67,5 +67,18 @@ namespace SSIS
             alDb.DumpTsxSym("E:\\vivek\\st\\tsx.txt");
             alDb.DumpTsxvSym("E:\\vivek\\st\\tsxv.txt");
         }
+
+        private void btnPer_Click(object sender, EventArgs e)
+        {
+            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pert.txt");
+            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx.txt");
+            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx1.txt");
+            alDb.PopulatePerFromFile("E:\\vivek\\st\\per\\pertx2.txt");
+        }
+
+        private void btnDumpSymbol_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

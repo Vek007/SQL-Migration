@@ -37,15 +37,18 @@
             this.lblTreePopulateWait = new System.Windows.Forms.Label();
             this.tabOperations = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnSQLResultWindow = new System.Windows.Forms.Button();
-            this.chkClearOldQueryResults = new System.Windows.Forms.CheckBox();
-            this.chkSemicolon = new System.Windows.Forms.CheckBox();
-            this.chkSqlServer = new System.Windows.Forms.CheckBox();
             this.pnlWaitQuery = new System.Windows.Forms.Panel();
             this.txtQueryWaitMsg = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pnlSQLFlow = new System.Windows.Forms.Panel();
             this.flLayoyt = new System.Windows.Forms.FlowLayoutPanel();
+            this.grpTools = new System.Windows.Forms.GroupBox();
+            this.btnSQLResultWindow = new System.Windows.Forms.Button();
+            this.btnOpenSQLLogs = new System.Windows.Forms.Button();
             this.btnExecuteQuery = new System.Windows.Forms.Button();
+            this.chkSqlServer = new System.Windows.Forms.CheckBox();
+            this.chkSemicolon = new System.Windows.Forms.CheckBox();
+            this.chkClearOldQueryResults = new System.Windows.Forms.CheckBox();
             this.tabSourceAnyWhere = new System.Windows.Forms.TabPage();
             this.btnRecreateFileInfo = new System.Windows.Forms.Button();
             this.txtSAOutput = new System.Windows.Forms.TextBox();
@@ -65,6 +68,8 @@
             this.btnPrgFiles = new System.Windows.Forms.Button();
             this.tbSync = new System.Windows.Forms.TabPage();
             this.txtSyncLog = new System.Windows.Forms.TextBox();
+            this.tbpST = new System.Windows.Forms.TabPage();
+            this.dgvST = new System.Windows.Forms.DataGridView();
             this.tbLeft = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -77,11 +82,15 @@
             this.tbpFilter = new System.Windows.Forms.TabPage();
             this.lvTableFilter = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnOpenSQLLogs = new System.Windows.Forms.Button();
+            this.tbMain = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tabOperations.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlWaitQuery.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.pnlSQLFlow.SuspendLayout();
+            this.grpTools.SuspendLayout();
             this.tabSourceAnyWhere.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tbMsgBox.SuspendLayout();
@@ -90,29 +99,36 @@
             this.TabConcateMessageBox.SuspendLayout();
             this.tbSmText.SuspendLayout();
             this.tbSync.SuspendLayout();
+            this.tbpST.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvST)).BeginInit();
             this.tbLeft.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tbpFilter.SuspendLayout();
+            this.tbMain.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtQuery
             // 
             this.txtQuery.BackColor = System.Drawing.Color.Black;
+            this.txtQuery.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtQuery.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuery.ForeColor = System.Drawing.Color.Lime;
-            this.txtQuery.Location = new System.Drawing.Point(6, 27);
+            this.txtQuery.Location = new System.Drawing.Point(3, 45);
             this.txtQuery.Multiline = true;
             this.txtQuery.Name = "txtQuery";
             this.txtQuery.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtQuery.Size = new System.Drawing.Size(1372, 261);
+            this.txtQuery.Size = new System.Drawing.Size(1390, 261);
             this.txtQuery.TabIndex = 0;
             this.txtQuery.TextChanged += new System.EventHandler(this.txtQuery_TextChanged);
+            this.txtQuery.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtQuery_KeyDown);
             // 
             // btnBrowse
             // 
             this.btnBrowse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBrowse.Location = new System.Drawing.Point(1800, 9);
+            this.btnBrowse.Location = new System.Drawing.Point(1807, 3);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(34, 26);
             this.btnBrowse.TabIndex = 1;
@@ -123,15 +139,16 @@
             // tvDBFFolder
             // 
             this.tvDBFFolder.BackColor = System.Drawing.Color.Black;
+            this.tvDBFFolder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tvDBFFolder.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tvDBFFolder.ForeColor = System.Drawing.Color.Lime;
-            this.tvDBFFolder.Location = new System.Drawing.Point(6, 7);
+            this.tvDBFFolder.Location = new System.Drawing.Point(3, 3);
             this.tvDBFFolder.Name = "tvDBFFolder";
             treeNode1.Name = "ndRoot";
             treeNode1.Text = "ForPro Tables";
             this.tvDBFFolder.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1});
-            this.tvDBFFolder.Size = new System.Drawing.Size(407, 891);
+            this.tvDBFFolder.Size = new System.Drawing.Size(408, 896);
             this.tvDBFFolder.TabIndex = 2;
             this.tvDBFFolder.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tvDBFFolder_NodeMouseClick);
             this.tvDBFFolder.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tvDBFFolder_NodeMouseDoubleClick);
@@ -140,10 +157,11 @@
             // 
             this.txtParentFolder.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtParentFolder.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtParentFolder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtParentFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtParentFolder.Location = new System.Drawing.Point(13, 9);
+            this.txtParentFolder.Location = new System.Drawing.Point(3, 3);
             this.txtParentFolder.Name = "txtParentFolder";
-            this.txtParentFolder.Size = new System.Drawing.Size(1781, 26);
+            this.txtParentFolder.Size = new System.Drawing.Size(1798, 26);
             this.txtParentFolder.TabIndex = 3;
             // 
             // lblTreePopulateWait
@@ -165,76 +183,30 @@
             this.tabOperations.Controls.Add(this.tabSourceAnyWhere);
             this.tabOperations.Controls.Add(this.tabPage2);
             this.tabOperations.Controls.Add(this.tbSync);
-            this.tabOperations.Location = new System.Drawing.Point(446, 40);
+            this.tabOperations.Controls.Add(this.tbpST);
+            this.tabOperations.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabOperations.Location = new System.Drawing.Point(431, 3);
             this.tabOperations.Name = "tabOperations";
             this.tabOperations.SelectedIndex = 0;
-            this.tabOperations.Size = new System.Drawing.Size(1392, 931);
+            this.tabOperations.Size = new System.Drawing.Size(1410, 928);
             this.tabOperations.TabIndex = 5;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.btnOpenSQLLogs);
-            this.tabPage1.Controls.Add(this.btnSQLResultWindow);
-            this.tabPage1.Controls.Add(this.chkClearOldQueryResults);
-            this.tabPage1.Controls.Add(this.chkSemicolon);
-            this.tabPage1.Controls.Add(this.chkSqlServer);
             this.tabPage1.Controls.Add(this.pnlWaitQuery);
-            this.tabPage1.Controls.Add(this.pnlSQLFlow);
-            this.tabPage1.Controls.Add(this.btnExecuteQuery);
-            this.tabPage1.Controls.Add(this.txtQuery);
+            this.tabPage1.Controls.Add(this.tableLayoutPanel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1384, 905);
+            this.tabPage1.Size = new System.Drawing.Size(1402, 902);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Query";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // btnSQLResultWindow
-            // 
-            this.btnSQLResultWindow.Image = ((System.Drawing.Image)(resources.GetObject("btnSQLResultWindow.Image")));
-            this.btnSQLResultWindow.Location = new System.Drawing.Point(6, 0);
-            this.btnSQLResultWindow.Name = "btnSQLResultWindow";
-            this.btnSQLResultWindow.Size = new System.Drawing.Size(30, 27);
-            this.btnSQLResultWindow.TabIndex = 13;
-            this.btnSQLResultWindow.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSQLResultWindow.UseVisualStyleBackColor = true;
-            this.btnSQLResultWindow.Click += new System.EventHandler(this.btnSQLResultWindow_Click);
-            // 
-            // chkClearOldQueryResults
-            // 
-            this.chkClearOldQueryResults.AutoSize = true;
-            this.chkClearOldQueryResults.Location = new System.Drawing.Point(935, 6);
-            this.chkClearOldQueryResults.Name = "chkClearOldQueryResults";
-            this.chkClearOldQueryResults.Size = new System.Drawing.Size(138, 17);
-            this.chkClearOldQueryResults.TabIndex = 12;
-            this.chkClearOldQueryResults.Text = "Clear Old Query Results";
-            this.chkClearOldQueryResults.UseVisualStyleBackColor = true;
-            // 
-            // chkSemicolon
-            // 
-            this.chkSemicolon.AutoSize = true;
-            this.chkSemicolon.Location = new System.Drawing.Point(1091, 6);
-            this.chkSemicolon.Name = "chkSemicolon";
-            this.chkSemicolon.Size = new System.Drawing.Size(123, 17);
-            this.chkSemicolon.TabIndex = 11;
-            this.chkSemicolon.Text = "Treat \';\' as New Line";
-            this.chkSemicolon.UseVisualStyleBackColor = true;
-            // 
-            // chkSqlServer
-            // 
-            this.chkSqlServer.AutoSize = true;
-            this.chkSqlServer.Location = new System.Drawing.Point(1235, 6);
-            this.chkSqlServer.Name = "chkSqlServer";
-            this.chkSqlServer.Size = new System.Drawing.Size(109, 17);
-            this.chkSqlServer.TabIndex = 10;
-            this.chkSqlServer.Text = "Stored Procedure";
-            this.chkSqlServer.UseVisualStyleBackColor = true;
-            // 
             // pnlWaitQuery
             // 
             this.pnlWaitQuery.Controls.Add(this.txtQueryWaitMsg);
-            this.pnlWaitQuery.Location = new System.Drawing.Point(406, 98);
+            this.pnlWaitQuery.Location = new System.Drawing.Point(423, 124);
             this.pnlWaitQuery.Name = "pnlWaitQuery";
             this.pnlWaitQuery.Size = new System.Drawing.Size(591, 100);
             this.pnlWaitQuery.TabIndex = 9;
@@ -244,46 +216,133 @@
             // 
             this.txtQueryWaitMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQueryWaitMsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQueryWaitMsg.Location = new System.Drawing.Point(186, 37);
+            this.txtQueryWaitMsg.Location = new System.Drawing.Point(184, 37);
             this.txtQueryWaitMsg.Name = "txtQueryWaitMsg";
             this.txtQueryWaitMsg.Size = new System.Drawing.Size(223, 24);
             this.txtQueryWaitMsg.TabIndex = 0;
             this.txtQueryWaitMsg.Text = "Processing...";
             this.txtQueryWaitMsg.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.txtQuery, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pnlSQLFlow, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.grpTools, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.36161F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 68.63839F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1396, 896);
+            this.tableLayoutPanel1.TabIndex = 15;
+            // 
             // pnlSQLFlow
             // 
             this.pnlSQLFlow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlSQLFlow.Controls.Add(this.flLayoyt);
-            this.pnlSQLFlow.Location = new System.Drawing.Point(6, 297);
+            this.pnlSQLFlow.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlSQLFlow.Location = new System.Drawing.Point(3, 312);
             this.pnlSQLFlow.Name = "pnlSQLFlow";
-            this.pnlSQLFlow.Size = new System.Drawing.Size(1370, 602);
+            this.pnlSQLFlow.Size = new System.Drawing.Size(1390, 581);
             this.pnlSQLFlow.TabIndex = 8;
             // 
             // flLayoyt
             // 
             this.flLayoyt.AutoScroll = true;
             this.flLayoyt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flLayoyt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flLayoyt.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flLayoyt.Location = new System.Drawing.Point(3, 3);
+            this.flLayoyt.Location = new System.Drawing.Point(0, 0);
             this.flLayoyt.MinimumSize = new System.Drawing.Size(1000, 300);
             this.flLayoyt.Name = "flLayoyt";
-            this.flLayoyt.Size = new System.Drawing.Size(1361, 590);
+            this.flLayoyt.Size = new System.Drawing.Size(1386, 577);
             this.flLayoyt.TabIndex = 7;
             this.flLayoyt.WrapContents = false;
+            this.flLayoyt.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.flLayoyt_ControlAdded);
+            // 
+            // grpTools
+            // 
+            this.grpTools.Controls.Add(this.btnSQLResultWindow);
+            this.grpTools.Controls.Add(this.btnOpenSQLLogs);
+            this.grpTools.Controls.Add(this.btnExecuteQuery);
+            this.grpTools.Controls.Add(this.chkSqlServer);
+            this.grpTools.Controls.Add(this.chkSemicolon);
+            this.grpTools.Controls.Add(this.chkClearOldQueryResults);
+            this.grpTools.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpTools.Location = new System.Drawing.Point(3, 3);
+            this.grpTools.Name = "grpTools";
+            this.grpTools.Size = new System.Drawing.Size(1390, 36);
+            this.grpTools.TabIndex = 9;
+            this.grpTools.TabStop = false;
+            // 
+            // btnSQLResultWindow
+            // 
+            this.btnSQLResultWindow.Image = ((System.Drawing.Image)(resources.GetObject("btnSQLResultWindow.Image")));
+            this.btnSQLResultWindow.Location = new System.Drawing.Point(6, 8);
+            this.btnSQLResultWindow.Name = "btnSQLResultWindow";
+            this.btnSQLResultWindow.Size = new System.Drawing.Size(25, 24);
+            this.btnSQLResultWindow.TabIndex = 13;
+            this.btnSQLResultWindow.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSQLResultWindow.UseVisualStyleBackColor = true;
+            this.btnSQLResultWindow.Click += new System.EventHandler(this.btnSQLResultWindow_Click);
+            // 
+            // btnOpenSQLLogs
+            // 
+            this.btnOpenSQLLogs.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenSQLLogs.Image")));
+            this.btnOpenSQLLogs.Location = new System.Drawing.Point(39, 8);
+            this.btnOpenSQLLogs.Name = "btnOpenSQLLogs";
+            this.btnOpenSQLLogs.Size = new System.Drawing.Size(25, 24);
+            this.btnOpenSQLLogs.TabIndex = 14;
+            this.btnOpenSQLLogs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnOpenSQLLogs.UseVisualStyleBackColor = true;
+            this.btnOpenSQLLogs.Click += new System.EventHandler(this.btnOpenSQLLogs_Click);
             // 
             // btnExecuteQuery
             // 
             this.btnExecuteQuery.Enabled = false;
             this.btnExecuteQuery.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExecuteQuery.ForeColor = System.Drawing.Color.Red;
-            this.btnExecuteQuery.Location = new System.Drawing.Point(1353, 1);
+            this.btnExecuteQuery.Location = new System.Drawing.Point(72, 8);
             this.btnExecuteQuery.Name = "btnExecuteQuery";
-            this.btnExecuteQuery.Size = new System.Drawing.Size(25, 25);
+            this.btnExecuteQuery.Size = new System.Drawing.Size(25, 24);
             this.btnExecuteQuery.TabIndex = 2;
             this.btnExecuteQuery.Text = "!";
             this.btnExecuteQuery.UseVisualStyleBackColor = true;
             this.btnExecuteQuery.Click += new System.EventHandler(this.btnExecuteQuery_Click);
+            // 
+            // chkSqlServer
+            // 
+            this.chkSqlServer.AutoSize = true;
+            this.chkSqlServer.Location = new System.Drawing.Point(376, 13);
+            this.chkSqlServer.Name = "chkSqlServer";
+            this.chkSqlServer.Size = new System.Drawing.Size(109, 17);
+            this.chkSqlServer.TabIndex = 10;
+            this.chkSqlServer.Text = "Stored Procedure";
+            this.chkSqlServer.UseVisualStyleBackColor = true;
+            // 
+            // chkSemicolon
+            // 
+            this.chkSemicolon.AutoSize = true;
+            this.chkSemicolon.Location = new System.Drawing.Point(247, 13);
+            this.chkSemicolon.Name = "chkSemicolon";
+            this.chkSemicolon.Size = new System.Drawing.Size(123, 17);
+            this.chkSemicolon.TabIndex = 11;
+            this.chkSemicolon.Text = "Treat \';\' as New Line";
+            this.chkSemicolon.UseVisualStyleBackColor = true;
+            // 
+            // chkClearOldQueryResults
+            // 
+            this.chkClearOldQueryResults.AutoSize = true;
+            this.chkClearOldQueryResults.Location = new System.Drawing.Point(103, 13);
+            this.chkClearOldQueryResults.Name = "chkClearOldQueryResults";
+            this.chkClearOldQueryResults.Size = new System.Drawing.Size(138, 17);
+            this.chkClearOldQueryResults.TabIndex = 12;
+            this.chkClearOldQueryResults.Text = "Clear Old Query Results";
+            this.chkClearOldQueryResults.UseVisualStyleBackColor = true;
             // 
             // tabSourceAnyWhere
             // 
@@ -294,7 +353,7 @@
             this.tabSourceAnyWhere.Location = new System.Drawing.Point(4, 22);
             this.tabSourceAnyWhere.Name = "tabSourceAnyWhere";
             this.tabSourceAnyWhere.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSourceAnyWhere.Size = new System.Drawing.Size(1384, 905);
+            this.tabSourceAnyWhere.Size = new System.Drawing.Size(1402, 902);
             this.tabSourceAnyWhere.TabIndex = 1;
             this.tabSourceAnyWhere.Text = "SourceAnywhere";
             this.tabSourceAnyWhere.UseVisualStyleBackColor = true;
@@ -349,7 +408,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1384, 905);
+            this.tabPage2.Size = new System.Drawing.Size(1402, 902);
             this.tabPage2.TabIndex = 2;
             this.tabPage2.Text = "French Translation";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -485,7 +544,7 @@
             this.tbSync.Location = new System.Drawing.Point(4, 22);
             this.tbSync.Name = "tbSync";
             this.tbSync.Padding = new System.Windows.Forms.Padding(3);
-            this.tbSync.Size = new System.Drawing.Size(1384, 905);
+            this.tbSync.Size = new System.Drawing.Size(1402, 902);
             this.tbSync.TabIndex = 3;
             this.tbSync.Text = "Sync";
             this.tbSync.UseVisualStyleBackColor = true;
@@ -502,15 +561,36 @@
             this.txtSyncLog.Size = new System.Drawing.Size(1372, 891);
             this.txtSyncLog.TabIndex = 3;
             // 
+            // tbpST
+            // 
+            this.tbpST.Controls.Add(this.dgvST);
+            this.tbpST.Location = new System.Drawing.Point(4, 22);
+            this.tbpST.Name = "tbpST";
+            this.tbpST.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpST.Size = new System.Drawing.Size(1402, 902);
+            this.tbpST.TabIndex = 4;
+            this.tbpST.Text = "ST";
+            this.tbpST.UseVisualStyleBackColor = true;
+            // 
+            // dgvST
+            // 
+            this.dgvST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvST.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvST.Location = new System.Drawing.Point(3, 3);
+            this.dgvST.Name = "dgvST";
+            this.dgvST.Size = new System.Drawing.Size(1396, 896);
+            this.dgvST.TabIndex = 0;
+            // 
             // tbLeft
             // 
             this.tbLeft.Controls.Add(this.tabPage3);
             this.tbLeft.Controls.Add(this.tabPage4);
             this.tbLeft.Controls.Add(this.tbpFilter);
-            this.tbLeft.Location = new System.Drawing.Point(13, 41);
+            this.tbLeft.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbLeft.Location = new System.Drawing.Point(3, 3);
             this.tbLeft.Name = "tbLeft";
             this.tbLeft.SelectedIndex = 0;
-            this.tbLeft.Size = new System.Drawing.Size(427, 930);
+            this.tbLeft.Size = new System.Drawing.Size(422, 928);
             this.tbLeft.TabIndex = 6;
             // 
             // tabPage3
@@ -520,7 +600,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(419, 904);
+            this.tabPage3.Size = new System.Drawing.Size(414, 902);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Tree View";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -534,7 +614,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(419, 904);
+            this.tabPage4.Size = new System.Drawing.Size(414, 902);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "List View";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -608,7 +688,7 @@
             this.tbpFilter.Location = new System.Drawing.Point(4, 22);
             this.tbpFilter.Name = "tbpFilter";
             this.tbpFilter.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpFilter.Size = new System.Drawing.Size(419, 904);
+            this.tbpFilter.Size = new System.Drawing.Size(414, 902);
             this.tbpFilter.TabIndex = 2;
             this.tbpFilter.Text = "filter";
             this.tbpFilter.UseVisualStyleBackColor = true;
@@ -636,16 +716,50 @@
             // 
             this.columnHeader1.Text = "Foxpro Tables";
             // 
-            // btnOpenSQLLogs
+            // tbMain
             // 
-            this.btnOpenSQLLogs.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenSQLLogs.Image")));
-            this.btnOpenSQLLogs.Location = new System.Drawing.Point(42, 0);
-            this.btnOpenSQLLogs.Name = "btnOpenSQLLogs";
-            this.btnOpenSQLLogs.Size = new System.Drawing.Size(30, 27);
-            this.btnOpenSQLLogs.TabIndex = 14;
-            this.btnOpenSQLLogs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnOpenSQLLogs.UseVisualStyleBackColor = true;
-            this.btnOpenSQLLogs.Click += new System.EventHandler(this.btnOpenSQLLogs_Click);
+            this.tbMain.ColumnCount = 1;
+            this.tbMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tbMain.Controls.Add(this.tableLayoutPanel2, 0, 0);
+            this.tbMain.Controls.Add(this.tableLayoutPanel3, 0, 1);
+            this.tbMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbMain.Location = new System.Drawing.Point(0, 0);
+            this.tbMain.Name = "tbMain";
+            this.tbMain.RowCount = 2;
+            this.tbMain.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tbMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tbMain.Size = new System.Drawing.Size(1850, 983);
+            this.tbMain.TabIndex = 7;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.btnBrowse, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.txtParentFolder, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1844, 37);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.24682F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.75317F));
+            this.tableLayoutPanel3.Controls.Add(this.tbLeft, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tabOperations, 1, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 46);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1844, 934);
+            this.tableLayoutPanel3.TabIndex = 1;
             // 
             // frmSQL
             // 
@@ -654,21 +768,23 @@
             this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(300, 300);
             this.ClientSize = new System.Drawing.Size(1850, 983);
-            this.Controls.Add(this.tbLeft);
-            this.Controls.Add(this.tabOperations);
-            this.Controls.Add(this.txtParentFolder);
-            this.Controls.Add(this.btnBrowse);
+            this.Controls.Add(this.tbMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSQL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SQL Helper";
+            this.ResizeEnd += new System.EventHandler(this.frmSQL_ResizeEnd);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmSQL_KeyDown);
+            this.Resize += new System.EventHandler(this.frmSQL_Resize);
             this.tabOperations.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.pnlWaitQuery.ResumeLayout(false);
             this.pnlWaitQuery.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.pnlSQLFlow.ResumeLayout(false);
+            this.grpTools.ResumeLayout(false);
+            this.grpTools.PerformLayout();
             this.tabSourceAnyWhere.ResumeLayout(false);
             this.tabSourceAnyWhere.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -684,14 +800,19 @@
             this.tbSmText.PerformLayout();
             this.tbSync.ResumeLayout(false);
             this.tbSync.PerformLayout();
+            this.tbpST.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvST)).EndInit();
             this.tbLeft.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tbpFilter.ResumeLayout(false);
+            this.tbMain.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -745,6 +866,13 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.Button btnSQLResultWindow;
         private System.Windows.Forms.Button btnOpenSQLLogs;
+        private System.Windows.Forms.TableLayoutPanel tbMain;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.GroupBox grpTools;
+        private System.Windows.Forms.TabPage tbpST;
+        private System.Windows.Forms.DataGridView dgvST;
     }
 }
 

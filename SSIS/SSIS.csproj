@@ -65,6 +65,9 @@
     <Compile Include="frmStart.Designer.cs">
       <DependentUpon>frmStart.cs</DependentUpon>
     </Compile>
+    <Compile Include="per.cs">
+      <DependentUpon>st.tt</DependentUpon>
+    </Compile>
     <Compile Include="pr.cs">
       <DependentUpon>st.tt</DependentUpon>
     </Compile>
