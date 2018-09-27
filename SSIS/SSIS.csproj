@@ -106,6 +106,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ar-per\Amex.csv" />
+    <None Include="ar-per\NAS_list.csv" />
+    <None Include="ar-per\NYSE.csv" />
+    <None Include="ar-per\t_s.csv" />
+    <None Include="ar-per\t_v.csv" />
+    <None Include="ar-per\t_v_main.xlsx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -128,6 +134,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ar-per\ar.txt" />
+    <Content Include="ar-per\per.txt" />
+    <Content Include="ar-per\tsx.txt" />
+    <Content Include="ar-per\tsxv.txt" />
     <Content Include="st.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>st.Context.cs</LastGenOutput>

@@ -1,0 +1,14056 @@
+ AAB-T
+Aberdeen International Inc
+0.09	
+N/A
+N/A
+N/A
+N/A
+ AAV-T
+Advantage Oil & Gas Ltd
+3.46	
+6.50
+5.00
+5.72
+5.88
+ ABT-T
+Absolute Software Corp
+7.49	
+10.50
+7.50
+8.67
+8.00
+ ABX-T
+Barrick Gold Corp
+14.63	
+27.00
+14.30
+18.80
+18.00
+ AC-T
+Air Canada
+27.87	
+42.00
+22.50
+34.19
+34.00
+ ACD-T
+Accord Financial
+10.13	
+N/A
+N/A
+N/A
+N/A
+ ACQ-T
+Autocanada Inc
+13.09	
+30.00
+9.00
+19.22
+17.50
+ AD-T
+Alaris Royalty Corp
+20.43	
+22.35
+19.00
+20.81
+20.75
+ ADN-T
+Acadian Timber Corp
+18.74	
+22.00
+19.00
+20.25
+20.00
+ AEF-T
+Acasta Enterprises Inc
+1.05	
+N/A
+N/A
+N/A
+N/A
+ AEM-T
+Agnico Eagle Mines Limited
+44.31	
+81.00
+49.40
+64.64
+64.50
+ AFN-T
+Ag Growth International Inc
+62.51	
+80.00
+65.00
+70.50
+70.00
+ AGI-T
+Alamos Gold Inc Cls A
+5.87	
+14.00
+7.00
+10.18
+10.00
+ AGT-T
+Agt Food and Ingredients Inc
+17.79	
+22.00
+18.00
+19.80
+20.00
+ AI-T
+Atrium Mortgage Investment Corp
+13.79	
+13.00
+13.00
+13.00
+13.00
+ AIF-T
+Altus Group Limited
+30.51	
+43.00
+32.00
+39.38
+40.00
+ AII-T
+Almonty Industries Inc
+0.79	
+N/A
+N/A
+N/A
+N/A
+ AIM-T
+Aimia Inc
+4.53	
+5.00
+2.50
+4.04
+4.50
+ AJX-T
+Agjunction Inc
+0.87	
+1.00
+1.00
+1.00
+1.00
+ AKG-T
+Asanko Gold Inc
+1.03	
+3.00
+1.25
+1.95
+2.00
+ ALA-T
+Altagas Ltd
+20.55	
+34.00
+24.00
+29.17
+29.50
+ ALC-T
+Algoma Central
+13.01	
+20.00
+19.00
+19.50
+19.50
+ ALO-T
+Alio Gold Inc
+1.01	
+5.00
+2.50
+3.75
+3.75
+ ALS-T
+Altius Minerals Corp
+12.75	
+18.50
+15.00
+17.00
+17.25
+ AMM-T
+Almaden Minerals Ltd
+0.83	
+1.90
+1.50
+1.70
+1.70
+ ANX-T
+Anaconda Mining Inc
+0.23	
+0.90
+0.90
+0.90
+0.90
+ AOI-T
+Africa Oil Corp
+1.54	
+2.30
+2.30
+2.30
+2.30
+ APY-T
+Anglo Pacific Group Plc
+2.90	
+N/A
+N/A
+N/A
+N/A
+ AQA-T
+Aquila Resources Inc
+0.23	
+0.45
+0.45
+0.45
+0.45
+ AR-T
+Argonaut Gold Inc
+1.55	
+5.75
+4.15
+5.03
+5.20
+ ARE-T
+Aecon Group Inc
+16.23	
+23.00
+17.00
+19.88
+20.00
+ ARG-T
+Amerigo Resources Ltd
+0.77	
+1.96
+1.96
+1.96
+1.96
+ ARX-T
+Arc Resources Ltd
+14.13	
+23.00
+16.50
+19.35
+19.00
+ ASM-T
+Avino Silver and Gold Mines Ltd
+0.78	
+4.23
+2.30
+3.39
+3.64
+ ASND-T
+Ascendant Resources Inc
+0.72	
+2.40
+1.20
+1.77
+1.75
+ ASO-T
+Avesoro Resources Inc
+3.01	
+0.15
+0.15
+0.15
+0.15
+ ASR-T
+Alacer Gold Corp
+2.01	
+4.25
+3.25
+3.75
+3.75
+ ATA-T
+Ats Automation
+24.12	
+29.00
+22.00
+26.00
+27.00
+ ATH-T
+Athabasca Oil Corp
+1.55	
+2.75
+2.25
+2.43
+2.50
+ ATL-T
+Atlatsa Resources Corp
+0.04	
+0.03
+0.03
+0.03
+0.03
+ ATZ-T
+Aritzia Inc
+17.16	
+22.00
+20.00
+20.80
+21.00
+ AUG-T
+Auryn Resources Inc
+1.35	
+4.75
+3.76
+4.25
+4.25
+ AUMN-T
+Golden Minerals Company
+0.27	
+1.05
+1.05
+1.05
+1.05
+ AVL-T
+Avalon Advanced Materials Inc
+0.07	
+N/A
+N/A
+N/A
+N/A
+ AXR-T
+Alexco Resource Corp
+1.35	
+2.40
+2.25
+2.33
+2.33
+ AYM-T
+Atalaya Mining Plc
+4.20	
+N/A
+N/A
+N/A
+N/A
+ AZ-T
+Arizona Mining Inc
+6.19	
+6.20
+6.00
+6.11
+6.20
+ AZZ-T
+Azarga Uranium Corp
+0.26	
+1.25
+1.25
+1.25
+1.25
+ BAD-T
+Badger Daylighting Ltd
+29.96	
+40.00
+36.50
+37.83
+37.00
+ BAR-T
+Balmoral Resources Ltd
+0.15	
+1.50
+1.50
+1.50
+1.50
+ BB-T
+Blackberry Limited
+13.32	
+18.60
+11.00
+13.53
+13.56
+ BCB-T
+Cott Corp
+20.65	
+28.60
+19.00
+24.24
+23.94
+ BCE-T
+BCE Inc
+52.84	
+69.00
+59.00
+61.88
+60.88
+ BCI-T
+New Look Vision Group Inc
+34.68	
+44.00
+35.00
+39.00
+38.00
+ BDI-T
+Black Diamond Group Ltd
+3.39	
+4.75
+2.75
+3.90
+4.00
+ BDT-T
+Bird Construction Inc
+8.01	
+11.00
+9.50
+10.25
+10.25
+ BIR-T
+Birchcliff Energy Ltd
+5.09	
+10.50
+5.50
+7.07
+7.00
+ BKI-T
+Black Iron Inc
+0.08	
+0.70
+0.50
+0.60
+0.60
+ BKX-T
+Bnk Petroleum Inc
+0.42	
+0.75
+0.75
+0.75
+0.75
+ BMO-T
+Bank of Montreal
+108.16	
+126.00
+109.00
+115.45
+115.00
+ BNE-T
+Bonterra Energy Corp
+18.47	
+23.50
+16.00
+20.73
+21.25
+ BNG-T
+Bengal Energy Ltd
+0.09	
+0.15
+0.15
+0.15
+0.15
+ BNP-T
+Bonavista Energy Corp
+1.41	
+2.00
+1.50
+1.79
+1.75
+ BNS-T
+Bank of Nova Scotia
+77.98	
+95.00
+81.00
+90.58
+92.50
+ BOS-T
+Airboss America J
+11.53	
+16.00
+14.50
+15.38
+15.50
+ BOY-T
+Boyuan Construction Group Inc
+0.39	
+N/A
+N/A
+N/A
+N/A
+ BR-T
+Big Rock Brewery Inc
+6.11	
+4.50
+4.50
+4.50
+4.50
+ BRB-T
+Brick Brewing J
+4.05	
+4.80
+4.40
+4.60
+4.60
+ BRE-T
+Brookfield Real Estate Services Inc
+16.78	
+N/A
+N/A
+N/A
+N/A
+ BRY-T
+Bri Chem Corp
+0.32	
+N/A
+N/A
+N/A
+N/A
+ BSX-T
+Belo Sun Mining Corp
+0.22	
+0.70
+0.70
+0.70
+0.70
+ BTE-T
+Baytex Energy Corp
+3.74	
+8.50
+4.75
+6.56
+6.75
+ BTO-T
+B2Gold Corp
+2.86	
+7.21
+4.40
+5.71
+5.40
+ BUI-T
+Buhler Ind
+3.60	
+N/A
+N/A
+N/A
+N/A
+ BXE-T
+Bellatrix Exploration Ltd
+1.25	
+1.75
+0.75
+1.20
+1.00
+ BYL-T
+Baylin Technologies Inc
+4.19	
+6.00
+5.75
+5.88
+5.88
+ CAE-T
+Cae Inc
+26.51	
+30.00
+25.00
+27.72
+28.50
+ CAL-T
+Caledonia Mining Corporation Plc
+8.63	
+N/A
+N/A
+N/A
+N/A
+ CBL-T
+Callidus Capital Corp
+2.08	
+3.75
+3.75
+3.75
+3.75
+ CCA-T
+Cogeco Communications Inc
+65.79	
+93.00
+72.00
+84.83
+86.00
+ CCM-T
+Canarc Res J
+0.04	
+N/A
+N/A
+N/A
+N/A
+ CCO-T
+Cameco Corp
+14.79	
+18.00
+10.10
+14.30
+15.00
+ CCZ-T
+Critical Control Energy Services Corp
+0.09	
+N/A
+N/A
+N/A
+N/A
+ CDAY-T
+Ceridian Hcm Holdings Inc
+54.39	
+N/A
+N/A
+N/A
+N/A
+ CDH-T
+Corridor Resources Inc
+0.66	
+1.50
+1.50
+1.50
+1.50
+ CDV-T
+Cardinal Resources Limited
+0.43	
+1.75
+0.80
+1.32
+1.40
+ CEE-T
+Centamin Plc
+1.78	
+N/A
+N/A
+N/A
+N/A
+ CERV-T
+Cervus Equipment Corp
+13.76	
+19.00
+16.50
+17.75
+17.75
+ CET-T
+Cathedral Energy Services Ltd
+0.73	
+1.75
+1.75
+1.75
+1.75
+ CEU-T
+Ces Energy Solutions Corp
+4.31	
+10.00
+7.00
+8.00
+7.50
+ CF-T
+Canaccord Genuity Group Inc
+6.92	
+9.00
+9.00
+9.00
+9.00
+ CFF-T
+Conifex Timber Inc
+4.19	
+9.00
+7.00
+8.33
+9.00
+ CFP-T
+Canfor Corp
+25.47	
+43.00
+32.00
+39.00
+41.00
+ CFW-T
+Calfrac Well Services Ltd
+4.22	
+10.25
+4.50
+8.20
+8.00
+ CFX-T
+Canfor Pulp Products Inc
+24.97	
+28.00
+19.50
+24.90
+25.00
+ CG-T
+Centerra Gold Inc
+5.40	
+12.25
+7.25
+9.62
+10.00
+ CGG-T
+China Gold Int Resources Corp
+1.86	
+N/A
+N/A
+N/A
+N/A
+ CGI-T
+CDN General Inv
+25.60	
+N/A
+N/A
+N/A
+N/A
+ CGO-T
+Cogeco Inc Sv
+60.40	
+61.00
+61.00
+61.00
+61.00
+ CGT-T
+Columbus Gold Corp
+0.26	
+1.20
+1.20
+1.20
+1.20
+ CGX-T
+Cineplex Inc
+34.76	
+37.00
+32.50
+35.12
+35.50
+ CGY-T
+Calian Group Ltd
+29.87	
+39.00
+37.00
+38.00
+38.00
+ CHR-T
+Chorus Aviation Inc
+7.61	
+11.00
+10.00
+10.80
+11.00
+ CHW-T
+Chesswood Group Limited
+11.91	
+14.00
+14.00
+14.00
+14.00
+ CIA-T
+Champion Iron Limited
+1.21	
+0.10
+0.10
+0.10
+0.10
+ CIGI-T
+Colliers International Group Inc
+100.56	
+117.90
+76.00
+98.17
+99.39
+ CIX-T
+Ci Financial Corp
+20.43	
+33.00
+24.00
+28.60
+30.00
+ CJ-T
+Cardinal Energy Ltd
+5.18	
+8.00
+6.00
+6.97
+6.75
+ CJT-T
+Cargojet Inc
+82.70	
+94.00
+65.00
+78.20
+74.00
+ CKE-T
+Chinook Energy Inc
+0.24	
+0.25
+0.20
+0.23
+0.25
+ CKI-T
+Clarke Inc
+12.68	
+N/A
+N/A
+N/A
+N/A
+ CLIQ-T
+Alcanna Inc
+10.49	
+14.00
+12.00
+12.81
+12.62
+ CLQ-T
+Clean Teq Holdings Limited
+0.50	
+2.00
+2.00
+2.00
+2.00
+ CLS-T
+Celestica Inc Sv
+14.30	
+16.93
+15.36
+16.31
+16.73
+ CM-T
+Canadian Imperial Bank of Commerce
+122.49	
+145.00
+127.00
+135.36
+135.00
+ CMG-T
+Computer Modelling Group Ltd
+8.40	
+9.00
+7.75
+8.38
+8.38
+ CMMC-T
+Copper Mountain Mining Corp
+1.18	
+2.55
+1.70
+1.96
+1.90
+ CNE-T
+Canacol Energy Ltd
+4.11	
+7.50
+6.50
+7.05
+7.15
+ CNL-T
+Continental Gold Inc
+2.63	
+8.00
+7.70
+7.85
+7.85
+ CNQ-T
+CDN Natural Res
+42.82	
+65.00
+47.00
+57.40
+58.00
+ CNR-T
+Canadian National Railway Co.
+116.75	
+128.28
+87.00
+114.34
+116.16
+ CNT-T
+Century Global Commodities Corp
+0.20	
+N/A
+N/A
+N/A
+N/A
+ CNU-T
+Cnooc Limited
+225.72	
+255.38
+255.38
+255.38
+255.38
+ COG-T
+Condor Gold Plc
+0.58	
+N/A
+N/A
+N/A
+N/A
+ COP-T
+Coro Mining Corp
+0.06	
+0.05
+0.05
+0.05
+0.05
+ CP-T
+Canadian Pacific Railway Limited
+276.73	
+296.00
+194.00
+270.59
+275.00
+ CPG-T
+Crescent Point Energy Corp
+8.06	
+18.50
+12.00
+14.05
+13.00
+ CPI-T
+Condor Petroleum Inc
+0.23	
+0.85
+0.85
+0.85
+0.85
+ CPX-T
+Capital Power Corp
+28.16	
+33.00
+28.00
+30.43
+31.00
+ CQE-T
+Cequence Energy Ltd
+0.05	
+0.10
+0.08
+0.09
+0.09
+ CR-T
+Crew Energy Inc
+1.80	
+3.75
+2.75
+3.19
+3.15
+ CRWN-T
+Crown Capital Partners Inc
+9.95	
+12.00
+11.65
+11.82
+11.82
+ CS-T
+Capstone Mining Corp
+0.79	
+2.25
+1.20
+1.71
+1.70
+ CSM-T
+Clearstream Energy Services Inc
+0.04	
+N/A
+N/A
+N/A
+N/A
+ CSU-T
+Constellation Software Inc
+959.92	
+1,300.00
+930.00
+1,042.86
+1,000.00
+ CTC-T
+Canadian Tire Corporation Limited
+237.04	
+205.00
+174.00
+191.70
+191.50
+ CU-T
+Canadian Utilities Ltd Cl.A Nv
+31.31	
+36.00
+36.00
+36.00
+36.00
+ CVE-T
+Cenovus Energy Inc
+12.82	
+20.00
+13.50
+16.43
+16.25
+ CVG-T
+Clairvest Group
+48.99	
+N/A
+N/A
+N/A
+N/A
+ CWB-T
+CDN Western Bank
+34.44	
+43.00
+38.00
+40.33
+40.00
+ CWI-T
+Crosswinds Holdings Inc
+1.85	
+N/A
+N/A
+N/A
+N/A
+ CWL-T
+Caldwell Partners International Inc
+1.33	
+N/A
+N/A
+N/A
+N/A
+ CWX-T
+Canwel Building Materials Group Ltd
+5.66	
+8.50
+7.00
+7.79
+7.75
+ CXI-T
+Currency Exchange International Corp
+31.41	
+29.00
+29.00
+29.00
+29.00
+ CXN-T
+Chalice Gold Mines Limited
+0.13	
+N/A
+N/A
+N/A
+N/A
+ CYB-T
+Cymbria Corporation Cl A
+58.83	
+N/A
+N/A
+N/A
+N/A
+ CZN-T
+CDN Zinc Corp J
+0.12	
+0.35
+0.35
+0.35
+0.35
+ DBO-T
+Dbox Technologies Inc
+0.21	
+N/A
+N/A
+N/A
+N/A
+ DCF-T
+Difference Capital Financial Inc
+2.74	
+9.00
+9.00
+9.00
+9.00
+ DCM-T
+Data Communications Mgmt Corp
+1.51	
+N/A
+N/A
+N/A
+N/A
+ DEE-T
+Delphi Energy Corp
+0.75	
+1.75
+1.20
+1.51
+1.52
+ DGC-T
+Detour Gold Corp
+10.55	
+24.00
+13.50
+17.00
+16.00
+ DHX-T
+Dhx Media Ltd
+2.00	
+6.00
+3.00
+4.52
+4.50
+ DIAM-T
+Star Diamond Corp
+0.24	
+N/A
+N/A
+N/A
+N/A
+ DIV-T
+Diversified Royalty Corp
+3.16	
+4.25
+4.00
+4.17
+4.25
+ DML-T
+Denison Mines Corp
+0.84	
+1.85
+0.95
+1.49
+1.69
+ DNA-T
+Dalradian Resources Inc
+1.46	
+1.47
+1.47
+1.47
+1.47
+ DNG-T
+Dynacor Gold Mines Inc
+1.62	
+N/A
+N/A
+N/A
+N/A
+ DNT-T
+Candente Copper Corp
+0.07	
+0.10
+0.10
+0.10
+0.10
+ DOL-T
+Dollarama Inc
+41.85	
+61.67
+40.00
+53.83
+56.00
+ DOO-T
+Brp Inc
+61.00	
+79.00
+54.00
+67.80
+70.00
+ DPM-T
+Dundee Precious Metals Inc
+2.92	
+5.50
+4.90
+5.13
+5.00
+ DR-T
+Medical Facilities Corp
+14.09	
+16.50
+13.50
+14.50
+14.00
+ DRM-T
+Dream Unlimited Corp
+8.17	
+N/A
+N/A
+N/A
+N/A
+ DRX-T
+Adf Group Inc Sv
+1.75	
+3.75
+3.75
+3.75
+3.75
+ DSG-T
+Descartes Sys
+44.53	
+50.00
+32.00
+41.35
+42.77
+ DW-T
+Datawind Inc
+0.06	
+0.70
+0.70
+0.70
+0.70
+ DXI-T
+Dxi Energy Inc
+0.04	
+0.25
+0.25
+0.25
+0.25
+ E-T
+Enterprise Group Inc
+0.42	
+0.40
+0.40
+0.40
+0.40
+ ECA-T
+Encana Corp
+17.09	
+27.30
+17.54
+22.22
+22.27
+ ECI-T
+Enercare Inc
+28.85	
+29.00
+23.50
+27.17
+29.00
+ ECN-T
+Ecn Capital Corp
+3.84	
+6.00
+4.50
+5.26
+5.25
+ ECS-T
+Ecobalt Solutions Inc
+0.89	
+1.50
+1.50
+1.50
+1.50
+ EDR-T
+Endeavour Silver Corp
+2.95	
+7.39
+4.25
+5.77
+5.71
+ EDV-T
+Endeavour Mining Corp
+19.54	
+38.50
+31.00
+34.90
+35.00
+ EFH-T
+Echelon Financial Holdings Inc
+12.49	
+14.00
+14.00
+14.00
+14.00
+ EFN-T
+Element Fleet Management Corp
+6.79	
+10.00
+6.50
+7.64
+7.00
+ EFR-T
+Energy Fuels Inc
+4.13	
+6.58
+4.88
+5.67
+5.62
+ EFX-T
+Enerflex Ltd
+15.93	
+22.00
+18.50
+20.38
+20.50
+ EGL-T
+Eagle Energy Inc
+0.23	
+1.00
+1.00
+1.00
+1.00
+ EIF-T
+Exchange Income Corp
+33.03	
+51.00
+37.50
+43.83
+44.00
+ ELD-T
+Eldorado Gold
+1.12	
+2.50
+1.05
+1.63
+1.43
+ ELF-T
+E-L Financial
+819.00	
+N/A
+N/A
+N/A
+N/A
+ ELR-T
+Eastern Platinum Limited
+0.24	
+1.50
+1.50
+1.50
+1.50
+ EMA-T
+Emera Incorporated
+40.16	
+52.00
+42.00
+47.17
+47.00
+ ENB-T
+Enbridge Inc
+42.27	
+60.00
+47.00
+54.41
+54.00
+ ENF-T
+Enbridge Income Fund Holdings Inc
+31.78	
+39.00
+32.50
+34.50
+34.00
+ ENGH-T
+Enghouse Systems Limited
+81.85	
+89.00
+66.00
+79.75
+82.00
+ ENT-T
+Entrec Corp
+0.20	
+0.35
+0.35
+0.35
+0.35
+ EOX-T
+Euromax Resources Ltd
+0.13	
+N/A
+N/A
+N/A
+N/A
+ EPS-T
+Epsilon Energy Ltd
+2.47	
+4.25
+4.25
+4.25
+4.25
+ EQB-T
+Equitable Group Inc
+68.92	
+80.00
+68.00
+73.83
+74.00
+ ER-T
+Eastmain Res J
+0.18	
+0.95
+0.50
+0.72
+0.72
+ ERD-T
+Erdene Resource Development Corp
+0.32	
+N/A
+N/A
+N/A
+N/A
+ ERF-T
+Enerplus Corp
+15.80	
+24.50
+19.00
+21.28
+20.98
+ ERM-T
+Eclipse Residential Mortgage Inv Corp
+9.88	
+N/A
+N/A
+N/A
+N/A
+ ERO-T
+Ero Copper Corp
+11.65	
+13.10
+12.00
+12.71
+12.88
+ ESI-T
+Ensign Energy Services Inc
+6.21	
+10.00
+5.75
+7.81
+7.75
+ ESM-T
+Euro Sun Mining Inc
+0.71	
+3.00
+3.00
+3.00
+3.00
+ ESN-T
+Essential Energy Services Ltd
+0.48	
+1.20
+0.90
+1.05
+1.05
+ ESP-T
+Espial Group Inc
+1.29	
+2.90
+2.25
+2.58
+2.55
+ ET-T
+Evertz Technologies Limited
+16.53	
+21.00
+18.00
+19.38
+19.25
+ ETG-T
+Entree Resources Ltd
+0.49	
+0.70
+0.70
+0.70
+0.70
+ EXE-T
+Extendicare Inc
+7.79	
+11.00
+11.00
+11.00
+11.00
+ EXF-T
+Exfo Inc
+5.07	
+7.22
+5.35
+6.52
+7.00
+ EXN-T
+Excellon Resources Inc
+0.89	
+2.00
+2.00
+2.00
+2.00
+ FAP-T
+Aberdeen Asia-Pacific Income Invest Ltd
+3.25	
+N/A
+N/A
+N/A
+N/A
+ FAR-T
+Foraco International Sa
+0.40	
+0.50
+0.50
+0.50
+0.50
+ FC-T
+Firm Capital Mortgage Inv. Corp
+13.15	
+14.00
+14.00
+14.00
+14.00
+ FCR-T
+First Capital Realty Inc
+19.37	
+24.00
+21.00
+22.62
+22.75
+ FCU-T
+Fission Uranium Corp
+0.68	
+2.10
+2.10
+2.10
+2.10
+ FEC-T
+Frontera Energy Corp
+18.19	
+35.00
+26.50
+31.50
+33.00
+ FF-T
+First Mining Gold Corp
+0.33	
+1.40
+1.00
+1.20
+1.20
+ FFH-T
+Fairfax Financial Holdings Ltd
+702.77	
+770.00
+735.00
+753.75
+755.00
+ FGE-T
+Fortress Global Enterprises Inc
+2.35	
+N/A
+N/A
+N/A
+N/A
+ FM-T
+First Quantum Minerals Ltd
+15.76	
+30.00
+15.90
+22.65
+23.00
+ FN-T
+First National Financial Corp
+29.22	
+30.00
+28.00
+29.00
+29.00
+ FNV-T
+Franco-Nevada Corp
+81.26	
+125.00
+100.00
+112.04
+108.75
+ FOOD-T
+Goodfood Market Corp
+3.20	
+4.00
+3.00
+3.50
+3.50
+ FR-T
+First Majestic Silver Corp Common
+7.21	
+14.00
+9.10
+11.14
+11.20
+ FRII-T
+Freshii Inc
+4.73	
+12.00
+5.75
+7.75
+7.00
+ FRU-T
+Freehold Royalties Ltd
+11.15	
+19.00
+16.00
+17.56
+17.25
+ FSV-T
+Firstservice Corp
+108.97	
+115.28
+91.00
+104.78
+108.06
+ FSY-T
+Forsys Metals Corp
+0.26	
+N/A
+N/A
+N/A
+N/A
+ FSZ-T
+Fiera Capital Corp
+12.59	
+17.50
+15.00
+15.88
+15.50
+ FT-T
+Fortune Mnrl J
+0.12	
+0.40
+0.40
+0.40
+0.40
+ FTG-T
+Firan Technology Group Corp
+2.30	
+4.00
+4.00
+4.00
+4.00
+ FTS-T
+Fortis Inc
+42.07	
+53.00
+43.00
+48.43
+50.00
+ FTT-T
+Finning Intl
+31.67	
+45.00
+38.00
+40.31
+40.00
+ FVI-T
+Fortuna Silver Mines Inc
+5.62	
+9.00
+8.00
+8.50
+8.50
+ FVL-T
+Freegold Ventures Limited
+0.09	
+N/A
+N/A
+N/A
+N/A
+ G-T
+Goldcorp Inc
+13.32	
+25.50
+16.90
+21.56
+21.78
+ GBT-T
+Bmtc Group Inc
+16.38	
+17.00
+17.00
+17.00
+17.00
+ GC-T
+Great Canadian Gaming Corp
+46.54	
+63.00
+41.00
+50.90
+52.50
+ GCG-T
+Guardian Capital
+25.00	
+31.00
+31.00
+31.00
+31.00
+ GCL-T
+Colabor Group Inc
+0.37	
+1.20
+1.20
+1.20
+1.20
+ GCM-T
+Gran Colombia Gold Corp
+2.28	
+N/A
+N/A
+N/A
+N/A
+ GCT-T
+Gvic Communications Corp Class B
+0.16	
+N/A
+N/A
+N/A
+N/A
+ GDC-T
+Genesis Land J
+3.35	
+N/A
+N/A
+N/A
+N/A
+ GDI-T
+Gdi Integrated Facility Services Inc
+18.59	
+22.00
+19.00
+20.50
+21.00
+ GDL-T
+Goodfellow Inc
+7.33	
+N/A
+N/A
+N/A
+N/A
+ GEI-T
+Gibson Energy Inc
+20.07	
+23.00
+17.50
+21.12
+22.00
+ GEO-T
+Geodrill Limited
+1.79	
+4.50
+3.00
+3.75
+3.75
+ GGA-T
+Goldgroup Mining Inc
+0.05	
+N/A
+N/A
+N/A
+N/A
+ GGD-T
+Gogold Resources Inc
+0.33	
+1.20
+1.20
+1.20
+1.20
+ GH-T
+Gamehost Inc
+11.75	
+N/A
+N/A
+N/A
+N/A
+ GIL-T
+Gildan Activewear Inc
+39.39	
+52.30
+42.90
+46.51
+46.41
+ GMO-T
+General Moly Inc
+0.44	
+0.95
+0.95
+0.95
+0.95
+ GMP-T
+Gmp Capital Inc
+2.23	
+5.00
+5.00
+5.00
+5.00
+ GMX-T
+Globex Mining Enterprises Inc
+0.33	
+N/A
+N/A
+N/A
+N/A
+ GOLD-T
+Goldmining Inc
+0.79	
+N/A
+N/A
+N/A
+N/A
+ GOOS-T
+Canada Goose Holdings Inc
+83.01	
+92.00
+60.00
+85.05
+89.07
+ GPR-T
+Great Panther Silver Limited
+1.12	
+2.95
+1.97
+2.42
+2.34
+ GPS-T
+Bsm Technologies Inc
+1.08	
+2.00
+1.35
+1.68
+1.68
+ GQM-T
+Golden Queen Mng J
+0.16	
+0.40
+0.40
+0.40
+0.40
+ GS-T
+Gluskin Sheff Associates Inc
+14.94	
+19.00
+17.00
+18.12
+18.25
+ GSC-T
+Golden Star
+0.96	
+1.80
+1.30
+1.57
+1.55
+ GSV-T
+Gold Standard Ventures Corp
+2.23	
+3.00
+2.75
+2.88
+2.88
+ GSY-T
+Goeasy Ltd
+53.88	
+70.00
+55.00
+62.30
+60.00
+ GTE-T
+Gran Tierra Energy Inc
+4.91	
+7.26
+5.00
+6.35
+6.62
+ GTX-T
+Gran Tierra Exchangeco Inc
+4.53	
+N/A
+N/A
+N/A
+N/A
+ GUY-T
+Guyana Goldfields Inc
+2.85	
+8.00
+6.50
+7.17
+7.00
+ GVC-T
+Glacier Media Inc
+0.75	
+0.60
+0.60
+0.60
+0.60
+ GWO-T
+Great-West Lifeco Inc
+31.43	
+39.00
+35.00
+36.40
+36.00
+ GXE-T
+Gear Energy Ltd
+1.17	
+2.25
+1.75
+1.91
+1.90
+ GXO-T
+Granite Oil Corp
+1.82	
+4.50
+4.50
+4.50
+4.50
+ GZT-T
+Gazit Globe Ltd
+11.66	
+14.00
+14.00
+14.00
+14.00
+ H-T
+Hydro One Limited
+19.56	
+23.00
+21.00
+22.33
+23.00
+ HBC-T
+Hudsons Bay Company
+9.84	
+13.00
+11.00
+11.58
+11.25
+ HBM-T
+Hudbay Minerals Inc
+6.41	
+17.00
+6.50
+12.00
+12.25
+ HCG-T
+Home Capital Group Inc
+15.02	
+21.00
+16.00
+18.30
+18.00
+ HDI-T
+Hardwoods Distribution Inc
+16.99	
+26.00
+23.00
+24.67
+25.00
+ HE-T
+Hanwei Energy Services Corp
+0.04	
+N/A
+N/A
+N/A
+N/A
+ HLC-T
+Holloway Lodging Corp
+6.12	
+N/A
+N/A
+N/A
+N/A
+ HLF-T
+High Liner
+8.12	
+10.75
+7.00
+8.42
+7.50
+ HNL-T
+Horizon North Logistics Inc
+2.95	
+3.75
+2.00
+3.11
+3.50
+ HRT-T
+Harte Gold Corp
+0.41	
+0.80
+0.80
+0.80
+0.80
+ HRX-T
+Heroux-Devtek
+15.27	
+21.00
+17.00
+18.80
+19.00
+ HSE-T
+Husky Energy Inc
+22.77	
+26.00
+18.00
+22.77
+23.00
+ HWO-T
+High Arctic Energy Services Inc
+4.12	
+4.75
+4.50
+4.62
+4.62
+ HYD-T
+Hyduke Energy Services Inc
+0.05	
+N/A
+N/A
+N/A
+N/A
+ HZM-T
+Horizonte Minerals Plc
+0.07	
+N/A
+N/A
+N/A
+N/A
+ IAG-T
+Industrial Alliance Ins & Fin Srv Inc
+52.32	
+68.00
+60.00
+65.12
+66.00
+ IAM-T
+Integrated Asset Management Corp
+1.99	
+N/A
+N/A
+N/A
+N/A
+ IBG-T
+Ibi Group Inc
+4.58	
+9.50
+6.50
+8.17
+8.50
+ IBR-T
+Iron Bridge Resources Inc
+0.84	
+1.00
+0.80
+0.86
+0.85
+ ICE-T
+Canlan ICE Sports Corp
+4.98	
+N/A
+N/A
+N/A
+N/A
+ IDG-T
+Indigo Books & Music Inc
+13.45	
+22.00
+22.00
+22.00
+22.00
+ IFA-T
+Ifabric Corp
+1.81	
+N/A
+N/A
+N/A
+N/A
+ IFC-T
+Intact Financial Corp
+106.10	
+117.00
+102.00
+109.67
+110.00
+ IFP-T
+Interfor Corp
+19.77	
+35.00
+25.00
+31.20
+33.00
+ IGM-T
+Igm Financial Inc
+35.32	
+54.00
+40.00
+48.17
+48.50
+ III-T
+Imperial Metals Corp
+1.98	
+2.70
+2.70
+2.70
+2.70
+ IMG-T
+Iamgold Corp
+4.79	
+11.50
+7.50
+9.75
+10.00
+ IMO-T
+Imperial Oil
+42.66	
+52.00
+40.00
+45.21
+45.00
+ IMP-T
+Intermap Tech Corp
+0.41	
+N/A
+N/A
+N/A
+N/A
+ INQ-T
+Inscape Corp Sv
+1.72	
+6.25
+6.25
+6.25
+6.25
+ INV-T
+Inv Metals Inc
+0.39	
+1.70
+1.70
+1.70
+1.70
+ IPCO-T
+International Petroleum Corp
+8.70	
+9.00
+8.35
+8.68
+8.68
+ IPL-T
+Inter Pipeline Ltd
+22.79	
+35.00
+25.00
+29.75
+29.50
+ IPLP-T
+Ipl Plastics Inc
+12.97	
+N/A
+N/A
+N/A
+N/A
+ IPO-T
+Inplay Oil Corp
+1.64	
+3.25
+2.25
+2.81
+2.88
+ IRON-T
+Alderon Iron Ore Corp
+0.28	
+N/A
+N/A
+N/A
+N/A
+ ISV-T
+Information Services Corp
+16.95	
+23.00
+20.00
+21.50
+21.50
+ ITC-T
+Intrinsyc Technologies Corp
+1.32	
+N/A
+N/A
+N/A
+N/A
+ ITH-T
+International Tower Hill Mines Ltd
+0.52	
+N/A
+N/A
+N/A
+N/A
+ ITP-T
+Intertape Polymer
+19.43	
+27.00
+17.75
+22.69
+23.00
+ ITX-T
+The Intertain Group Limited
+12.72	
+16.50
+16.50
+16.50
+16.50
+ IVN-T
+Ivanhoe Mines Ltd
+2.67	
+8.25
+5.00
+6.69
+6.75
+ JAG-T
+Jaguar Mining Inc
+0.21	
+0.65
+0.65
+0.65
+0.65
+ JE-T
+Just Energy Group Inc
+4.02	
+7.76
+4.50
+6.67
+7.74
+ JOY-T
+Journey Energy Inc
+2.22	
+3.15
+2.25
+2.70
+2.70
+ JWEL-T
+Jamieson Wellness Inc
+26.57	
+31.00
+24.20
+27.87
+28.50
+ K-T
+Kinross Gold Corp
+3.58	
+10.50
+4.22
+6.12
+5.60
+ KAT-T
+Katanga Mining Limited
+0.70	
+0.30
+0.30
+0.30
+0.30
+ KBL-T
+Kbro Linen Inc
+38.28	
+53.00
+38.00
+45.00
+44.50
+ KDX-T
+Klondex Mines Ltd
+3.07	
+4.85
+2.95
+3.61
+3.39
+ KEL-T
+Kelt Exploration Ltd
+8.19	
+13.00
+10.75
+12.03
+12.25
+ KER-T
+Kerr Mines Inc
+0.17	
+N/A
+N/A
+N/A
+N/A
+ KEW-T
+Kew Media Group Inc
+6.84	
+15.25
+12.00
+13.25
+12.50
+ KEY-T
+Keyera Corp
+34.45	
+47.00
+39.00
+43.60
+43.50
+ KFS-T
+Kingsway Fin
+3.72	
+N/A
+N/A
+N/A
+N/A
+ KL-T
+Kirkland Lake Gold Ltd
+24.55	
+37.50
+27.50
+33.22
+34.00
+ KLS-T
+Kelso Technologies Inc
+0.60	
+3.00
+3.00
+3.00
+3.00
+ KML-T
+Kinder Morgan Cda Ltd
+16.98	
+17.00
+17.00
+17.00
+17.00
+ KOR-T
+Corvus Gold Inc
+3.11	
+3.80
+2.90
+3.30
+3.20
+ KRN-T
+Karnalyte Resources Inc
+0.32	
+N/A
+N/A
+N/A
+N/A
+ KXS-T
+Kinaxis Inc
+97.94	
+110.00
+90.00
+103.00
+105.00
+ L-T
+Loblaw Co
+66.63	
+85.00
+73.00
+78.43
+77.00
+ LAC-T
+Lithium Americas Corp
+6.17	
+18.40
+11.00
+14.21
+13.72
+ LAM-T
+Laramide Resources Ltd
+0.48	
+0.90
+0.90
+0.90
+0.90
+ LB-T
+Laurentian Bank
+43.63	
+67.00
+45.00
+55.55
+56.00
+ LFX-T
+Leadfx Inc
+0.97	
+N/A
+N/A
+N/A
+N/A
+ LGD-T
+Liberty Gold Corp
+0.39	
+1.00
+0.70
+0.85
+0.85
+ LGO-T
+Largo Resources Ltd
+3.69	
+3.60
+3.60
+3.60
+3.60
+ LIF-T
+Labrador Iron Ore Royalty Corp
+28.08	
+32.00
+26.00
+30.00
+32.00
+ LMC-T
+Leagold Mining Corp
+1.89	
+5.25
+4.25
+4.67
+4.60
+ LN-T
+Loncor Resources Inc
+0.11	
+0.30
+0.30
+0.30
+0.30
+ LNF-T
+Leons Furniture
+17.99	
+21.00
+21.00
+21.00
+21.00
+ LNR-T
+Linamar Corp
+60.33	
+125.00
+77.00
+93.17
+88.00
+ LUC-T
+Lucara Diamond Corp
+2.19	
+3.20
+3.00
+3.10
+3.10
+ LUG-T
+Lundin Gold Inc
+4.89	
+8.85
+6.00
+7.66
+7.75
+ LUN-T
+Lundin Mining Corp
+6.68	
+10.50
+8.30
+9.59
+9.50
+ LVN-T
+Levon Resources Ltd
+0.16	
+N/A
+N/A
+N/A
+N/A
+ LXR-T
+Lxrandco Inc
+0.29	
+1.00
+1.00
+1.00
+1.00
+ LYD-T
+Lydian International Limited
+0.20	
+0.75
+0.40
+0.52
+0.40
+ MAG-T
+MAG Silver Corp
+10.07	
+28.12
+22.30
+24.60
+23.98
+ MAL-T
+Magellan Aero
+18.25	
+25.00
+25.00
+25.00
+25.00
+ MAR-T
+Marret Resource Corp
+0.52	
+3.70
+3.70
+3.70
+3.70
+ MAW-T
+Mawson Resources Ltd
+0.32	
+N/A
+N/A
+N/A
+N/A
+ MAX-T
+Midas Gold Inc
+0.83	
+1.90
+1.55
+1.73
+1.73
+ MAXR-T
+Maxar Technologies Ltd
+42.35	
+90.00
+72.00
+83.51
+88.00
+ MBA-T
+Cibt Education Group Inc
+0.79	
+N/A
+N/A
+N/A
+N/A
+ MCB-T
+Mccoy Global Inc
+1.10	
+2.10
+1.60
+1.85
+1.85
+ MDF-T
+Mediagrif Interac
+11.39	
+12.00
+12.00
+12.00
+12.00
+ MDI-T
+Major Drilling Grp
+5.02	
+6.00
+6.00
+6.00
+6.00
+ ME-T
+Moneta Porcupine J
+0.11	
+0.20
+0.20
+0.20
+0.20
+ MEG-T
+Meg Energy Corp
+7.98	
+14.00
+8.50
+10.70
+10.00
+ MEQ-T
+Mainstreet Eq J
+48.95	
+52.00
+51.00
+51.33
+51.00
+ MFC-T
+Manulife Fin
+23.67	
+31.00
+26.00
+29.38
+30.00
+ MFI-T
+Maple Leaf Foods
+31.15	
+39.00
+35.50
+37.70
+39.00
+ MG-T
+Magna International Inc
+69.92	
+102.40
+63.10
+88.89
+92.05
+ MGA-T
+Mega Uranium Ltd
+0.12	
+N/A
+N/A
+N/A
+N/A
+ MIC-T
+Genworth Mi Canada Inc
+43.24	
+51.00
+45.00
+47.92
+47.25
+ MIN-T
+Excelsior Mining Corp
+0.95	
+2.50
+2.50
+2.50
+2.50
+ MKP-T
+Mcan Mortgage Corp
+17.45	
+17.00
+17.00
+17.00
+17.00
+ MND-T
+Mandalay Resources Corp
+0.16	
+1.10
+1.10
+1.10
+1.10
+ MNR-T
+Mason Resources Corp
+0.17	
+N/A
+N/A
+N/A
+N/A
+ MNW-T
+Mitel Networks Corp
+14.34	
+15.19
+14.38
+14.79
+14.79
+ MOGO-T
+Mogo Finance Technology Inc
+3.78	
+12.00
+7.25
+9.60
+9.57
+ MOZ-T
+Marathon Gold Corp
+0.83	
+1.80
+1.80
+1.80
+1.80
+ MPC-T
+Madison Pac Cl B
+4.19	
+N/A
+N/A
+N/A
+N/A
+ MPVD-T
+Mountain Province Diamonds Inc
+2.64	
+6.30
+6.30
+6.30
+6.30
+ MRC-T
+Morguard Corp
+183.20	
+165.00
+165.00
+165.00
+165.00
+ MRD-T
+Melcor Dev
+14.25	
+35.00
+35.00
+35.00
+35.00
+ MRE-T
+Martinrea International Inc
+13.52	
+24.00
+20.00
+21.14
+21.00
+ MRU-T
+Metro Inc
+40.57	
+50.00
+44.00
+46.25
+45.50
+ MSI-T
+Morneau Shepell Inc
+26.71	
+31.00
+23.00
+28.00
+29.00
+ MSV-T
+Minco Silver Corp
+0.55	
+N/A
+N/A
+N/A
+N/A
+ MTL-T
+Mullen Group Ltd
+15.17	
+19.00
+14.85
+17.51
+17.75
+ MTY-T
+Mty Food Group Inc
+64.48	
+62.00
+52.50
+57.50
+58.00
+ MUX-T
+Mcewen Mining Inc
+2.52	
+6.50
+3.91
+5.21
+5.21
+ MX-T
+Methanex Corp
+103.64	
+111.27
+90.59
+100.95
+100.25
+ MXG-T
+Maxim Power Corp
+2.39	
+N/A
+N/A
+N/A
+N/A
+ NA-T
+National Bank of Canada
+65.02	
+73.00
+66.00
+68.90
+69.00
+ NAL-T
+Newalta Corp
+1.30	
+2.50
+1.32
+1.86
+1.75
+ NB-T
+Niocorp Developments Ltd
+0.56	
+1.20
+1.20
+1.20
+1.20
+ NCF-T
+Northcliff Resources Ltd
+0.08	
+N/A
+N/A
+N/A
+N/A
+ NCP-T
+Nickel Creek Platinum Corp
+0.11	
+N/A
+N/A
+N/A
+N/A
+ NCU-T
+Nevada Copper Corp
+0.53	
+1.00
+0.90
+0.95
+0.95
+ NDM-T
+Northern Dynasty Minerals Ltd
+0.70	
+1.90
+1.90
+1.90
+1.90
+ NEO-T
+NEO Performance Materials Inc
+18.00	
+26.00
+23.00
+24.83
+25.00
+ NEXA-T
+Nexa Resources S.A.
+15.40	
+N/A
+N/A
+N/A
+N/A
+ NEXT-T
+Nextsource Materials Inc
+0.08	
+N/A
+N/A
+N/A
+N/A
+ NG-T
+Novagold Res Inc
+4.73	
+9.01
+7.80
+8.40
+8.40
+ NGD-T
+New Gold Inc
+0.98	
+6.00
+0.75
+2.32
+1.70
+ NGQ-T
+Ngex Resources Inc
+1.01	
+1.25
+1.25
+1.25
+1.25
+ NHK-T
+Nighthawk Gold Corp
+0.40	
+1.30
+0.60
+0.95
+0.95
+ NKO-T
+Niko Res
+0.07	
+0.50
+0.50
+0.50
+0.50
+ NML-T
+New Millennium Iron Corp
+0.05	
+0.10
+0.10
+0.10
+0.10
+ NMX-T
+Nemaska Lithium Inc
+0.79	
+3.00
+1.70
+2.20
+2.00
+ NOA-T
+North American Energy Partners Inc
+12.69	
+14.00
+11.50
+12.67
+12.50
+ NPK-T
+Verde Agritech Plc
+0.65	
+2.80
+2.80
+2.80
+2.80
+ NSU-T
+Nevsun Res J
+5.78	
+6.00
+3.75
+4.89
+4.75
+ NTR-T
+Nutrien Ltd
+74.27	
+91.40
+68.90
+83.26
+83.91
+ NUS-T
+Nautilus Minerals Inc
+0.09	
+1.10
+1.10
+1.10
+1.10
+ NVA-T
+Nuvista Energy Ltd
+7.50	
+13.00
+10.50
+11.73
+11.75
+ NWC-T
+The North West Company Inc
+28.42	
+34.00
+31.00
+32.75
+33.00
+ NXE-T
+Nexgen Energy Ltd
+2.61	
+6.00
+6.00
+6.00
+6.00
+ NXJ-T
+Nexj Systems Inc
+1.55	
+3.25
+3.25
+3.25
+3.25
+ OBE-T
+Obsidian Energy Ltd
+1.25	
+2.50
+1.70
+2.04
+2.00
+ OGC-T
+Oceanagold Corp
+3.90	
+5.00
+4.20
+4.74
+4.88
+ OGD-T
+Orbit Garant Drilling Inc
+2.05	
+2.50
+2.50
+2.50
+2.50
+ OLY-T
+Olympia Financial Group Inc
+48.94	
+N/A
+N/A
+N/A
+N/A
+ OMI-T
+Orosur Mining Inc
+0.14	
+N/A
+N/A
+N/A
+N/A
+ ONEX-T
+Onex Corp
+88.78	
+111.00
+99.50
+105.62
+106.00
+ OPS-T
+Opsens Inc
+0.86	
+2.00
+2.00
+2.00
+2.00
+ OPT-T
+Optiva Inc
+49.00	
+55.00
+45.00
+48.33
+45.00
+ OR-T
+Osisko Gold Royalties Ltd
+9.73	
+22.50
+14.50
+17.31
+16.50
+ ORA-T
+Aura Minerals Inc
+2.06	
+N/A
+N/A
+N/A
+N/A
+ ORL-T
+Orocobre Limited
+3.95	
+9.10
+6.25
+7.67
+7.67
+ ORV-T
+Orvana Minerals J
+0.15	
+N/A
+N/A
+N/A
+N/A
+ OSB-T
+Norbord Inc
+45.55	
+67.00
+48.70
+58.87
+58.00
+ OSK-T
+Osisko Mining Inc
+2.33	
+4.50
+4.00
+4.26
+4.20
+ OTEX-T
+Open Text Corp
+50.17	
+64.00
+42.00
+57.58
+58.50
+ OXC-T
+Oryx Petroleum Corporation Ltd
+0.22	
+0.65
+0.65
+0.65
+0.65
+ PAAS-T
+Pan American Silver Corp
+18.78	
+28.90
+21.90
+24.52
+23.63
+ PATH-T
+Counterpath Corp
+2.62	
+5.75
+5.75
+5.75
+5.75
+ PAY-T
+Posera Ltd
+0.10	
+N/A
+N/A
+N/A
+N/A
+ PBH-T
+Premium Brands Holdings Corp
+95.99	
+142.00
+115.00
+132.12
+135.00
+ PBL-T
+Pollard Banknote Limited
+25.44	
+25.00
+19.50
+23.17
+25.00
+ PCY-T
+Prophecy Development Corp
+0.12	
+N/A
+N/A
+N/A
+N/A
+ PD-T
+Precision Drilling Corp
+4.45	
+7.50
+5.00
+6.42
+6.68
+ PDL-T
+North American Palladium Ltd
+9.85	
+80.00
+80.00
+80.00
+80.00
+ PEY-T
+Peyto Exploration and Dvlpmnt Corp
+11.04	
+18.00
+12.50
+15.11
+16.00
+ PG-T
+Premier Gold Mines Ltd
+1.74	
+4.65
+4.65
+4.65
+4.65
+ PGD-T
+Peregrine Diamonds Ltd
+0.24	
+0.55
+0.55
+0.55
+0.55
+ PGF-T
+Pengrowth Energy Corp
+1.13	
+1.25
+0.85
+1.07
+1.10
+ PGLC-T
+Pershing Gold Corp
+1.55	
+N/A
+N/A
+N/A
+N/A
+ PHO-T
+Photon Control Inc
+1.79	
+2.75
+2.75
+2.75
+2.75
+ PHX-T
+Phx Energy Services Corp
+3.28	
+3.50
+3.50
+3.50
+3.50
+ PKI-T
+Parkland Fuel Corp
+43.63	
+46.00
+32.50
+42.00
+44.00
+ PLC-T
+Park Lawn Corp
+26.53	
+32.00
+28.50
+29.92
+29.75
+ PMT-T
+Perpetual Energy Inc
+0.33	
+0.90
+0.80
+0.83
+0.80
+ PMTS-T
+CPI Card Group Inc
+4.42	
+N/A
+N/A
+N/A
+N/A
+ PNE-T
+Pine Cliff Energy Ltd
+0.31	
+0.50
+0.40
+0.45
+0.45
+ PNP-T
+Pinetree Capital Ltd
+1.98	
+N/A
+N/A
+N/A
+N/A
+ POM-T
+Polymet Mining Corp
+1.29	
+1.70
+1.70
+1.70
+1.70
+ PONY-T
+Painted Pony Energy Ltd
+3.18	
+5.25
+2.75
+3.39
+3.00
+ POU-T
+Paramount Resources Ltd
+14.01	
+35.00
+18.00
+24.05
+22.00
+ POW-T
+Power Corporation of Canada Sv
+28.57	
+36.00
+31.00
+34.07
+34.00
+ PPL-T
+Pembina Pipeline Corp
+44.74	
+57.00
+49.00
+53.36
+53.00
+ PPR-T
+Prairie Provident Resources Inc
+0.38	
+2.00
+0.65
+1.10
+0.88
+ PRK-T
+Potash Ridge Corp
+0.07	
+N/A
+N/A
+N/A
+N/A
+ PRQ-T
+Petrus Resources Ltd
+0.92	
+2.50
+1.50
+2.00
+2.00
+ PRU-T
+Perseus Mining Limited
+0.32	
+0.37
+0.37
+0.37
+0.37
+ PSD-T
+Pulse Seismic Inc
+2.30	
+3.00
+3.00
+3.00
+3.00
+ PSI-T
+Pason Systems Inc
+19.78	
+24.50
+20.50
+22.75
+23.00
+ PSK-T
+Prairiesky Royalty Ltd
+23.04	
+40.00
+28.50
+34.22
+35.00
+ PTG-T
+Pivot Technology Solutions Inc
+1.49	
+6.00
+6.00
+6.00
+6.00
+ PTM-T
+Platinum Group Metals Ltd
+0.23	
+9.00
+9.00
+9.00
+9.00
+ PTS-T
+Points International Ltd
+18.16	
+24.96
+24.96
+24.96
+24.96
+ PVG-T
+Pretium Resources Inc
+9.90	
+24.70
+15.00
+18.28
+17.38
+ PWF-T
+Power Financial Corp
+29.86	
+39.00
+34.00
+37.00
+37.00
+ PXT-T
+Parex Resources Inc
+21.49	
+39.50
+27.00
+31.88
+30.75
+ PXX-T
+Blackpearl Resources Inc
+1.20	
+2.40
+1.60
+2.00
+2.00
+ PZA-T
+Pizza Pizza Royalty Corp
+9.76	
+N/A
+N/A
+N/A
+N/A
+ QEC-T
+Questerre Energy Corp
+0.50	
+1.00
+1.00
+1.00
+1.00
+ QSR-T
+Restaurant Brands International Inc
+77.22	
+97.75
+84.50
+92.34
+91.70
+ QTRH-T
+Quarterhill Inc
+1.84	
+2.75
+2.50
+2.62
+2.62
+ R-T
+Red Eagle Mining Corp
+0.08	
+0.90
+0.55
+0.68
+0.60
+ RBA-T
+Ritchie Bros Auctioneers Inc
+47.42	
+55.44
+36.29
+46.72
+47.46
+ RCH-T
+Richelieu Hardware Ltd
+29.78	
+36.00
+35.00
+35.50
+35.50
+ RDL-T
+Redline Communications Group Inc
+1.75	
+4.50
+4.50
+4.50
+4.50
+ REAL-T
+Real Matters Inc
+4.63	
+6.50
+6.00
+6.25
+6.25
+ RECP-T
+Recipe Unlimited Corporation
+29.71	
+36.00
+30.00
+33.00
+33.00
+ RET-T
+Reitmans Canada
+4.16	
+N/A
+N/A
+N/A
+N/A
+ RFP-T
+Resolute Forest Products Inc
+17.59	
+18.86
+12.48
+15.65
+15.60
+ RGX-T
+Argex Titanium Inc
+0.04	
+3.88
+3.88
+3.88
+3.88
+ RME-T
+Rocky Mountain Dealerships Inc
+10.52	
+16.00
+13.00
+14.62
+14.75
+ RMX-T
+Rubicon Minerals Corp
+1.25	
+3.25
+3.25
+3.25
+3.25
+ RNX-T
+Royal Nickel Corp
+0.80	
+0.40
+0.40
+0.40
+0.40
+ ROOT-T
+Roots Corporation
+6.24	
+17.00
+10.00
+14.21
+14.00
+ ROXG-T
+Roxgold Inc
+0.82	
+2.50
+1.90
+2.17
+2.10
+ RRX-T
+Raging River Exploration Inc
+5.99	
+13.15
+6.45
+9.57
+9.00
+ RSI-T
+Rogers Sugar Inc
+5.57	
+6.00
+5.75
+5.88
+5.88
+ RTG-T
+Rtg Mining Inc
+0.11	
+1.05
+1.05
+1.05
+1.05
+ RUS-T
+Russel Metals
+27.17	
+39.00
+32.00
+35.75
+36.00
+ RY-T
+Royal Bank of Canada
+104.76	
+122.00
+104.00
+111.80
+111.00
+ S-T
+Sherritt Intl Rv
+0.79	
+2.50
+1.60
+1.95
+1.75
+ SAM-T
+Starcore International Mines Ltd
+0.11	
+N/A
+N/A
+N/A
+N/A
+ SAP-T
+Saputo Inc
+38.52	
+52.00
+40.00
+46.80
+45.00
+ SAU-T
+ST Augustine Gold and Copper Ltd
+0.03	
+N/A
+N/A
+N/A
+N/A
+ SBB-T
+Sabina Gold and Silver Corp
+1.22	
+3.25
+2.35
+2.98
+3.00
+ SBI-T
+Serabi Gold Plc
+0.70	
+N/A
+N/A
+N/A
+N/A
+ SBR-T
+Silver Bear Resources Plc
+0.17	
+N/A
+N/A
+N/A
+N/A
+ SCB-T
+Street Capital Group Inc
+0.92	
+0.90
+0.90
+0.90
+0.90
+ SCL-T
+Shawcor Ltd
+24.39	
+36.00
+32.00
+34.00
+34.00
+ SCU-T
+The Second Cup Ltd
+2.74	
+N/A
+N/A
+N/A
+N/A
+ SCY-T
+Scandium International Mining Corp
+0.26	
+N/A
+N/A
+N/A
+N/A
+ SDY-T
+Strad Energy Services Ltd
+1.55	
+2.25
+2.25
+2.25
+2.25
+ SEA-T
+Seabridge Gold Inc
+16.96	
+22.27
+22.27
+22.27
+22.27
+ SEC-T
+Senvest Capital
+203.50	
+N/A
+N/A
+N/A
+N/A
+ SES-T
+Secure Energy Services Inc
+8.39	
+14.50
+11.00
+12.50
+12.50
+ SEV-T
+Spectra7 Microsystems Inc
+0.15	
+0.15
+0.15
+0.15
+0.15
+ SFD-T
+Nxt Energy Solutions Inc
+0.61	
+N/A
+N/A
+N/A
+N/A
+ SGQ-T
+Southgobi Resources Ltd
+0.12	
+0.45
+0.45
+0.45
+0.45
+ SGY-T
+Surge Energy Inc
+2.61	
+4.00
+2.70
+3.41
+3.50
+ SHLE-T
+Source Energy Services Ltd
+4.28	
+N/A
+N/A
+N/A
+N/A
+ SHOP-T
+Shopify Inc
+213.86	
+246.34
+134.93
+203.44
+203.85
+ SIA-T
+Sienna Senior Living Inc
+17.18	
+19.00
+19.00
+19.00
+19.00
+ SII-T
+Sprott Inc
+3.01	
+3.25
+2.75
+2.92
+2.75
+ SIS-T
+Savaria Corp
+20.20	
+26.00
+21.00
+22.75
+22.00
+ SJ-T
+Stella Jones Inc
+43.76	
+60.00
+48.00
+53.33
+53.00
+ SLF-T
+Sun Life Financial Inc
+52.21	
+62.00
+56.00
+59.27
+60.00
+ SLR-T
+Solitario Zinc Corp
+0.47	
+1.41
+1.41
+1.41
+1.41
+ SMC-T
+Sulliden Mining Capital Inc
+0.18	
+N/A
+N/A
+N/A
+N/A
+ SMF-T
+SEMAFO J
+3.04	
+6.50
+5.00
+5.65
+5.50
+ SMT-T
+Sierra Metals Inc
+3.24	
+5.62
+3.50
+4.81
+5.54
+ SNC-T
+Snc-Lavalin Sv
+53.35	
+77.00
+67.00
+72.50
+72.75
+ SOLG-T
+Solgold Plc
+0.60	
+1.20
+0.60
+0.90
+0.90
+ SOX-T
+Stuart Olson Inc
+5.71	
+9.00
+6.50
+8.20
+8.50
+ SPB-T
+Superior Plus Corp
+12.76	
+16.00
+13.75
+15.03
+15.00
+ SQP-T
+Strongco Corp
+2.49	
+3.00
+3.00
+3.00
+3.00
+ SRHI-T
+Sprott Resource Holdings Inc
+1.48	
+2.80
+2.80
+2.80
+2.80
+ SRX-T
+Storm Resources Ltd
+2.57	
+5.00
+3.00
+3.77
+3.50
+ SSL-T
+Sandstorm Gold Ltd
+4.86	
+10.00
+6.25
+8.31
+8.50
+ SSRM-T
+Ssr Mining Inc
+11.25	
+22.00
+13.00
+17.25
+17.00
+ STEP-T
+Step Energy Services Ltd
+5.53	
+24.00
+15.00
+17.50
+15.50
+ STGO-T
+Steppe Gold Ltd
+1.24	
+N/A
+N/A
+N/A
+N/A
+ STLC-T
+Stelco Holdings Inc
+21.56	
+47.00
+34.50
+38.83
+35.00
+ STN-T
+Stantec Inc
+32.36	
+40.00
+35.00
+37.50
+37.50
+ SU-T
+Suncor Energy Inc
+51.41	
+69.00
+50.00
+60.84
+61.00
+ SUM-T
+Solium Capital Inc
+11.30	
+15.50
+11.50
+13.81
+14.00
+ SVB-T
+Silver Bull Resources Inc
+0.14	
+N/A
+N/A
+N/A
+N/A
+ SVM-T
+Silvercorp Metals Inc
+3.17	
+5.53
+5.53
+5.53
+5.53
+ SW-T
+Sierra Wireless
+26.04	
+29.90
+26.40
+28.15
+28.15
+ SWH-T
+Sunwah International Limited
+0.20	
+N/A
+N/A
+N/A
+N/A
+ SWY-T
+Stornoway Diamond Corp
+0.36	
+1.30
+1.30
+1.30
+1.30
+ SXP-T
+Supremex Inc
+3.44	
+4.25
+4.25
+4.25
+4.25
+ T-T
+Telus Corp
+48.18	
+54.00
+48.00
+51.23
+51.00
+ TA-T
+Transalta Corp
+7.25	
+9.00
+8.50
+8.80
+9.00
+ TAO-T
+Tag Oil Ltd
+0.40	
+0.70
+0.70
+0.70
+0.70
+ TBL-T
+Taiga Building Products Ltd
+1.55	
+N/A
+N/A
+N/A
+N/A
+ TC-T
+Tucows Inc
+72.38	
+60.00
+60.00
+60.00
+60.00
+ TCN-T
+Tricon Capital Group Inc
+10.94	
+15.00
+13.00
+13.75
+13.75
+ TCS-T
+Tecsys Inc J
+16.55	
+19.50
+16.50
+18.19
+18.38
+ TCW-T
+Trican Well
+2.30	
+7.25
+4.00
+5.21
+4.75
+ TD-T
+Toronto-Dominion Bank
+79.34	
+93.00
+81.00
+86.23
+86.00
+ TDG-T
+Trinidad Drilling Ltd
+1.87	
+3.50
+2.00
+2.56
+2.50
+ TEI-T
+Toscana Energy Income Corp
+0.26	
+N/A
+N/A
+N/A
+N/A
+ TF-T
+Timbercreek Financial Corp
+9.44	
+10.25
+10.25
+10.25
+10.25
+ TFII-T
+Tfi International Inc
+48.22	
+56.00
+37.00
+48.55
+49.00
+ TGL-T
+Transglobe Energy Corp
+4.31	
+6.38
+3.25
+5.16
+5.50
+ TGO-T
+Terago Inc
+7.90	
+7.50
+6.75
+7.08
+7.00
+ TGZ-T
+Teranga Gold Corp
+3.59	
+6.50
+5.50
+6.08
+6.25
+ THO-T
+Tahoe Resources Inc
+3.49	
+9.90
+3.94
+6.46
+5.62
+ TI-T
+Titan Mining Corporation
+1.34	
+1.75
+1.75
+1.75
+1.75
+ TIH-T
+Toromont Ind
+66.53	
+71.00
+61.00
+65.86
+65.00
+ TKO-T
+Taseko Mines Ltd
+1.02	
+2.85
+2.10
+2.48
+2.48
+ TLO-T
+Talon Metals Corp
+0.08	
+0.25
+0.25
+0.25
+0.25
+ TMI-T
+Trimetals Mining Inc
+0.10	
+N/A
+N/A
+N/A
+N/A
+ TML-T
+Treasury Metals Inc
+0.30	
+1.20
+1.20
+1.20
+1.20
+ TMQ-T
+Trilogy Metals Inc
+2.58	
+4.45
+3.00
+3.73
+3.73
+ TMR-T
+Tmac Resources Inc
+4.68	
+12.00
+8.50
+10.25
+10.25
+ TNP-T
+Transatlantic Petroleum Ltd
+2.06	
+N/A
+N/A
+N/A
+N/A
+ TNX-T
+Tanzanian Royalty Exploration Corp
+0.46	
+N/A
+N/A
+N/A
+N/A
+ TOG-T
+Torc Oil and Gas Ltd
+6.45	
+11.50
+8.00
+10.06
+10.00
+ TOT-T
+Total Energy Services Inc
+10.98	
+18.00
+14.50
+16.80
+17.00
+ TOU-T
+Tourmaline Oil Corp
+21.92	
+35.00
+28.00
+31.71
+32.50
+ TOY-T
+Spin Master Corp
+51.20	
+68.00
+55.00
+63.88
+65.00
+ TPH-T
+Temple Hotels Inc
+2.71	
+5.00
+5.00
+5.00
+5.00
+ TPK-T
+Ten Peaks Coffee Company Inc
+6.00	
+12.00
+12.00
+12.00
+12.00
+ TRI-T
+Thomson Reuters Corp
+59.53	
+67.60
+45.00
+57.94
+60.55
+ TRL-T
+Trilogy International Partners Inc
+3.80	
+1.13
+1.13
+1.13
+1.13
+ TRP-T
+Transcanada Corp
+52.38	
+77.00
+59.33
+67.48
+65.00
+ TRQ-T
+Turquoise Hill Resources Ltd
+2.76	
+6.00
+6.00
+6.00
+6.00
+ TRZ-T
+Transat At Inc
+7.95	
+14.50
+8.50
+11.17
+10.75
+ TSGI-T
+The Stars Group Inc
+33.24	
+60.00
+46.00
+53.60
+52.00
+ TSL-T
+Tree Island Steel Ltd
+2.64	
+3.50
+3.50
+3.50
+3.50
+ TSU-T
+Trisura Group Ltd
+27.26	
+N/A
+N/A
+N/A
+N/A
+ TV-T
+Trevali Mining Corp
+0.71	
+2.05
+1.10
+1.63
+1.75
+ TVE-T
+Tamarack Valley Energy Ltd
+5.03	
+7.00
+4.00
+6.02
+6.00
+ TVK-T
+Terravest Capital Inc
+10.95	
+6.25
+6.25
+6.25
+6.25
+ TWC-T
+Twc Enterprises Limited
+12.28	
+N/A
+N/A
+N/A
+N/A
+ TWM-T
+Tidewater Midstream and Infras Ltd
+1.39	
+2.55
+2.00
+2.28
+2.25
+ TXG-T
+Torex Gold Resources Inc
+11.08	
+21.00
+15.50
+18.20
+18.00
+ TXP-T
+Touchstone Exploration Inc
+0.29	
+0.50
+0.50
+0.50
+0.50
+ TZS-T
+Trez Capital Senior Mortgage Inv Corp
+2.41	
+8.90
+8.90
+8.90
+8.90
+ TZZ-T
+Trez Capital Mortgage Inv Corp
+0.50	
+8.60
+8.60
+8.60
+8.60
+ U-T
+Uranium Participation Co
+4.70	
+7.00
+5.00
+5.52
+5.10
+ UEX-T
+Uex Corp
+0.20	
+0.50
+0.50
+0.50
+0.50
+ UFS-T
+Domtar Corp
+69.61	
+71.00
+57.24
+64.54
+64.19
+ UNS-T
+Uni Select Inc
+21.71	
+29.00
+23.00
+25.88
+25.75
+ UR-T
+Urthecast Corp
+0.24	
+1.00
+1.00
+1.00
+1.00
+ URB-T
+Urbana Corporation
+2.79	
+N/A
+N/A
+N/A
+N/A
+ URE-T
+Ur-Energy Inc
+1.05	
+2.48
+1.31
+1.92
+1.98
+ USA-T
+Americas Silver Corp
+3.15	
+8.25
+6.05
+6.81
+6.46
+ UWE-T
+U3O8 Corp
+0.33	
+N/A
+N/A
+N/A
+N/A
+ VB-T
+Versabank
+7.13	
+9.00
+9.00
+9.00
+9.00
+ VCM-T
+Vecima Networks Inc
+9.35	
+13.00
+13.00
+13.00
+13.00
+ VET-T
+Vermilion Energy Inc
+42.25	
+62.00
+54.00
+58.00
+60.00
+ VGZ-T
+Vista Gold Corp
+0.66	
+3.15
+3.15
+3.15
+3.15
+ VII-T
+Seven Generations Energy Ltd
+15.06	
+31.00
+19.00
+25.05
+24.00
+ VLE-T
+Valeura Energy Inc
+4.60	
+12.50
+9.00
+10.83
+11.00
+ VLN-T
+Velan Inc Sv
+11.70	
+N/A
+N/A
+N/A
+N/A
+ VNR-T
+Valener Inc
+19.11	
+22.50
+22.00
+22.25
+22.25
+ WCN-T
+Waste Connections Inc
+103.88	
+120.00
+105.20
+112.80
+111.34
+ WCP-T
+Whitecap Resources Inc
+7.88	
+16.00
+12.50
+13.65
+13.50
+ WDO-T
+Wesdome Gold Mines Ltd
+3.46	
+5.10
+4.25
+4.61
+4.50
+ WEF-T
+Western Forest Products Inc
+2.19	
+3.50
+3.00
+3.29
+3.33
+ WEQ-T
+Westernone Inc
+1.54	
+1.85
+1.85
+1.85
+1.85
+ WFC-T
+Wall Financial
+29.00	
+N/A
+N/A
+N/A
+N/A
+ WFT-T
+West Fraser Timber Co Ltd
+79.34	
+122.00
+76.00
+103.67
+106.00
+ WJA-T
+Westjet Airlines Ltd
+20.57	
+31.00
+17.00
+21.80
+18.75
+ WJX-T
+Wajax Corp
+26.38	
+33.00
+29.00
+31.00
+31.00
+ WM-T
+Wallbridge Mining Company Ltd
+0.21	
+N/A
+N/A
+N/A
+N/A
+ WN-T
+Weston George
+98.16	
+138.00
+116.00
+124.33
+119.00
+ WPK-T
+Winpak Ltd
+47.46	
+56.50
+54.00
+55.12
+55.00
+ WPM-T
+Wheaton Precious Metals Corp
+22.63	
+46.20
+30.90
+37.05
+35.00
+ WRG-T
+Western Energy Services Corp
+0.76	
+1.50
+1.25
+1.32
+1.27
+ WRN-T
+Western Copper and Gold Corp
+0.89	
+2.40
+2.25
+2.33
+2.33
+ WRX-T
+Western Resources Corp
+0.29	
+N/A
+N/A
+N/A
+N/A
+ WSP-T
+WSP Global Inc
+70.80	
+83.00
+63.00
+73.30
+73.50
+ WTE-T
+Westshore Terminals Investment Corp
+26.77	
+30.00
+25.00
+27.40
+27.00
+ X-T
+Tmx Group Limited
+87.10	
+98.00
+86.00
+92.67
+93.50
+ XAU-T
+Goldmoney Inc
+2.48	
+8.25
+8.25
+8.25
+8.25
+ XCT-T
+Exactearth Ltd
+0.32	
+1.00
+1.00
+1.00
+1.00
+ XDC-T
+Xtreme Drilling Corp
+1.90	
+2.26
+2.26
+2.26
+2.26
+ XTC-T
+Exco Tech
+9.36	
+14.00
+11.00
+12.50
+12.50
+ XTG-T
+Xtra Gold Resources Corp
+0.25	
+N/A
+N/A
+N/A
+N/A
+ Y-T
+Yellow Pages Limited
+8.34	
+12.00
+11.00
+11.50
+11.50
+ YGR-T
+Yangarra Resources Ltd
+4.74	
+9.00
+7.50
+8.25
+8.25
+ YRB-T
+Yorbeau Resources Inc
+0.03	
+N/A
+N/A
+N/A
+N/A
+ YRI-T
+Yamana Gold Inc
+3.16	
+6.50
+2.90
+4.89
+5.25
+ ZAR-T
+Zargon Oil and Gas Ltd
+0.22	
+0.30
+0.30
+0.30
+0.30
+ ZCL-T
+Zcl Composites
+7.37	
+10.00
+10.00
+10.00
+10.00
+ ZZZ-T
+Sleep Country Canada Holdings Inc
+29.68	
+46.00
+35.00
+40.75
+41.50
+A-X
+Armor Minerals Inc
+0.410	
+N/A
+N/A
+N/A
+N/A
+ AA-X
+Alba Minerals Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ AAD-X
+Added Capital Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ AAL-X
+Advantage Lithium Corp
+0.660	
+2.500
+1.700
+2.020
+1.850
+ AAN-X
+Aton Resources Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ AAO-X
+Augusta Industries Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ AAP-X
+Alpha Peak Leisure Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ AAX-X
+Advance Gold Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ AAZ-X
+Azincourt Energy Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ABI-X
+Abcourt Mines Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ ABM-X
+Athabasca Minerals Inc
+0.280	
+0.850
+0.850
+0.850
+0.850
+ ABN-X
+Aben Resources Ltd
+0.200	
+N/A
+N/A
+N/A
+N/A
+ ABRA-X
+Abraplata Resource Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ ABZ-X
+Asiabasemetals Inc
+0.360	
+N/A
+N/A
+N/A
+N/A
+ ACP-X
+Arcpacific Resources Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ACS-X
+Archon Minerals Limited
+0.680	
+N/A
+N/A
+N/A
+N/A
+ ADD-X
+Arctic Star Exploration Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ ADE-X
+Adex Mining Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ ADG-X
+Arcus Development Group Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ ADK-X
+Diagnos Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ ADYA-X
+Adya Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ ADZ-X
+Adamera Minerals Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ADZN-X
+Adventus Zinc Corp
+1.050	
+N/A
+N/A
+N/A
+N/A
+ AEC-X
+Anfield Energy Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ AEP-X
+Atlas Engineered Products Ltd
+0.385	
+N/A
+N/A
+N/A
+N/A
+ AET-X
+Aethon Minerals Corporation
+0.380	
+N/A
+N/A
+N/A
+N/A
+ AEX-X
+Aex Gold Inc
+0.360	
+N/A
+N/A
+N/A
+N/A
+ AFCC-X
+Automotive Finco Corp
+1.950	
+N/A
+N/A
+N/A
+N/A
+ AFE-X
+Africa Energy Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ AFF-X
+Affinity Metals Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ AFM-X
+Alphamin Resources Corp
+0.250	
+N/A
+N/A
+N/A
+N/A
+ AGB-X
+Atlantic Gold Corp
+1.640	
+4.000
+1.800
+2.870
+2.750
+ AGC-X
+Amarillo Gold Corp
+0.280	
+0.800
+0.800
+0.800
+0.800
+ AGD-X
+Antioquia Gold Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ AGG-X
+African Gold Group Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ AGL-X
+Aguila American Gold Ltd
+0.180	
+N/A
+N/A
+N/A
+N/A
+ AGLD-X
+Austral Gold Limited
+0.070	
+N/A
+N/A
+N/A
+N/A
+ AGM-X
+Aldridge Minerals Inc
+0.075	
+1.500
+1.500
+1.500
+1.500
+ AGO-X
+Aurcrest Gold Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ AGRL-X
+Aguia Resources Limited
+0.130	
+N/A
+N/A
+N/A
+N/A
+ AGZ-X
+Ashanti Gold Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ AHE-X
+American Helium Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ AHP-X
+Allied Hotel Properties Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ AHR-X
+Amarc Resources Ltd
+0.070	
+N/A
+N/A
+N/A
+N/A
+ AHS-X
+Alta Natural Herbs and S
+0.065	
+N/A
+N/A
+N/A
+N/A
+ AHU-X
+Arctic Hunter Energy Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ AIIM-X
+Albert Mining Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ AIS-X
+Ais Resources Limited
+0.115	
+N/A
+N/A
+N/A
+N/A
+ AKR-X
+Ackroo Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ AL-X
+Alx Uranium Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ALD-X
+Aldever Resources Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ ALG-X
+Algold Resources Ltd
+0.470	
+2.000
+2.000
+2.000
+2.000
+ ALM-X
+Alliance Mining Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ ALT-X
+Alturas Minerals Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ ALTA-X
+Altamira Gold Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ ALTS-X
+Altus Strategies Plc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ ALV-X
+Alvopetro Energy Ltd
+0.450	
+0.800
+0.800
+0.800
+0.800
+ ALY-X
+Analytixinsight Inc
+0.350	
+N/A
+N/A
+N/A
+N/A
+ ALZ-X
+Aldershot Resources Ltd
+0.300	
+N/A
+N/A
+N/A
+N/A
+ AME-X
+Abacus Mining and Exploration
+0.140	
+N/A
+N/A
+N/A
+N/A
+ AMK-X
+American Creek Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ AMO-X
+Altan Rio Minerals Limited
+0.015	
+N/A
+N/A
+N/A
+N/A
+ AMR-X
+Am Resources Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ AMX-X
+AMEX Exploration Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ AMY-X
+American Manganese Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ AMZ-X
+Azucar Minerals Ltd
+0.510	
+N/A
+N/A
+N/A
+N/A
+ AN-X
+Arena Minerals Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ ANE-X
+Altan Nevada Minerals Limited
+0.015	
+N/A
+N/A
+N/A
+N/A
+ ANG-X
+Angel Gold Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ ANK-X
+Angkor Gold Corp
+0.170	
+N/A
+N/A
+N/A
+N/A
+ ANTL-X
+Antler Gold Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ ANZ-X
+Alianza Minerals Ltd
+0.075	
+N/A
+N/A
+N/A
+N/A
+ AORO-X
+Aloro Mining Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ AOT-X
+Ascot Resources Ltd
+0.900	
+N/A
+N/A
+N/A
+N/A
+ APL-X
+Appulse Corp
+0.135	
+N/A
+N/A
+N/A
+N/A
+ APN-X
+Altiplano Minerals Ltd
+0.205	
+N/A
+N/A
+N/A
+N/A
+ APX-X
+Apex Resources Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ARA-X
+Anconia Resources Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ ARD-X
+Armada Data Corp
+0.145	
+N/A
+N/A
+N/A
+N/A
+ ARH-X
+Altima Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ ARIC-X
+Awale Resources Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ ART-X
+Arht Media Inc
+0.245	
+N/A
+N/A
+N/A
+N/A
+ ARU-X
+Aurania Resources Ltd
+2.360	
+N/A
+N/A
+N/A
+N/A
+ ASI-X
+Ashanti Sankofa Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ ASL-X
+Argentum Silver Corp
+0.190	
+N/A
+N/A
+N/A
+N/A
+ ASN-X
+Asian Mineral Res Ltd
+1.300	
+N/A
+N/A
+N/A
+N/A
+ ASQ-X
+Astorius Resources Ltd
+0.035	
+N/A
+N/A
+N/A
+N/A
+ AT-X
+Acuityads Holdings Inc
+1.250	
+3.850
+1.750
+2.800
+2.800
+ ATC-X
+Atac Resources Ltd
+0.440	
+0.500
+0.500
+0.500
+0.500
+ ATG-X
+Atlanta Gold Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ ATI-X
+Altai Resources Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ ATM-X
+Atacama Pacific Gold Corp
+0.680	
+0.500
+0.500
+0.500
+0.500
+ ATU-X
+Altura Energy Inc
+0.520	
+0.950
+0.850
+0.920
+0.950
+ ATV-X
+Alto Ventures Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ ATW-X
+Atw Tech Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ATY-X
+Atico Mining Corp
+0.390	
+1.000
+1.000
+1.000
+1.000
+ AU-X
+Aurion Resources Ltd
+1.960	
+N/A
+N/A
+N/A
+N/A
+ AUAU-X
+Allegiant Gold Ltd
+0.415	
+0.900
+0.900
+0.900
+0.900
+ AUL-X
+Aurelius Minerals Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ AUN-X
+Aurcana Corp
+0.225	
+N/A
+N/A
+N/A
+N/A
+ AUT-X
+Austin Resources Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ AUU-X
+Aura Silver Resources Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ AUX-X
+Auramex Resource Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ AVG-X
+Avidian Gold Corp
+0.600	
+N/A
+N/A
+N/A
+N/A
+ AVN-X
+Avanti Energy Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ AVU-X
+Avrupa Minerals Ltd
+0.060	
+N/A
+N/A
+N/A
+N/A
+ AVX-X
+Altair Resources Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ AWE-X
+Thunderstruck Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ AWI-X
+Advent Awi Holdings Inc
+1.000	
+N/A
+N/A
+N/A
+N/A
+ AXE-X
+Acceleware Ltd
+0.215	
+N/A
+N/A
+N/A
+N/A
+ AXIS-X
+Axis Auto Finance Inc
+0.500	
+N/A
+N/A
+N/A
+N/A
+ AXM-X
+Axmin Inc
+0.230	
+N/A
+N/A
+N/A
+N/A
+ AXQ-X
+Axe Exploration Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ AXV-X
+Axion Ventures Inc
+0.890	
+N/A
+N/A
+N/A
+N/A
+ AZM-X
+Azimut Exploration Inc
+0.260	
+N/A
+N/A
+N/A
+N/A
+ AZR-X
+Azarga Metals Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ AZS-X
+Arizona Silver Exploration Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ AZT-X
+Aztec Minerals Corp
+0.200	
+N/A
+N/A
+N/A
+N/A
+ AZX-X
+Alexandria Minerals Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ B-X
+Bcm Resources Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ BANC-X
+Bankers Cobalt Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ BAT-X
+Batero Gold Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ BATT-X
+Bluebird Battery Metals Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ BAY-X
+Aston Bay Holdings Ltd
+0.120	
+N/A
+N/A
+N/A
+N/A
+ BBB-X
+Brixton Metals Corp
+0.170	
+N/A
+N/A
+N/A
+N/A
+ BBI-X
+Blackbird Energy Inc
+0.335	
+1.000
+0.550
+0.780
+0.780
+ BCF-X
+Builders Capital Mortgage Corp
+10.040	
+N/A
+N/A
+N/A
+N/A
+ BCK-X
+Blind Creek Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BCM-X
+Bear Creek Mining Corp
+1.300	
+4.000
+4.000
+4.000
+4.000
+ BCP-X
+Broome Capital Corp
+0.230	
+N/A
+N/A
+N/A
+N/A
+ BCU-X
+Bell Copper Corporation
+0.070	
+N/A
+N/A
+N/A
+N/A
+ BDG-X
+Black Dragon Gold Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ BEA-X
+Belmont Resources Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ BEAN-X
+Peekaboo Beans Inc
+0.195	
+N/A
+N/A
+N/A
+N/A
+ BER-X
+BE Resources Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BEW-X
+Bewhere Holdings Inc
+0.275	
+1.000
+1.000
+1.000
+1.000
+ BEX-X
+Benton Resources Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BFD-X
+Beaufield Resources Inc
+0.105	
+N/A
+N/A
+N/A
+N/A
+ BFF-X
+Nevada Energy Metals Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ BGD-X
+Bullion Gold Resources Corp
+0.245	
+N/A
+N/A
+N/A
+N/A
+ BGG-X
+Buccaneer Gold Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ BGL-X
+Bandera Gold Ltd
+0.035	
+N/A
+N/A
+N/A
+N/A
+ BGM-X
+Barkerville Gold Mines Ltd
+0.400	
+1.600
+1.200
+1.400
+1.400
+ BGS-X
+Baroyeca Gold and Silver Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ BHR-X
+Blackheath Resources Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ BHS-X
+Bayhorse Silver Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ BHT-X
+Braveheart Resources Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ BIT-X
+Black Isle Resources Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ BITK-X
+Blockchaink2 Corp
+0.460	
+N/A
+N/A
+N/A
+N/A
+ BKD-X
+Breaking Data Corp
+0.550	
+0.500
+0.500
+0.500
+0.500
+ BKM-X
+Pacific Booker Minerals Inc
+0.810	
+N/A
+N/A
+N/A
+N/A
+ BKR-X
+Berkwood Resources Ltd
+0.070	
+N/A
+N/A
+N/A
+N/A
+ BLN-X
+Blackline Safety Corp
+4.800	
+8.250
+7.000
+7.620
+7.620
+ BLOK-X
+Block One Capital Inc
+0.270	
+N/A
+N/A
+N/A
+N/A
+ BLR-X
+Blackhawk Resource Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BLS-X
+Black Sea Copper and Gold Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ BME-X
+Barsele Minerals Corp
+0.800	
+N/A
+N/A
+N/A
+N/A
+ BMK-X
+Macdonald Mines Expl Ltd
+0.045	
+N/A
+N/A
+N/A
+N/A
+ BML-X
+Barker Minerals Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ BMM-X
+Black Mammoth Metals Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ BMX-X
+Boreal Metals Corp
+0.130	
+N/A
+N/A
+N/A
+N/A
+ BNCH-X
+Benchmark Metals Inc
+0.240	
+N/A
+N/A
+N/A
+N/A
+ BOL-X
+Bold Ventures Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ BOR-X
+Border Petroleum Limited
+0.010	
+N/A
+N/A
+N/A
+N/A
+ BPLI-X
+Bluedrop Performance Learning Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ BRC-X
+Blackrock Gold Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BRD-X
+Broadway Gold Mining Ltd
+0.115	
+N/A
+N/A
+N/A
+N/A
+ BRL-X
+Bearclaw Capital Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ BRO-X
+Barksdale Capital Corp
+0.600	
+N/A
+N/A
+N/A
+N/A
+ BRS-X
+Brs Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ BRU-X
+Brunswick Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ BRZ-X
+Bearing Lithium Corp
+0.290	
+N/A
+N/A
+N/A
+N/A
+ BSK-X
+Blue Sky Uranium Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ BSR-X
+Bluestone Resources Inc
+1.300	
+3.100
+2.350
+2.630
+2.550
+ BTL-X
+Btl Group Ltd
+2.680	
+N/A
+N/A
+N/A
+N/A
+ BTR-X
+Bonterra Resources Inc
+0.370	
+N/A
+N/A
+N/A
+N/A
+ BTRU-X
+Betteru Education Corp
+0.385	
+N/A
+N/A
+N/A
+N/A
+ BTT-X
+Bitterroot Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ BTU-X
+Btu Metals Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ BTV-X
+Bluerush Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ BUD-X
+Satori Resources Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ BUF-X
+Buffalo Coal Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ BUL-X
+Bullman Minerals Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ BUS-X
+Grande West Transportation Group Inc
+1.220	
+1.800
+1.800
+1.800
+1.800
+ BVA-X
+Bravada Gold Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ BWLK-X
+Boardwalktech Software Corp
+1.010	
+N/A
+N/A
+N/A
+N/A
+ BWR-X
+Bwr Exploration Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ BXR-X
+Blue River Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ BYN-X
+Banyan Gold Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ BZ-X
+Benz Mining Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ C-X
+Contact Gold Inc
+0.410	
+N/A
+N/A
+N/A
+N/A
+ CAD-X
+Colonial Coal International Corp
+0.270	
+0.050
+0.050
+0.050
+0.050
+ CAF-X
+Canaf Investments Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ CAND-X
+Candelaria Mining Corp
+0.380	
+N/A
+N/A
+N/A
+N/A
+ CANX-X
+Canex Metals Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ CAP-X
+Castle Peak Mining Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ CASA-X
+Casa Minerals Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ CAV-X
+Camrova Resources Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ CAY-X
+Cache Exploration Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ CBA-X
+Champion Bear Res Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ CBE-X
+Cabo Drilling Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ CBG-X
+Chibougamau Independent Mines Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ CBI-X
+Colibri Resource Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ CBLT-X
+Cblt Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ CBR-X
+Cabr Al Gold Inc
+0.245	
+N/A
+N/A
+N/A
+N/A
+ CBS-X
+Bard Ventures Ltd
+0.150	
+N/A
+N/A
+N/A
+N/A
+ CBV-X
+Cobra Venture Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ CBX-X
+Cortex Business Solutions Inc
+3.740	
+6.500
+6.000
+6.250
+6.250
+ CCB-X
+Canada Carbon Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ CCC-X
+Cornerstone Metals Inc
+1.200	
+N/A
+N/A
+N/A
+N/A
+ CCD-X
+Cascadero Copper Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ CCE-X
+Commerce Resources Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ CCK-X
+Canada Coal Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ CCW-X
+Canada Cobalt Works Inc
+0.500	
+N/A
+N/A
+N/A
+N/A
+ CD-X
+Cantex Mine Development Corp
+0.200	
+N/A
+N/A
+N/A
+N/A
+ CDA-X
+Canuc Resources Corp
+0.100	
+N/A
+N/A
+N/A
+N/A
+ CDB-X
+Cordoba Minerals Corp
+0.115	
+N/A
+N/A
+N/A
+N/A
+ CDC-X
+Cadillac Ventures Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ CDG-X
+Candente Gold Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ CDU-X
+Cardero Resource Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ CE-X
+Canada Energy Partners Inc
+0.015	
+0.250
+0.250
+0.250
+0.250
+ CEM-X
+Constantine Metal Resources Ltd
+0.550	
+N/A
+N/A
+N/A
+N/A
+ CEN-X
+Claren Energy Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ CEP-X
+Cliffside Capital Ltd
+0.230	
+N/A
+N/A
+N/A
+N/A
+ CFM-X
+Confederation Minerals Ltd
+0.210	
+N/A
+N/A
+N/A
+N/A
+ CFY-X
+Changfeng Energy Inc
+0.990	
+N/A
+N/A
+N/A
+N/A
+ CGD-X
+Carlin Gold Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ CGLD-X
+Core Gold Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ CGM-X
+California Gold Mining Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ CGP-X
+Cornerstone Capital Resources Inc
+0.260	
+N/A
+N/A
+N/A
+N/A
+ CH-X
+Urban Select Captial Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ CHC-X
+Chc Student Housing Corp
+0.890	
+N/A
+N/A
+N/A
+N/A
+ CHEM-X
+Canadian Energy Materials Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ CHN-X
+China Education Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ CID-X
+Cicada Ventures Ltd
+0.005	
+N/A
+N/A
+N/A
+N/A
+ CIFR-X
+Cipher Resources Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ CIO-X
+Central Iron Ore Limited
+0.030	
+N/A
+N/A
+N/A
+N/A
+ CIT-X
+Cr Capital Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ CJC-X
+Quebec Precious Metals Corp
+0.275	
+N/A
+N/A
+N/A
+N/A
+ CKG-X
+Chesapeake Gold Corp
+2.030	
+4.000
+4.000
+4.000
+4.000
+ CKK-X
+Cordy Oilfield Services Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ CLB-X
+Colombia Crest Gold Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ CLE-X
+Clean Commodities Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ CLH-X
+Coral Gold Resources Ltd
+0.355	
+N/A
+N/A
+N/A
+N/A
+ CLM-X
+Crystal Lake Mining Corp
+0.470	
+N/A
+N/A
+N/A
+N/A
+ CLY-X
+Clarocity Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ CLZ-X
+Canasil Resources Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ CMB-X
+Cmc Metals Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ CMD-X
+Commander Resources Ltd
+0.140	
+N/A
+N/A
+N/A
+N/A
+ CMI-X
+C-Com Satellite Systems Inc
+1.080	
+N/A
+N/A
+N/A
+N/A
+ CML-X
+Canickel Mining Limited
+0.105	
+N/A
+N/A
+N/A
+N/A
+ CMU-X
+Comet Industries Ltd
+3.200	
+N/A
+N/A
+N/A
+N/A
+ CMV-X
+China Minerals Mining Corp
+0.200	
+N/A
+N/A
+N/A
+N/A
+ CMX-X
+Chilean Metals Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ CN-X
+Condor Resources Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ CNC-X
+Canyon Copper Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ CNH-X
+Crownia Holdings Ltd
+0.130	
+N/A
+N/A
+N/A
+N/A
+ CNS-X
+Contagious Gaming Inc
+0.070	
+0.850
+0.850
+0.850
+0.850
+ CNX-X
+Callinex Mines Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ COBC-X
+Cobalt Blockchain Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ COIN-X
+Coin Hodl Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ COL-X
+Copper North Mining Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ CONE-X
+Canada One Mining Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ COPS-X
+Crops Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ COR-X
+Camino Minerals Corp
+0.175	
+N/A
+N/A
+N/A
+N/A
+ CORE-X
+Canadian Orebodies Inc
+0.265	
+N/A
+N/A
+N/A
+N/A
+ CPC-X
+Canadian Platinum Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ CPL-X
+Copper Lake Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ CPM-X
+Crystal Peak Minerals Inc
+0.290	
+N/A
+N/A
+N/A
+N/A
+ CPO-X
+Cobalt Power Group Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ CPS-X
+Claim Post Resources Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ CPTO-X
+Cryptoglobal Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ CQR-X
+Conquest Resources Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ CRB-X
+Cariboo Rose Resources Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ CRE-X
+Critical Elements Corp
+0.770	
+2.000
+2.000
+2.000
+2.000
+ CRU-X
+Cameo Cobalt Corp
+0.270	
+N/A
+N/A
+N/A
+N/A
+ CSL-X
+Comstock Metals Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ CSO-X
+Corsa Coal Corp
+1.310	
+N/A
+N/A
+N/A
+N/A
+ CT-X
+Centenara Mining Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ CTI-X
+Caiterra International E
+0.010	
+N/A
+N/A
+N/A
+N/A
+ CTM-X
+Canterra Minerals Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ CTN-X
+Centurion Minerals Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ CTO-X
+Circa Enterprises Inc
+1.240	
+N/A
+N/A
+N/A
+N/A
+ CTU-X
+Le Chateau Inc Cl B
+0.320	
+N/A
+N/A
+N/A
+N/A
+ CTZ-X
+Namsys Inc
+0.600	
+N/A
+N/A
+N/A
+N/A
+ CUC-X
+Carube Copper Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ CUI-X
+Currie Rose Resources Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ CUO-X
+Copper One Inc
+0.125	
+N/A
+N/A
+N/A
+N/A
+ CUU-X
+Copper Fox Metals Inc
+0.095	
+N/A
+N/A
+N/A
+N/A
+ CUV-X
+Cuv Ventures Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ CUX-X
+Carmax Mining Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ CUZ-X
+Cruz Cobalt Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ CVB-X
+Compass Gold Corporation
+0.400	
+N/A
+N/A
+N/A
+N/A
+ CVR-X
+CDN Oil Recovery Remediation Ent Ltd
+0.005	
+N/A
+N/A
+N/A
+N/A
+ CVV-X
+Canalaska Uranium Ltd
+0.325	
+N/A
+N/A
+N/A
+N/A
+ CVX-X
+Cematrix Corp
+0.260	
+N/A
+N/A
+N/A
+N/A
+ CWC-X
+Cwc Energy Services Corp
+0.165	
+0.200
+0.200
+0.200
+0.200
+ CWM-X
+Crown Mining Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ CWV-X
+Crown Point Energy Inc
+0.750	
+1.000
+1.000
+1.000
+1.000
+ CX-X
+Clarmin Explorations Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ CXB-X
+Calibre Mining Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ CXO-X
+Colorado Resources Ltd
+0.075	
+N/A
+N/A
+N/A
+N/A
+ CYF-X
+Canyon Creek Food Co Ltd
+0.045	
+N/A
+N/A
+N/A
+N/A
+ CYL-X
+Ceylon Graphite Corp
+0.190	
+N/A
+N/A
+N/A
+N/A
+ CYM-X
+Cymat Technologies Ltd
+0.210	
+N/A
+N/A
+N/A
+N/A
+ CYP-X
+Cypress Development Corp
+0.285	
+N/A
+N/A
+N/A
+N/A
+ CZZ-X
+Cleghorn Minerals Ltd
+0.085	
+N/A
+N/A
+N/A
+N/A
+ DAC-X
+Datable Technology Corp
+0.165	
+N/A
+N/A
+N/A
+N/A
+ DAL-X
+Dalmac Energy Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ DAN-X
+Arianne Phosphate Inc
+0.570	
+1.400
+1.400
+1.400
+1.400
+ DAR-X
+Darelle Online Solutions Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ DASH-X
+Neptune Dash Technologies Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ DAU-X
+Desert Gold Ventures Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ DBV-X
+Doubleview Capital Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ DCY-X
+Discovery-Corp. Enterprises Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ DE-X
+Decisive Dividend Corp
+4.350	
+N/A
+N/A
+N/A
+N/A
+ DEC-X
+Decade Resources Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ DEF-X
+Defiance Silver Corp
+0.240	
+N/A
+N/A
+N/A
+N/A
+ DELX-X
+Delphx Capital Markets Inc
+0.470	
+N/A
+N/A
+N/A
+N/A
+ DEX-X
+Almadex Minerals Ltd
+0.330	
+N/A
+N/A
+N/A
+N/A
+ DFR-X
+Diamond Fields Resources Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ DFS-X
+Global Daily Fantasy Sports Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ DGO-X
+Durango Resources Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ DHR-X
+Discovery Harbour Resources Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ DIA-X
+Margaret Lake Diamonds Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ DJI-X
+Dajin Resources Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ DLC-X
+Dlc Holdings Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ DLI-X
+Desert Lion Energy Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ DLS-X
+Dealnet Capital Corp
+0.075	
+0.100
+0.100
+0.100
+0.100
+ DM-X
+Datametrex Ai Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ DME-X
+Desert Mountain Energy Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ DMGI-X
+Dmg Blockchain Solutions Inc
+0.235	
+N/A
+N/A
+N/A
+N/A
+ DMI-X
+Diamcor Mining Inc
+0.350	
+1.900
+1.900
+1.900
+1.900
+ DMR-X
+Damara Gold Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ DNAX-X
+Blockstrain Technology Corp
+0.310	
+N/A
+N/A
+N/A
+N/A
+ DNX-X
+Dynex Power Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ DOS-X
+Dios Exploration Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ DPH-X
+Duncan Park Holdings Corp
+0.005	
+N/A
+N/A
+N/A
+N/A
+ DRV-X
+Duran Ventures Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ DSM-X
+Deep South Resources Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ DSV-X
+Discovery Metals Corp
+0.300	
+N/A
+N/A
+N/A
+N/A
+ DSY-X
+Destiny Media Technologies Inc
+0.235	
+0.300
+0.300
+0.300
+0.300
+ DUG-X
+Distinct Infrastructure Group Inc
+0.550	
+2.000
+1.000
+1.500
+1.500
+ DV-X
+Dolly Varden Silver Corp
+0.425	
+N/A
+N/A
+N/A
+N/A
+ DVG-X
+Divergent Energy Services Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ DVI-X
+Dunnedin Ventures Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ DVT-X
+Divestco Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ DWS-X
+Diamond Estates Wines and Spirits Inc
+0.290	
+N/A
+N/A
+N/A
+N/A
+ DXA-X
+Doxa Energy Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ DXX-X
+Dxstorm.com Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ DYG-X
+Dynasty Gold Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ EAM-X
+East Africa Metals Inc
+0.200	
+N/A
+N/A
+N/A
+N/A
+ EAS-X
+East Asia Minerals Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ EAU-X
+Engineer Gold Mines Ltd
+0.095	
+N/A
+N/A
+N/A
+N/A
+ EBY-X
+Emerald Bay Energy Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ ECC-X
+Ethos Gold Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ ECR-X
+Cartier Resources Inc
+0.125	
+N/A
+N/A
+N/A
+N/A
+ ECT-X
+Ellipsiz Communications Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ EDG-X
+Endurance Gold Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ EGA-X
+Eagle Graphite Incorporated
+0.150	
+N/A
+N/A
+N/A
+N/A
+ EGD-X
+Energold Drilling Corp
+0.270	
+1.500
+1.500
+1.500
+1.500
+ EGM-X
+Engold Mines Ltd
+0.120	
+N/A
+N/A
+N/A
+N/A
+ EIL-X
+Empire Industries Ltd
+0.440	
+N/A
+N/A
+N/A
+N/A
+ EL-X
+Engagement Labs Inc
+0.050	
+0.300
+0.300
+0.300
+0.300
+ ELC-X
+Elysee Development Corp
+0.375	
+N/A
+N/A
+N/A
+N/A
+ ELM-X
+Element Lifestyle Retirement Inc
+0.125	
+N/A
+N/A
+N/A
+N/A
+ ELN-X
+El Nino Ventures Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ ELO-X
+Eloro Resources Ltd
+0.440	
+N/A
+N/A
+N/A
+N/A
+ ELT-X
+Electra Stone Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ ELY-X
+Ely Gold Royalties Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ EMO-X
+Emerita Resources Corp
+0.030	
+0.400
+0.400
+0.400
+0.400
+ EMR-X
+Emgold Mining Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ EMX-X
+Emx Royalty Corp
+1.530	
+N/A
+N/A
+N/A
+N/A
+ ENA-X
+Enablence Technologies Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ ENER-X
+Enerspar Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ ENRG-X
+New Energy Metals Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ EOG-X
+Eco Atlantic Oil and Gas Ltd
+0.830	
+0.190
+0.190
+0.190
+0.190
+ EP-X
+Empire Metals Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ EPL-X
+Eagle Plains Resources Ltd
+0.090	
+N/A
+N/A
+N/A
+N/A
+ EPO-X
+Encanto Potash Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ EPWR-X
+Epower Metals Inc
+0.180	
+N/A
+N/A
+N/A
+N/A
+ EQ-X
+Eq Inc
+0.710	
+N/A
+N/A
+N/A
+N/A
+ EQG-X
+Eqube Gaming Limited
+0.120	
+N/A
+N/A
+N/A
+N/A
+ EQX-X
+Equinox Gold Corp
+0.980	
+2.800
+1.800
+2.170
+1.900
+ ERA-X
+Elcora Advanced Materials Corp
+0.205	
+N/A
+N/A
+N/A
+N/A
+ ERC-X
+Eros Resources Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ ES-X
+Eight Solutions Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ ESK-X
+Eskay Mining Corp
+0.250	
+N/A
+N/A
+N/A
+N/A
+ ESR-X
+Esrey Resources Ltd
+0.080	
+N/A
+N/A
+N/A
+N/A
+ ESS-X
+Esstra Industries Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ ESX-X
+Essex Minerals Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ ETF-X
+Eastfield Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ ETMC-X
+E3 Metals Corp
+0.410	
+N/A
+N/A
+N/A
+N/A
+ EU-X
+Encore Energy Corp
+0.110	
+N/A
+N/A
+N/A
+N/A
+ EUO-X
+Eurocontrol Technics Group Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ EV-X
+Erin Ventures Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ EVM-X
+Evrim Resources Corp
+1.370	
+N/A
+N/A
+N/A
+N/A
+ EVR-X
+Everton Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ EVX-X
+European Electric Metals Inc
+0.145	
+N/A
+N/A
+N/A
+N/A
+ EW-X
+East West Petroleum Corp
+0.100	
+N/A
+N/A
+N/A
+N/A
+ EXG-X
+Exgen Resources Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ EXS-X
+Explor Resources Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ EXX-X
+Equitorial Exploration Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ F-X
+Fiore Exploration Ltd
+0.300	
+N/A
+N/A
+N/A
+N/A
+ FA-X
+Fountain Asset Corp
+0.600	
+N/A
+N/A
+N/A
+N/A
+ FBF-X
+Fab-Form Industries Ltd
+0.560	
+N/A
+N/A
+N/A
+N/A
+ FBX-X
+First Bauxite Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ FCA-X
+Firm Capital American Realty Part CAD
+9.250	
+N/A
+N/A
+N/A
+N/A
+ FCC-X
+First Cobalt Corp
+0.345	
+N/A
+N/A
+N/A
+N/A
+ FCF-X
+Founders Advantage Capital Corp
+1.740	
+3.750
+3.000
+3.380
+3.380
+ FDI-X
+Findev Inc
+0.520	
+N/A
+N/A
+N/A
+N/A
+ FE-X
+First Energy Metals Limited
+0.220	
+N/A
+N/A
+N/A
+N/A
+ FEO-X
+Oceanic Iron Ore Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ FEX-X
+Fjordland Exploration Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ FG-X
+Falcon Gold Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ FGC-X
+Frontline Gold Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ FGR-X
+Fengro Industries Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ FIL-X
+Filo Mining Corp
+2.280	
+4.600
+4.200
+4.400
+4.400
+ FISH-X
+Sailfish Royalty Corp
+0.950	
+N/A
+N/A
+N/A
+N/A
+ FIX-X
+Firebird Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ FL-X
+Frontier Lithium Inc
+0.350	
+N/A
+N/A
+N/A
+N/A
+ FLGC-X
+Fanlogic Interactive Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ FLM-X
+First Legacy Mining Corp
+0.195	
+N/A
+N/A
+N/A
+N/A
+ FLT-X
+Drone Delivery Canada Corp
+1.390	
+2.250
+2.250
+2.250
+2.250
+ FLY-X
+Flyht Aerospace Solutions Ltd
+1.350	
+0.400
+0.400
+0.400
+0.400
+ FMC-X
+Forum Energy Metals Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ FMG-X
+First Mexican Gold Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ FMR-X
+Fairmont Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ FMS-X
+Focus Graphite Inc
+0.025	
+0.350
+0.350
+0.350
+0.350
+ FNC-X
+Fancamp Exploration Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ FNR-X
+49 North Resources Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ FO-X
+Falcon Oil & Gas Ltd
+0.290	
+N/A
+N/A
+N/A
+N/A
+ FOM-X
+Foran Mining Corp
+0.275	
+0.250
+0.250
+0.250
+0.250
+ FOR-X
+Fortune Bay Corp
+0.280	
+N/A
+N/A
+N/A
+N/A
+ FP-X
+Fp Newspapers Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ FPC-X
+Falco Resources Ltd
+0.410	
+2.000
+1.250
+1.520
+1.400
+ FPX-X
+Fpx Nickel Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ FRE-X
+Fremont Gold Ltd
+0.135	
+N/A
+N/A
+N/A
+N/A
+ FREE-X
+Freedom Energy Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ FRI-X
+Freeport Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ FRN-X
+Feronia Inc
+0.365	
+N/A
+N/A
+N/A
+N/A
+ FSW-X
+Fireswirl Technologies Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ FTEC-X
+Fintech Select Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ FTI-X
+Fti Foodtech Internation
+0.150	
+N/A
+N/A
+N/A
+N/A
+ FTR-X
+Firesteel Resources Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ FUND-X
+Katipult Technology Corp
+0.610	
+N/A
+N/A
+N/A
+N/A
+ FURA-X
+Fura GEMS Inc
+0.400	
+N/A
+N/A
+N/A
+N/A
+ FUU-X
+Fission 3.0 Corp
+0.145	
+N/A
+N/A
+N/A
+N/A
+ FV-X
+Firestone Ventures Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ FW-X
+Flow Capital Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ FWZ-X
+Fireweed Zinc Ltd
+1.050	
+N/A
+N/A
+N/A
+N/A
+ FYL-X
+Finlay Minerals Ltd
+0.035	
+N/A
+N/A
+N/A
+N/A
+ GAL-X
+Galantas Gold Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ GAME-X
+Millennial Esports Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ GAR-X
+Green Arrow Resources In
+0.020	
+N/A
+N/A
+N/A
+N/A
+ GB-X
+Ginger Beef Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ GBR-X
+Great Bear Resources Ltd
+1.790	
+N/A
+N/A
+N/A
+N/A
+ GBU-X
+Gabriel Res J
+0.380	
+N/A
+N/A
+N/A
+N/A
+ GCCC-X
+Gcc Global Capital Corporation
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GCN-X
+Goldcliff Resource Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ GCR-X
+Gespeg Copper Resources Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ GDBO-X
+Gold Rush Cariboo Corp
+0.115	
+N/A
+N/A
+N/A
+N/A
+ GDM-X
+Goldstar Minerals Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GDP-X
+Golden Pursuit Resources Ltd
+0.110	
+N/A
+N/A
+N/A
+N/A
+ GDX-X
+Goldex Resources Corp
+0.210	
+N/A
+N/A
+N/A
+N/A
+ GEL-X
+Tangelo Games Corp
+0.025	
+0.500
+0.500
+0.500
+0.500
+ GEMC-X
+Global Energy Metals Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ GER-X
+Glen Eagle Resources Inc
+0.145	
+N/A
+N/A
+N/A
+N/A
+ GFG-X
+Gfg Resources Inc
+0.270	
+0.850
+0.850
+0.850
+0.850
+ GG-X
+Galane Gold Ltd
+0.045	
+1.800
+1.800
+1.800
+1.800
+ GGG-X
+Graphene 3D Lab Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ GGI-X
+Garibaldi Resources Corp
+1.640	
+N/A
+N/A
+N/A
+N/A
+ GGL-X
+Ggl Resources Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ GGM-X
+Granada Gold Mine Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ GGS-X
+Golden Secret Ventures Ltd
+0.270	
+N/A
+N/A
+N/A
+N/A
+ GGX-X
+Ggx Gold Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ GIGA-X
+Giga Metals Corp
+0.220	
+N/A
+N/A
+N/A
+N/A
+ GIII-X
+Gen III Oil Corp
+0.380	
+N/A
+N/A
+N/A
+N/A
+ GIS-X
+Genesis Metals Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ GIT-X
+Gitennes Exploration Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ GLB-X
+Goldbank Mining Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ GLD-X
+Goldon Resources Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ GLDN-X
+Golden Ridge Resources Ltd
+0.220	
+N/A
+N/A
+N/A
+N/A
+ GLI-X
+Glacier Lake Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ GLK-X
+Great Lakes Graphite Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GLO-X
+Global Atomic Corp
+0.380	
+N/A
+N/A
+N/A
+N/A
+ GLW-X
+Galway Gold Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ GMA-X
+Geomega Resources Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ GMN-X
+Gobimin Inc
+0.330	
+N/A
+N/A
+N/A
+N/A
+ GMV-X
+Gmv Minerals Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ GNC-X
+Gainey Capital Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ GNF-X
+Greenfields Petroleum Corp
+0.065	
+0.250
+0.250
+0.250
+0.250
+ GNG-X
+Golden Goliath Resources Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ GNH-X
+Golden Hope Mines Ltd
+0.080	
+N/A
+N/A
+N/A
+N/A
+ GNT-X
+Gentor Resources Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ GOE-X
+Goldeneye Resources Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ GOG-X
+Golden Tag Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GOM-X
+Golden Dawn Minerals Inc
+0.090	
+1.100
+1.100
+1.100
+1.100
+ GOOD-X
+Good Life Networks Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ GOP-X
+Gourmet Ocean Products Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ GOT-X
+Goliath Resources Limited
+0.110	
+N/A
+N/A
+N/A
+N/A
+ GPG-X
+Grande Portage Resources Ltd
+0.190	
+N/A
+N/A
+N/A
+N/A
+ GPH-X
+Graphite One Resources Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GPLY-X
+Goldplay Exploration Ltd
+0.190	
+N/A
+N/A
+N/A
+N/A
+ GPM-X
+Gpm Metals Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ GPY-X
+Golden Predator Mining Corp
+0.290	
+N/A
+N/A
+N/A
+N/A
+ GQ-X
+Great Quest Fertilizer Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ GQC-X
+Goldquest Mining Corp
+0.160	
+0.850
+0.200
+0.450
+0.300
+ GR-X
+Great Atlantic Resources Corp
+0.110	
+N/A
+N/A
+N/A
+N/A
+ GRAT-X
+Gratomic Inc
+0.095	
+N/A
+N/A
+N/A
+N/A
+ GRDM-X
+Grid Metals Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ GRG-X
+Golden Arrow Res Corp
+0.370	
+N/A
+N/A
+N/A
+N/A
+ GRI-X
+Galore Resources Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ GRK-X
+Gray Rock Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ GRO-X
+Growmax Resources Corp
+0.105	
+0.100
+0.100
+0.100
+0.100
+ GRR-X
+Golden Reign Resources Ltd
+0.180	
+0.800
+0.800
+0.800
+0.800
+ GRZ-X
+Gold Reserve Inc
+3.130	
+N/A
+N/A
+N/A
+N/A
+ GSA-X
+Groundstar Resources Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ GSH-X
+Golden Share Resources Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ GSI-X
+Gatekeeper Systems Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ GSP-X
+Gensource Potash Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ GSR-X
+Goldstrike Resources Ltd
+0.090	
+N/A
+N/A
+N/A
+N/A
+ GSS-X
+Gossan Resources Limited
+0.075	
+N/A
+N/A
+N/A
+N/A
+ GTA-X
+Gta Resources and Mining Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ GTB-X
+Greatbanks Resources Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ GTC-X
+Getty Copper Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ GTG-X
+Great Thunder Gold Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ GTT-X
+GT Gold Corp
+0.680	
+N/A
+N/A
+N/A
+N/A
+ GUF-X
+Gulf & Pacific Equities Corp
+0.230	
+N/A
+N/A
+N/A
+N/A
+ GUG-X
+Gungnir Resources Inc
+0.310	
+N/A
+N/A
+N/A
+N/A
+ GUN-X
+Gunpoint Exploration Ltd
+0.400	
+N/A
+N/A
+N/A
+N/A
+ GV-X
+Guerrero Ventures Inc
+0.090	
+5.740
+5.740
+5.740
+5.740
+ GVG-X
+Grenville Gold Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ GVR-X
+Grosvenor Resources Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ GVY-X
+Green Valley Mine Incorporated
+0.350	
+N/A
+N/A
+N/A
+N/A
+ GWA-X
+Gowest Gold Ltd
+0.045	
+N/A
+N/A
+N/A
+N/A
+ GWM-X
+Galway Metals Inc
+0.170	
+N/A
+N/A
+N/A
+N/A
+ GXL-X
+Galileo Exploration Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ GXR-X
+Georox Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ GXS-X
+Goldsource Mines Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ GXU-X
+Goviex Uranium Inc
+0.215	
+N/A
+N/A
+N/A
+N/A
+ GYA-X
+Guyana Goldstrike Inc
+0.260	
+N/A
+N/A
+N/A
+N/A
+ GZD-X
+Grizzly Discoveries Inc
+0.095	
+N/A
+N/A
+N/A
+N/A
+ GZZ-X
+Golden Valley Mines Ltd
+0.280	
+N/A
+N/A
+N/A
+N/A
+ HAN-X
+Hannan Metals Ltd
+0.175	
+N/A
+N/A
+N/A
+N/A
+ HAND-X
+Handa Mining Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ HAR-X
+Harfang Exploration Inc
+0.220	
+N/A
+N/A
+N/A
+N/A
+ HAWK-X
+Hawkeye Gold and Diamond Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ HBE-X
+Hornby Bay Mineral Exploration Ltd
+0.035	
+N/A
+N/A
+N/A
+N/A
+ HBK-X
+Highbank Resources Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ HEI-X
+Huntington Exploration Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ HEMP-X
+Hempco Food and Fiber Inc
+1.790	
+N/A
+N/A
+N/A
+N/A
+ HFC-X
+Hampton Financial Corp
+0.300	
+N/A
+N/A
+N/A
+N/A
+ HI-X
+Highland Copper Company Inc
+0.135	
+0.100
+0.100
+0.100
+0.100
+ HIT-X
+Hit Technologies Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ HIVE-X
+Hive Blockchain Technologies Inc
+0.610	
+1.450
+1.450
+1.450
+1.450
+ HJI-X
+Helijet International Inc
+0.190	
+N/A
+N/A
+N/A
+N/A
+ HME-X
+Hemisphere Energy Corp
+0.240	
+0.300
+0.300
+0.300
+0.300
+ HMI-X
+Hinterland Metals Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ HMT-X
+Halmont Properties Corp
+0.950	
+N/A
+N/A
+N/A
+N/A
+ HMX-X
+Hunt Mining Corp
+0.260	
+N/A
+N/A
+N/A
+N/A
+ HOC-X
+Hunter Oil Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ HPI-X
+Highbury Projects Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ HPL-X
+Horizon Petroleum Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ HPQ-X
+Hpq Silicon Resources Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ HPY-X
+Happy Creek Minerals Ltd
+0.200	
+N/A
+N/A
+N/A
+N/A
+ HRC-X
+Helio Res Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ HRE-X
+Stans Energy Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ HRH-X
+Hillcrest Petroleum Ltd
+0.035	
+0.460
+0.460
+0.460
+0.460
+ HRL-X
+Hansa Resources Limited
+0.040	
+N/A
+N/A
+N/A
+N/A
+ HSI-X
+H Source Holdings Ltd
+0.165	
+N/A
+N/A
+N/A
+N/A
+ HTR-X
+Heatherdale Resources Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ HUD-X
+Hudson Resources Inc
+0.420	
+N/A
+N/A
+N/A
+N/A
+ HUT-X
+Hut 8 Mining Corp
+2.920	
+4.950
+4.950
+4.950
+4.950
+ HVG-X
+Harvest Gold Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ HWY-X
+Highway 50 Gold Corp
+0.400	
+N/A
+N/A
+N/A
+N/A
+ HXC-X
+Hfx Holding Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ HZ-X
+Hybrid Minerals Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ IB-X
+Ibc Advanced Alloys Corp
+0.285	
+N/A
+N/A
+N/A
+N/A
+ IBC-X
+International Bethlehem Mining Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ IC-X
+International Corona Capital Corp
+0.045	
+0.750
+0.750
+0.750
+0.750
+ ICAU-X
+Intercontinental Gold and Metals Ltd
+0.390	
+N/A
+N/A
+N/A
+N/A
+ ICL-X
+Itasca Capital Ltd
+0.520	
+N/A
+N/A
+N/A
+N/A
+ ICM-X
+Iconic Minerals Ltd
+0.120	
+N/A
+N/A
+N/A
+N/A
+ ID-X
+Identillect Technologies Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ IDI-X
+Indico Resources Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ IDM-X
+Idm Mining Ltd
+0.065	
+0.120
+0.120
+0.120
+0.120
+ IEI-X
+Imperial Equities Inc
+4.440	
+N/A
+N/A
+N/A
+N/A
+ IES-X
+Intercept Energy Services Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ IFOS-X
+Itafos
+1.480	
+4.000
+4.000
+4.000
+4.000
+ IFR-X
+International Frontier Resources Corpora
+0.145	
+N/A
+N/A
+N/A
+N/A
+ IFX-X
+Imaflex Inc
+0.840	
+1.750
+1.000
+1.380
+1.380
+ IGAM-X
+Integrity Gaming Corp
+0.310	
+N/A
+N/A
+N/A
+N/A
+ IGO-X
+Independence Gold Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ IGP-X
+Imperial Ginseng Products Ltd
+1.450	
+N/A
+N/A
+N/A
+N/A
+ IKM-X
+Ikkuma Resources Corp
+0.520	
+0.800
+0.740
+0.770
+0.770
+ ILA-X
+Ilookabout Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ ILC-X
+International Lithium Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ ILI-X
+Infinite Lithium Corp
+0.145	
+N/A
+N/A
+N/A
+N/A
+ IMA-X
+I-Minerals Inc
+0.185	
+N/A
+N/A
+N/A
+N/A
+ IMEX-X
+Imex Systems Inc
+0.375	
+N/A
+N/A
+N/A
+N/A
+ IMI-X
+International Millennium Mining Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ IMIN-X
+Imining Blockchain & Cryptocurrency Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ IMR-X
+Imetal Resources Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ IMT-X
+International Montoro Res. Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ INP-X
+Input Capital Corp
+1.030	
+1.140
+1.140
+1.140
+1.140
+ INX-X
+Intouch Insight Ltd
+0.485	
+N/A
+N/A
+N/A
+N/A
+ IO-X
+Inca One Gold Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ ION-X
+Alset Minerals Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ IOU-X
+Iou Financial Inc
+0.245	
+N/A
+N/A
+N/A
+N/A
+ IPC-X
+Iplayco Corporation Ltd
+0.820	
+N/A
+N/A
+N/A
+N/A
+ IPD-X
+International Parkside Products Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ IPG-X
+Imperial Mining Group Ltd
+0.090	
+N/A
+N/A
+N/A
+N/A
+ IPT-X
+Impact Silver Corp
+0.285	
+1.200
+1.200
+1.200
+1.200
+ IQ-X
+Airiq Inc
+0.160	
+N/A
+N/A
+N/A
+N/A
+ IRC-X
+Ironside Resources Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ IRI-X
+Iemr Resources Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ IRO-X
+Inter-Rock Minerals Inc
+0.310	
+N/A
+N/A
+N/A
+N/A
+ IRR-X
+Inform Resources Corp
+0.095	
+N/A
+N/A
+N/A
+N/A
+ ISD-X
+Isign Media Solutions Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ ISO-X
+Isoenergy Ltd
+0.450	
+N/A
+N/A
+N/A
+N/A
+ ISS-X
+International Samuel Exploration Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ITG-X
+Intact Gold Corp
+0.130	
+N/A
+N/A
+N/A
+N/A
+ ITM-X
+Intema Solutions Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ ITR-X
+Integra Resources Corp
+0.870	
+2.250
+2.250
+2.250
+2.250
+ ITT-X
+Internet of Things Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ IVC-X
+Interconnect Ventures Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ IVI-X
+Ivrnet Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ IVS-X
+Inventus Mining Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ IVX-X
+Inventronics Limited
+0.080	
+N/A
+N/A
+N/A
+N/A
+ IXI-X
+Indigo Exploration Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ IZ-X
+International Zeolite Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ IZN-X
+Inzinc Mining Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ IZZ-X
+International Prospect Ventures Ltd
+0.180	
+N/A
+N/A
+N/A
+N/A
+ JADE-X
+Jade Leader Corp
+0.235	
+N/A
+N/A
+N/A
+N/A
+ JAX-X
+Jaxon Mining Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ JCO-X
+Jericho Oil Corp
+0.530	
+N/A
+N/A
+N/A
+N/A
+ JDN-X
+Jayden Resources Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ JEC-X
+Jura Energy Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ JET-X
+Canada Jetlines Ltd
+0.490	
+N/A
+N/A
+N/A
+N/A
+ JFC-X
+Jaguar Financial Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ JG-X
+Japan Gold Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ JNX-X
+Junex Inc
+0.410	
+N/A
+N/A
+N/A
+N/A
+ JOR-X
+Jourdan Resources Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ JP-X
+Jackpot Digital Inc
+0.205	
+N/A
+N/A
+N/A
+N/A
+ JSE-X
+Jadestone Energy Inc
+0.720	
+1.400
+1.400
+1.400
+1.400
+ JSP-X
+Jasper Mining Corp
+0.115	
+N/A
+N/A
+N/A
+N/A
+ JTC-X
+Jemtec Inc
+0.990	
+N/A
+N/A
+N/A
+N/A
+ JTR-X
+Greenspace Brands Inc
+0.930	
+2.000
+1.850
+1.950
+2.000
+ JUB-X
+Jubilee Gold Exploration Ltd
+0.640	
+N/A
+N/A
+N/A
+N/A
+ JUGR-X
+Juggernaut Exploration Ltd
+0.240	
+N/A
+N/A
+N/A
+N/A
+ JZR-X
+Jazz Resources Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ KAP-X
+Kapuskasing Gold Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ KAR-X
+Karmin Exploration Inc
+0.820	
+N/A
+N/A
+N/A
+N/A
+ KASH-X
+Hashchain Technologyinc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ KBG-X
+Kings Bay Resources Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ KBLT-X
+Cobalt 27 Capital Corp
+6.290	
+19.000
+10.900
+16.820
+17.500
+ KBY-X
+Kona Bay Technologies Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ KC-X
+Kutcho Copper Corp
+0.320	
+N/A
+N/A
+N/A
+N/A
+ KCC-X
+Kincora Copper Limited
+0.150	
+N/A
+N/A
+N/A
+N/A
+ KDA-X
+Kda Group Inc
+0.230	
+N/A
+N/A
+N/A
+N/A
+ KEN-X
+Kenadyr Mining Holdings Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ KES-X
+Kesselrun Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ KFG-X
+Kfg Resources Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ KG-X
+Klondike Gold Corp
+0.220	
+N/A
+N/A
+N/A
+N/A
+ KGC-X
+Kestrel Gold Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ KGF-X
+King George Financial Corp
+0.550	
+N/A
+N/A
+N/A
+N/A
+ KGL-X
+Kilo Goldmines Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ KLM-X
+Kermode Resources Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ KMT-X
+Komet Resources Inc
+0.215	
+N/A
+N/A
+N/A
+N/A
+ KNG-X
+Kingsmen Resources Ltd
+0.215	
+N/A
+N/A
+N/A
+N/A
+ KNT-X
+K92 Mining Inc
+0.790	
+2.600
+2.600
+2.600
+2.600
+ KNX-X
+Knick Exploration Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ KS-X
+Klondike Silver Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ KSI-X
+Kneat.com Inc
+1.200	
+N/A
+N/A
+N/A
+N/A
+ KTN-X
+Kootenay Silver Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ KTO-X
+K2 Gold Corp
+0.275	
+N/A
+N/A
+N/A
+N/A
+ KTR-X
+Kintavar Exploration Inc
+0.235	
+N/A
+N/A
+N/A
+N/A
+ KUB-X
+Cub Energy Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ KUT-X
+Redishred Capital Corp
+0.670	
+1.000
+1.000
+1.000
+1.000
+ KUU-X
+Kuuhubb Inc
+0.560	
+4.000
+4.000
+4.000
+4.000
+ KZD-X
+Kaizen Discovery Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ LA-X
+Los Andes Copper Limited
+0.270	
+N/A
+N/A
+N/A
+N/A
+ LAB-X
+Labrador Gold Corp
+0.250	
+0.500
+0.500
+0.500
+0.500
+ LAD-X
+New Carolin Gold Corp
+0.245	
+N/A
+N/A
+N/A
+N/A
+ LAT-X
+Latin American Minerals Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ LBC-X
+Libero Copper Corporation
+0.100	
+N/A
+N/A
+N/A
+N/A
+ LBI-X
+Lions Bay Capital Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ LBY-X
+Liberty One Lithium Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ LDI-X
+Lithoquest Diamonds Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ LEM-X
+Leading Edge Materials Corp
+0.305	
+N/A
+N/A
+N/A
+N/A
+ LEN-X
+Lund Enterprises Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ LEP-X
+Lithium Energy Products Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ LEXI-X
+Lithium Energi Exploration Inc
+0.315	
+N/A
+N/A
+N/A
+N/A
+ LG-X
+Lgc Capital Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ LHR-X
+Lakeview Hotel Invest Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ LI-X
+American Lithium Corp
+0.510	
+2.600
+1.900
+2.250
+2.250
+ LIC-X
+Lico Energy Metals Inc
+0.180	
+N/A
+N/A
+N/A
+N/A
+ LIO-X
+Lion One Metals Limited
+0.500	
+N/A
+N/A
+N/A
+N/A
+ LIT-X
+Argentina Lithium and Energy Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ LITH-X
+Lithium Chile Inc
+0.720	
+N/A
+N/A
+N/A
+N/A
+ LIVE-X
+Globalive Technology Inc
+0.460	
+N/A
+N/A
+N/A
+N/A
+ LJ-X
+Lucky Minerals Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ LL-X
+Canada Rare Earth Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ LLC-X
+Lorraine Copper Corp
+0.100	
+N/A
+N/A
+N/A
+N/A
+ LLG-X
+Mason Graphite Inc
+1.040	
+3.000
+2.750
+2.830
+2.750
+ LM-X
+Lingo Media Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ LME-X
+Laurion Mineral Exploration Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ LMG-X
+Lincoln Mining Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ LMR-X
+Lomiko Metals Inc
+0.070	
+0.750
+0.750
+0.750
+0.750
+ LNC-X
+Lithion Energy Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ LND-X
+Inspira Financial Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ LOOP-X
+Loopshare Ltd
+0.040	
+N/A
+N/A
+N/A
+N/A
+ LOT-X
+Tomagold Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ LPC-X
+Lorne Park Capital Partners Inc
+0.400	
+N/A
+N/A
+N/A
+N/A
+ LPK-X
+Lupaka Gold Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ LRA-X
+Lara Exploration Ltd
+0.620	
+N/A
+N/A
+N/A
+N/A
+ LSC-X
+Lsc Lithium Corp
+0.360	
+1.950
+1.950
+1.950
+1.950
+ LTE-X
+Lite Access Technologies Inc
+0.570	
+N/A
+N/A
+N/A
+N/A
+ LTV-X
+Leonovus Inc
+0.230	
+N/A
+N/A
+N/A
+N/A
+ LTX-X
+Labrador Technologies Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ LUM-X
+Lumina Gold Corp
+0.740	
+1.500
+1.500
+1.500
+1.500
+ LXE-X
+Leucrotta Exploration Inc
+1.820	
+3.500
+2.000
+2.670
+2.550
+ M-X
+Mosaic Capital Corp
+4.390	
+5.750
+5.750
+5.750
+5.750
+ MAC-X
+Themac Resources Group Limited
+0.055	
+N/A
+N/A
+N/A
+N/A
+ MAD-X
+Miranda Gold Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ MAE-X
+Maritime Resources Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ MAH-X
+Marksmen Energy Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ MAI-X
+Minera Alamos Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ MAP-X
+Maple Peak Investments Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ MAS-X
+Mas Gold Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ MAT-X
+Matamec Explorations Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ MBO-X
+Mobio Technologies Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ MC-X
+M2 Cobalt Group
+0.265	
+N/A
+N/A
+N/A
+N/A
+ MCF-X
+Pinedale Energy Limited
+0.150	
+N/A
+N/A
+N/A
+N/A
+ MCG-X
+Mountain China Resorts Holding Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ MCI-X
+Minnova Corp
+0.670	
+N/A
+N/A
+N/A
+N/A
+ MCLD-X
+Universal Mcloud Corp
+0.370	
+N/A
+N/A
+N/A
+N/A
+ MCN-X
+Metron Capital Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ MCO-X
+Magnolia Colombia Ltd
+0.130	
+N/A
+N/A
+N/A
+N/A
+ MCR-X
+Macro Enterprises Inc
+3.460	
+5.000
+5.000
+5.000
+5.000
+ MCS-X
+Mcchip Resources Inc
+0.720	
+N/A
+N/A
+N/A
+N/A
+ MCU-X
+Mega Copper Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ MCX-X
+Mcorpcx Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ MD-X
+Midland Exploration Inc
+0.710	
+N/A
+N/A
+N/A
+N/A
+ MDL-X
+Medallion Resources Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ MDO-X
+Manado Gold Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ MDV-X
+Megastar Development Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ MED-X
+Medgold Resources Corp
+0.300	
+N/A
+N/A
+N/A
+N/A
+ MEK-X
+Metals Creek Resources Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ MET-X
+Metalore Resources Limited
+1.800	
+N/A
+N/A
+N/A
+N/A
+ MEX-X
+Mexican Gold Corp
+0.210	
+N/A
+N/A
+N/A
+N/A
+ MFM-X
+Marifil Mines Ltd
+0.135	
+N/A
+N/A
+N/A
+N/A
+ MFX-X
+Minfocus Exploration Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+MGG-X
+Minaurum Gold Inc
+0.530	
+N/A
+N/A
+N/A
+N/A
+ MGI-X
+Magnum Goldcorp Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ MGM-X
+Maple Gold Mines Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ MHI-X
+Mineral Hill Industries Ltd
+0.190	
+N/A
+N/A
+N/A
+N/A
+ MINE-X
+Inomin Mines Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ MIT-X
+The Mint Corp
+0.205	
+N/A
+N/A
+N/A
+N/A
+ MJS-X
+Majestic Gold Corp
+0.085	
+N/A
+N/A
+N/A
+N/A
+ MKA-X
+Mkango Resources Ltd
+0.150	
+N/A
+N/A
+N/A
+N/A
+ MKR-X
+Melkior Resources Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ MKT-X
+Deepmarkit Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ ML-X
+Millennial Lithium Corp
+1.680	
+N/A
+N/A
+N/A
+N/A
+ MLG-X
+ML Gold Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ MLN-X
+Marlin Gold Mining Ltd
+0.115	
+0.350
+0.350
+0.350
+0.350
+ MLR-X
+Melior Resources Inc
+0.750	
+N/A
+N/A
+N/A
+N/A
+ MLY-X
+American Cumo Mining Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ MMA-X
+Midnight Sun Mining Corp
+0.170	
+N/A
+N/A
+N/A
+N/A
+ MMG-X
+Metallic Minerals Corp
+0.220	
+N/A
+N/A
+N/A
+N/A
+ MMM-X
+Minco Gold Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ MMN-X
+Monarca Minerals Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ MMS-X
+Macarthur Minerals Limited
+0.030	
+N/A
+N/A
+N/A
+N/A
+ MMV-X
+Mineral Mountain Resources Ltd
+0.110	
+1.150
+1.150
+1.150
+1.150
+ MMX-X
+Maverix Metals Inc
+2.050	
+2.750
+2.500
+2.620
+2.620
+ MMY-X
+Monument Mining Limited
+0.065	
+N/A
+N/A
+N/A
+N/A
+ MN-X
+Manganese X Energy Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ MNO-X
+Meridian Mining Societas Europaea
+0.100	
+N/A
+N/A
+N/A
+N/A
+ MNX-X
+Manitex Capital Inc
+0.320	
+N/A
+N/A
+N/A
+N/A
+ MNY-X
+Montan Mining Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ MOL-X
+Molori Energy Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ MON-X
+Montero Mining and Exploration Ltd
+0.185	
+N/A
+N/A
+N/A
+N/A
+ MOO-X
+Mooncor Oil and Gas Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ MOON-X
+Blue Moon Zinc Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ MOS-X
+Mobi724 Global Solutions Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ MOX-X
+Morien Resources Corp
+0.490	
+N/A
+N/A
+N/A
+N/A
+ MPT-X
+Midpoint Holdings Ltd
+0.060	
+N/A
+N/A
+N/A
+N/A
+ MQR-X
+Monarques Gold Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ MQX-X
+Marquee Energy Ltd
+0.030	
+0.080
+0.060
+0.070
+0.070
+ MRI-X
+Meridius Resources Ltd
+0.180	
+N/A
+N/A
+N/A
+N/A
+ MRL-X
+Margaux Resources Ltd
+0.085	
+N/A
+N/A
+N/A
+N/A
+ MRO-X
+Millrock Resources Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ MRS-X
+Mission Ready Solutions Inc
+0.215	
+N/A
+N/A
+N/A
+N/A
+ MRZ-X
+Mirasol Resources Ltd
+1.500	
+N/A
+N/A
+N/A
+N/A
+ MSA-X
+Mesa Exploration Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ MSP-X
+Minaean SP Construction Corp
+0.250	
+N/A
+N/A
+N/A
+N/A
+ MSR-X
+Minsud Resources Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ MTA-X
+Metalla Royalty & Streaming Ltd
+0.720	
+N/A
+N/A
+N/A
+N/A
+ MTB-X
+Mountain Boy Minerals Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ MTC-X
+Metalcorp Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ MTH-X
+Mammoth Resources Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ MTO-X
+Metanor Res Inc
+0.580	
+N/A
+N/A
+N/A
+N/A
+ MTS-X
+Metallis Resources Inc
+0.880	
+N/A
+N/A
+N/A
+N/A
+ MTT-X
+Magna Terra Minerals Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ MTU-X
+Manitou Gold Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ MTX-X
+Metalex Ventures Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ MUN-X
+Mundoro Capital Inc
+0.180	
+0.640
+0.640
+0.640
+0.640
+ MUR-X
+Murchison Minerals Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ MVN-X
+Madalena Energy Inc
+0.205	
+0.250
+0.250
+0.250
+0.250
+ MVP-X
+Mediavalet Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ MVY-X
+Moovly Media Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ MWX-X
+Mineworx Technologies Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ MXX-X
+Matrrix Energy Technologies Inc
+0.230	
+0.300
+0.300
+0.300
+0.300
+ MYA-X
+Maya Gold & Silver Inc
+2.320	
+N/A
+N/A
+N/A
+N/A
+ MZZ-X
+Val Dor Mining Corp
+0.110	
+N/A
+N/A
+N/A
+N/A
+ NAM-X
+New Age Metals Inc
+0.075	
+N/A
+N/A
+N/A
+N/A
+ NAN-X
+North American Nickel Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ NAP-X
+Napier Ventures Inc
+0.320	
+N/A
+N/A
+N/A
+N/A
+ NAR-X
+North Arrow Minerals Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ NBR-X
+Nubian Resources Ltd
+0.135	
+N/A
+N/A
+N/A
+N/A
+ NBVA-X
+Nubeva Technologies Ltd
+0.700	
+N/A
+N/A
+N/A
+N/A
+ NBY-X
+Niobay Metals Inc
+0.195	
+N/A
+N/A
+N/A
+N/A
+ NCI-X
+Ntg Clarity Networks Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ NCX-X
+Northisle Copper and Gold Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ NDR-X
+New Dimension Resources Ltd
+0.095	
+N/A
+N/A
+N/A
+N/A
+ NED-X
+New Destiny Mining Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ NEE-X
+Northern Vertex Mining Corp
+0.315	
+0.900
+0.900
+0.900
+0.900
+ NEM-X
+New Era Minerals Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ NER-X
+Newmac Resources Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ NEV-X
+Nevada Sunrise Gold Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ NGC-X
+Northern Graphite Corp
+0.280	
+N/A
+N/A
+N/A
+N/A
+ NGE-X
+Nevada Exploration Inc
+0.235	
+N/A
+N/A
+N/A
+N/A
+ NGZ-X
+NRG Metals Inc
+0.205	
+N/A
+N/A
+N/A
+N/A
+ NIC-X
+Pure Nickel Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ NIM-X
+Nicola Mining Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ NIO-X
+Niocan Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ NIP-X
+Nippon Dragon Resources Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ NIR-X
+Noble Iron Inc
+0.380	
+N/A
+N/A
+N/A
+N/A
+ NL-X
+Northern Lion Gold Corp
+0.215	
+N/A
+N/A
+N/A
+N/A
+ NLC-X
+NEO Lithium Corp
+1.105	
+3.350
+3.250
+3.300
+3.300
+ NM-X
+Northern Empire Resources Corp
+1.240	
+1.800
+1.640
+1.720
+1.720
+ NMG-X
+Noble Metal Group Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ NMI-X
+Namibia Critical Metals Inc
+0.210	
+N/A
+N/A
+N/A
+N/A
+ NNA-X
+New Nadina Explorations Limited
+0.095	
+N/A
+N/A
+N/A
+N/A
+ NNN-X
+Nickel One Resources Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ NNP-X
+Newnorth Projects Ltd
+0.155	
+N/A
+N/A
+N/A
+N/A
+ NNX-X
+Nickel North Exploration Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ NOB-X
+Noble Mineral Exploration Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ NOT-X
+Noront Resources Ltd
+0.300	
+0.900
+0.900
+0.900
+0.900
+ NOU-X
+Nouveau Monde Graphite Inc
+0.270	
+N/A
+N/A
+N/A
+N/A
+ NPA-X
+Alphinat Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ NRG-X
+Newrange Gold Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ NRM-X
+Noram Ventures Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ NRN-X
+Northern Shield Resources Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ NSP-X
+Naturally Splendid Enterprises Ltd
+0.155	
+N/A
+N/A
+N/A
+N/A
+ NSX-X
+Nsgold Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ NTE-X
+Network Media Group Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ NTQ-X
+Novateqni Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ NTRL-X
+Sweet Natural Trading Co.
+0.040	
+N/A
+N/A
+N/A
+N/A
+ NTS-X
+Nanotech Security Corp
+0.870	
+1.500
+1.400
+1.450
+1.450
+ NTY-X
+92 Resources Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ NUAG-X
+New Pacific Metals Corp
+1.550	
+3.000
+3.000
+3.000
+3.000
+ NUG-X
+Nulegacy Gold Coporation
+0.190	
+N/A
+N/A
+N/A
+N/A
+ NVI-X
+Novra Technologies Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ NVM-X
+Nevada Clean Magnesium Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ NVO-X
+Novo Resources Corp
+2.960	
+N/A
+N/A
+N/A
+N/A
+ NVT-X
+Nortec Minerals Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ NVV-X
+Norvista Capital Corp
+0.110	
+N/A
+N/A
+N/A
+N/A
+ NVX-X
+Nv Gold Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ NVY-X
+Navy Resources Corp
+0.175	
+N/A
+N/A
+N/A
+N/A
+ NW-X
+New World Resources Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ NWE-X
+New West Energy Services Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ NWX-X
+Newport Exloration Ltd
+0.315	
+N/A
+N/A
+N/A
+N/A
+ NXG-X
+Nexgenrx Inc
+0.260	
+N/A
+N/A
+N/A
+N/A
+ NXN-X
+Nxgold Ltd
+0.130	
+N/A
+N/A
+N/A
+N/A
+ NXO-X
+Nexoptic Technology Corp
+0.700	
+N/A
+N/A
+N/A
+N/A
+ NXS-X
+Nexus Gold Corp
+0.135	
+N/A
+N/A
+N/A
+N/A
+ NZ-X
+New Zealand Energy Corp
+0.015	
+0.100
+0.100
+0.100
+0.100
+ NZN-X
+Nevada Zinc Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ NZP-X
+Chatham Rock Phosphate Limited
+0.160	
+N/A
+N/A
+N/A
+N/A
+ NZZ-X
+Nitinat Minerals Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ OCN-X
+Oceanus Resources Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ OCO-X
+Oroco Resource Corp
+0.215	
+N/A
+N/A
+N/A
+N/A
+ OEC-X
+Oracle Energy Corp
+0.115	
+N/A
+N/A
+N/A
+N/A
+ OEE-X
+Memex Inc
+0.045	
+0.500
+0.500
+0.500
+0.500
+ OG-X
+Organic Garage Ltd
+0.355	
+N/A
+N/A
+N/A
+N/A
+ OGO-X
+Organto Foods Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ OIC-X
+Origin Gold Corporation
+0.105	
+N/A
+N/A
+N/A
+N/A
+ OK-X
+Ok2 Minerals Ltd
+0.020	
+1.850
+1.250
+1.550
+1.550
+ OLA-X
+Orla Mining Ltd
+1.200	
+2.700
+2.000
+2.330
+2.300
+ OLV-X
+Olivut Resources Ltd
+0.095	
+N/A
+N/A
+N/A
+N/A
+ OM-X
+Osisko Metals Incorporated
+0.600	
+N/A
+N/A
+N/A
+N/A
+ OML-X
+Omni-Lite Industries Canada Inc
+1.140	
+N/A
+N/A
+N/A
+N/A
+ OMM-X
+Omineca Mining and Metals Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ ONE-X
+01 Communique Laboratory Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ ONV-X
+Oronova Energy Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ OOO-X
+Otis Gold Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ OOR-X
+Opus One Resources Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ OPW-X
+Opawica Explorations Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ ORE-X
+Orezone Gold Corp
+0.620	
+1.500
+1.350
+1.430
+1.430
+ ORG-X
+Orca Gold Inc
+0.490	
+0.900
+0.900
+0.900
+0.900
+ ORM-X
+Orford Mining Corporation
+0.305	
+N/A
+N/A
+N/A
+N/A
+ ORO-X
+New Oroperu Resources Inc
+0.335	
+N/A
+N/A
+N/A
+N/A
+ ORS-X
+Orestone Mining Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ ORX-X
+Orefinders Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ OS-X
+Osprey Gold Development Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ OSI-X
+Osino Resources Corp
+0.210	
+N/A
+N/A
+N/A
+N/A
+ OSS-X
+Onesoft Solutions Inc
+0.450	
+N/A
+N/A
+N/A
+N/A
+ OSU-X
+Orsu Metals Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ OVT-X
+Oculus Visiontech Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ OY-X
+Oyster Oil and Gas Ltd
+0.080	
+N/A
+N/A
+N/A
+N/A
+ OYL-X
+Cgx Energy Inc
+0.275	
+0.300
+0.300
+0.300
+0.300
+ PA-X
+Palamina Corp
+0.380	
+N/A
+N/A
+N/A
+N/A
+ PAC-X
+Pacton Gold Inc
+0.375	
+N/A
+N/A
+N/A
+N/A
+ PAD-X
+Pan Andean Minerals Ltd
+0.070	
+N/A
+N/A
+N/A
+N/A
+ PAL-X
+Parallel Mining Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ PAM-X
+Power Americas Minerals Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ PAN-X
+Pangolin Diamonds Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ PAT-X
+Patriot One Technologies Inc
+1.950	
+N/A
+N/A
+N/A
+N/A
+ PBM-X
+Pacific Bay Minerals Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ PBR-X
+Para Resources Inc
+0.170	
+N/A
+N/A
+N/A
+N/A
+ PBX-X
+Powerband Solutions Inc
+0.145	
+N/A
+N/A
+N/A
+N/A
+ PCI-X
+Perlite Canada Inc
+0.600	
+N/A
+N/A
+N/A
+N/A
+ PCO-X
+Phoenix Canada Oil Co.Ltd
+1.580	
+N/A
+N/A
+N/A
+N/A
+ PCQ-X
+Petrolympic Ltd
+0.080	
+N/A
+N/A
+N/A
+N/A
+ PCR-X
+Pinecrest Resources Ltd
+0.220	
+N/A
+N/A
+N/A
+N/A
+ PDQ-X
+Petrodorado Energy Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ PE-X
+Pure Energy Minerals Limited
+0.110	
+N/A
+N/A
+N/A
+N/A
+ PEA-X
+Pieridae Energy Ltd
+3.130	
+N/A
+N/A
+N/A
+N/A
+ PEEK-X
+Peeks Social Ltd
+0.100	
+N/A
+N/A
+N/A
+N/A
+ PEH-X
+Primeline Energy Holdings Inc
+0.095	
+N/A
+N/A
+N/A
+N/A
+ PEMC-X
+Pacific Empire Minerals Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ PEO-X
+People Corp
+8.480	
+10.000
+9.000
+9.310
+9.120
+ PERU-X
+Chakana Copper Corp
+0.455	
+N/A
+N/A
+N/A
+N/A
+ PEX-X
+Pacific Ridge Exploration Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ PFC-X
+Petrofrontier Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ PFM-X
+Prontoforms Corp
+0.330	
+0.550
+0.550
+0.550
+0.550
+ PGC-X
+Plato Gold Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ PGE-X
+Group Ten Metals Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ PGM-X
+Pure Gold Mining Inc
+0.530	
+1.250
+1.000
+1.080
+1.000
+ PGV-X
+Prodigy Ventures Inc
+0.170	
+N/A
+N/A
+N/A
+N/A
+ PGX-X
+Prosper Gold Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ PGZ-X
+Pan Global Resources Inc
+0.185	
+N/A
+N/A
+N/A
+N/A
+ PHD-X
+Providence Gold Mines Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ PHI-X
+Philippine Metals Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ PJT-X
+Partner Jet Corp
+0.335	
+N/A
+N/A
+N/A
+N/A
+ PJX-X
+Pjx Resources Inc
+0.195	
+N/A
+N/A
+N/A
+N/A
+ PKT-X
+Parkit Enterprise Inc
+0.270	
+N/A
+N/A
+N/A
+N/A
+ PLA-X
+Plata Latina Minerals Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ PLAN-X
+Progressive Planet Solutions Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ PLU-X
+Plateau Energy Metals Inc
+1.070	
+3.000
+3.000
+3.000
+3.000
+ PLX-X
+Point Loma Resources Ltd
+0.255	
+1.100
+1.100
+1.100
+1.100
+ PLY-X
+Playfair Mining Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ PML-X
+Panoro Minerals Ltd
+0.245	
+0.800
+0.800
+0.800
+0.800
+ PMX-X
+Proam Exploration Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ PNG-X
+Kraken Robotics Inc
+0.500	
+N/A
+N/A
+N/A
+N/A
+ PNN-X
+Pennine Petroleum Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ PNO-X
+Pentanova Energy Corp
+0.035	
+0.800
+0.800
+0.800
+0.800
+ POC-X
+Pacific Iron Ore Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ POE-X
+Pan Orient Energy Corp
+1.100	
+3.250
+3.250
+3.250
+3.250
+ POG-X
+Perisson Petroleum Corp
+0.200	
+N/A
+N/A
+N/A
+N/A
+ POOL-X
+Pool Safe Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ POR-X
+Portofino Resources Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ PORE-X
+Powerore Inc
+0.070	
+N/A
+N/A
+N/A
+N/A
+ PP-X
+Pacific Silk Road Res Group Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ PPM-X
+Pacific Imperial Mines Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ PPX-X
+Ppx Mining Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ PQE-X
+Petroteq Energy Inc
+1.250	
+N/A
+N/A
+N/A
+N/A
+ PRB-X
+Probe Metals Inc
+1.200	
+2.500
+2.000
+2.250
+2.250
+ PRG-X
+Precipitate Gold Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ PRH-X
+Pearl River Holdings Limited
+0.220	
+N/A
+N/A
+N/A
+N/A
+ PRO-X
+Pershimex Resources Corp
+0.035	
+0.700
+0.300
+0.450
+0.350
+ PROS-X
+Prosmart Enterprises Inc
+0.225	
+N/A
+N/A
+N/A
+N/A
+ PRS-X
+Prism Resources Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ PRZ-X
+Prize Mining Corp
+0.145	
+N/A
+N/A
+N/A
+N/A
+ PSH-X
+Petroshale Inc
+1.820	
+3.750
+3.500
+3.620
+3.620
+ PSL-X
+Prospero Silver Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ PST-X
+Pistol Bay Mining Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ PTF-X
+Pender Growth Fund Inc
+4.100	
+N/A
+N/A
+N/A
+N/A
+ PTK-X
+Poet Technologies Inc
+0.355	
+N/A
+N/A
+N/A
+N/A
+ PTP-X
+Petrichor Energy Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ PTU-X
+Purepoint Uranium Group Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ PUC-X
+Pancontinental Resources Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ PUL-X
+Pulse Oil Corp
+0.235	
+0.500
+0.500
+0.500
+0.500
+ PUMA-X
+Puma Exploration Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ PWM-X
+Power Metals Corp
+0.245	
+N/A
+N/A
+N/A
+N/A
+ PX-X
+Pelangio Exploration Inc
+0.175	
+1.100
+1.100
+1.100
+1.100
+ PXI-X
+Planet Ventures Inc
+0.130	
+N/A
+N/A
+N/A
+N/A
+ QGR-X
+Q Gold Resources Ltd
+0.210	
+N/A
+N/A
+N/A
+N/A
+ QI-X
+Q Investments Ltd
+0.560	
+N/A
+N/A
+N/A
+N/A
+ QIC-X
+Quantum International Income Corp
+0.980	
+N/A
+N/A
+N/A
+N/A
+ QIS-X
+Quorum Information Technologies Inc
+0.580	
+N/A
+N/A
+N/A
+N/A
+ QIT-X
+Quinto Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ QMC-X
+Qmc Quantum Minerals Corp
+0.265	
+N/A
+N/A
+N/A
+N/A
+ QMX-X
+Qmx Gold Corp
+0.070	
+0.600
+0.600
+0.600
+0.600
+ QNC-X
+Quantum Numbers Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ QQ-X
+Quizam Media Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ QRO-X
+Quadro Resources Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ QST-X
+Questor Technology Inc
+2.090	
+1.000
+1.000
+1.000
+1.000
+ QTA-X
+Quaterra Resources Inc
+0.060	
+0.150
+0.150
+0.150
+0.150
+ QYOU-X
+Qyou Media Inc
+0.145	
+1.100
+1.100
+1.100
+1.100
+ QZM-X
+Quartz Mountain Resources Ltd
+0.780	
+N/A
+N/A
+N/A
+N/A
+ RAB-X
+Rambler Metals and Mining Plc
+0.055	
+0.450
+0.450
+0.450
+0.450
+ RAK-X
+Rackla Metals Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ RBE-X
+Rockbridge Resources Inc
+0.185	
+N/A
+N/A
+N/A
+N/A
+ RBX-X
+Robex Resources Inc
+0.105	
+N/A
+N/A
+N/A
+N/A
+ RCG-X
+Resource Capital Gold Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ RCK-X
+Rock Tech Lithium Inc
+0.940	
+N/A
+N/A
+N/A
+N/A
+ RCLF-X
+Rockcliff Metals Corporation
+0.100	
+N/A
+N/A
+N/A
+N/A
+ RCT-X
+Rochester Resources Ltd
+0.030	
+N/A
+N/A
+N/A
+N/A
+ RDS-X
+Radisson Mining Resources Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ RDU-X
+Radius Gold Inc
+0.160	
+N/A
+N/A
+N/A
+N/A
+ REG-X
+Regulus Resources Inc
+1.880	
+N/A
+N/A
+N/A
+N/A
+ REKO-X
+Reko International Group Inc
+3.300	
+N/A
+N/A
+N/A
+N/A
+ REL-X
+Roughrider Exploration Limited
+0.115	
+N/A
+N/A
+N/A
+N/A
+ REN-X
+Renaissance Gold Inc
+0.185	
+N/A
+N/A
+N/A
+N/A
+ REW-X
+Rewardstream Solutions Inc
+0.195	
+N/A
+N/A
+N/A
+N/A
+ REX-X
+Orex Minerals Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ REZ-X
+Redzone Resources Ltd
+0.160	
+N/A
+N/A
+N/A
+N/A
+ RFC-X
+Rifco Inc
+1.060	
+2.250
+2.250
+2.250
+2.250
+ RG-X
+Romios Gold Resources Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ RGC-X
+Redstar Gold Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ RGD-X
+Reunion Gold Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ RGI-X
+Reco International Group Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ RGM-X
+Remington Resources Inc
+0.220	
+N/A
+N/A
+N/A
+N/A
+ RHC-X
+Rhc Capital Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ RHT-X
+Reliq Health Technologies Inc
+1.180	
+2.700
+2.700
+2.700
+2.700
+ RIO-X
+Rio2 Limited
+0.720	
+N/A
+N/A
+N/A
+N/A
+ RK-X
+Rockhaven Resources Ltd
+0.130	
+N/A
+N/A
+N/A
+N/A
+ RKR-X
+Rokmaster Resources Corp
+0.100	
+N/A
+N/A
+N/A
+N/A
+ RLY-X
+Riley Resources Corp
+0.145	
+N/A
+N/A
+N/A
+N/A
+ RM-X
+Routemaster Capital Inc
+0.080	
+0.210
+0.210
+0.210
+0.210
+ RMD-X
+Richmond Minerals Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ RMI-X
+Ridgestone Mining Inc
+0.270	
+N/A
+N/A
+N/A
+N/A
+ RMK-X
+Red Moon Resources Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ RML-X
+Rusoro Mining Ltd
+0.085	
+N/A
+N/A
+N/A
+N/A
+ RMO-X
+Rainy Mountain Royalty Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ RNP-X
+Royalty North Partners Ltd
+0.150	
+N/A
+N/A
+N/A
+N/A
+ ROCK-X
+Rockridge Resources Ltd
+0.225	
+N/A
+N/A
+N/A
+N/A
+ ROE-X
+Renaissance Oil Corp
+0.220	
+0.800
+0.500
+0.650
+0.650
+ ROI-X
+Route1 Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ ROS-X
+Roscan Minerals Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ ROT-X
+Rotation Minerals Ltd
+0.085	
+N/A
+N/A
+N/A
+N/A
+ ROVR-X
+Rover Metals Corp
+0.060	
+N/A
+N/A
+N/A
+N/A
+ ROX-X
+Canstar Resources Inc
+0.190	
+N/A
+N/A
+N/A
+N/A
+ RPC-X
+Raise Production Inc
+0.205	
+N/A
+N/A
+N/A
+N/A
+ RPP-X
+Regent Pacific Properties Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ RPX-X
+Red Pine Exploration Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ RRI-X
+Riverside Resources Inc
+0.175	
+N/A
+N/A
+N/A
+N/A
+ RRL-X
+Relentless Resources Ltd
+0.115	
+N/A
+N/A
+N/A
+N/A
+ RRS-X
+Rogue Resources Inc
+0.160	
+N/A
+N/A
+N/A
+N/A
+ RSS-X
+Resaas Services Inc
+0.400	
+N/A
+N/A
+N/A
+N/A
+ RST-X
+Rosita Mining Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ RSV-X
+Resolve Ventures Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ RSY-X
+Rsi International Systems Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ RTH-X
+Rathdowney Resources Ltd
+0.110	
+0.300
+0.300
+0.300
+0.300
+ RTI-X
+Radient Technologies Inc
+1.180	
+N/A
+N/A
+N/A
+N/A
+ RTM-X
+Rt Minerals Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ RTN-X
+Return Energy Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ RUG-X
+Rugby Mining Limited
+0.200	
+N/A
+N/A
+N/A
+N/A
+ RUM-X
+Rocky Mountain Liquor Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ RUN-X
+Running Fox Resource Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ RUP-X
+Rupert Resources Ltd
+0.900	
+N/A
+N/A
+N/A
+N/A
+ RVG-X
+Revival Gold Inc
+0.790	
+2.000
+2.000
+2.000
+2.000
+ RVL-X
+Revelo Resources Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ RW-X
+Renoworks Software Inc
+0.360	
+N/A
+N/A
+N/A
+N/A
+ RWR-X
+Rockwealth Resources Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ RYE-X
+Rhyolite Resources Ltd
+0.150	
+N/A
+N/A
+N/A
+N/A
+ RYO-X
+Rio Silver Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ RYR-X
+Royal Road Minerals Limited
+0.090	
+N/A
+N/A
+N/A
+N/A
+ RYU-X
+Ryu Apparel Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ RZE-X
+Razor Energy Corp
+2.850	
+3.500
+3.500
+3.500
+3.500
+ RZL-X
+Rizal Resources Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ RZZ-X
+Abitibi Royalties Inc
+10.000	
+N/A
+N/A
+N/A
+N/A
+ SA-X
+Southern Arc Minerals Inc
+0.320	
+N/A
+N/A
+N/A
+N/A
+ SAE-X
+Sable Resources Ltd
+0.220	
+N/A
+N/A
+N/A
+N/A
+ SAH-X
+Sahara Energy Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ SAT-X
+Asian Television Network Int Ltd
+0.320	
+N/A
+N/A
+N/A
+N/A
+ SAY-X
+Sparta Capital Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ SB-X
+Stratabound Minerals Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SBW-X
+Strongbow Exploration Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ SCA-X
+Savary Gold Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SCD-X
+Samoth Oilfield Inc
+0.085	
+N/A
+N/A
+N/A
+N/A
+ SCR-X
+Thescore Inc
+0.330	
+0.550
+0.550
+0.550
+0.550
+ SCZ-X
+Santacruz Silver Mining Ltd
+0.090	
+0.600
+0.600
+0.600
+0.600
+ SDC-X
+Solidusgold Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ SDE-X
+Standard Exploration Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SDR-X
+Stroud Resources Ltd
+0.010	
+N/A
+N/A
+N/A
+N/A
+ SDX-X
+Sdx Energy Inc
+0.960	
+1.800
+1.800
+1.800
+1.800
+ SDZ-X
+Security Devices International Inc
+0.190	
+N/A
+N/A
+N/A
+N/A
+ SEB-X
+Smart Employee Benefits Inc
+0.205	
+N/A
+N/A
+N/A
+N/A
+ SEI-X
+Sintana Energy Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ SEK-X
+Secova Metals Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ SEW-X
+Seaway Energy Services Inc
+0.205	
+N/A
+N/A
+N/A
+N/A
+ SFI-X
+Solution Financial Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ SFR-X
+Sandfire Resources America Inc
+0.090	
+N/A
+N/A
+N/A
+N/A
+ SFT-X
+Softrock Minerals Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SFX-X
+Sphinx Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SGA-X
+Samco Gold Limited
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SGC-X
+Solstice Gold Corp
+0.205	
+0.350
+0.350
+0.350
+0.350
+ SGE-X
+Strategem Capital Corp
+1.800	
+N/A
+N/A
+N/A
+N/A
+ SGI-X
+Superior Gold Inc
+1.020	
+2.700
+2.000
+2.350
+2.400
+ SGM-X
+Sutter Gold Mining Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SGMA-X
+Sigma Lithium Resources Corp
+2.280	
+N/A
+N/A
+N/A
+N/A
+ SGN-X
+Scorpio Gold Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ SGU-X
+Signature Resources Ltd
+0.090	
+N/A
+N/A
+N/A
+N/A
+ SGW-X
+Shoal Games Ltd
+0.450	
+N/A
+N/A
+N/A
+N/A
+ SGX-X
+Sage Gold Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SGZ-X
+Sego Resources Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SHJ-X
+Shoshoni Gold Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SHL-X
+Spruce Ridge Resources Ltd
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SHM-X
+Synstream Energycorp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ SIC-X
+Sokoman Iron Corp
+0.170	
+N/A
+N/A
+N/A
+N/A
+ SIE-X
+Sienna Resources Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ SIL-X
+Silvercrest Metals Inc
+3.190	
+6.000
+4.300
+5.130
+5.120
+ SIM-X
+Siyata Mobile Inc
+0.495	
+0.850
+0.850
+0.850
+0.850
+ SIQ-X
+Siq Mountain Industries Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ SIR-X
+Serengeti Resources Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ SJL-X
+Saint Jean Carbon Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SKE-X
+Skeena Resources Limited
+0.450	
+N/A
+N/A
+N/A
+N/A
+ SKK-X
+Strikewell Energy Corp
+0.170	
+N/A
+N/A
+N/A
+N/A
+ SKP-X
+Strikepoint Gold Inc
+0.180	
+N/A
+N/A
+N/A
+N/A
+ SLAU-X
+Sandy Lake Gold Inc
+0.065	
+N/A
+N/A
+N/A
+N/A
+ SLK-X
+Silk Road Energy Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SLL-X
+Standard Lithium Ltd
+1.600	
+N/A
+N/A
+N/A
+N/A
+ SMB-X
+Simba Essel Energy Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SMD-X
+Strategic Metals Ltd
+0.370	
+N/A
+N/A
+N/A
+N/A
+ SME-X
+Sama Resources Inc Ressources Sama Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ SMI-X
+Saturn Oil and Gas Inc
+0.210	
+N/A
+N/A
+N/A
+N/A
+ SMM-X
+Silver Mountain Mines Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ SMN-X
+San Marco Resources Inc
+0.145	
+N/A
+N/A
+N/A
+N/A
+ SMO-X
+Sonoro Metals Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ SMY-X
+Search Minerals Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SN-X
+Sennen Potash Corp
+0.450	
+N/A
+N/A
+N/A
+N/A
+ SNF-X
+Sunora Foods Inc
+0.125	
+N/A
+N/A
+N/A
+N/A
+ SNG-X
+Silver Range Resources Ltd
+0.120	
+N/A
+N/A
+N/A
+N/A
+ SNM-X
+Shamaran Petroleum Corp
+0.130	
+0.130
+0.130
+0.130
+0.130
+ SNR-X
+Senator Minerals Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ SNS-X
+Select Sands Corp
+0.190	
+1.290
+1.290
+1.290
+1.290
+ SNV-X
+Sonoro Energy Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ SOC-X
+Sonora Gold & Silver Corp
+0.070	
+N/A
+N/A
+N/A
+N/A
+ SOCK-X
+Smooth Rock Ventures Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SOG-X
+Strategic Oil and Gas Ltd
+0.080	
+0.150
+0.150
+0.150
+0.150
+ SOI-X
+Sirios Resources Inc
+0.160	
+N/A
+N/A
+N/A
+N/A
+ SOJ-X
+Sojourn Explorations Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ SPA-X
+Spanish Mountain Gold Ltd
+0.070	
+N/A
+N/A
+N/A
+N/A
+ SPD-X
+Silver Predator Corp
+0.100	
+N/A
+N/A
+N/A
+N/A
+ SPI-X
+Canadian Spirit Resources Inc
+0.095	
+N/A
+N/A
+N/A
+N/A
+ SPK-X
+Sunset Pacific Petroleum Ltd
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SPN-X
+Snipp Interactive Inc
+0.100	
+N/A
+N/A
+N/A
+N/A
+ SPP-X
+Spot Coffee Canada Ltd
+0.075	
+N/A
+N/A
+N/A
+N/A
+ SPX-X
+Stellar Africagold Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ SQG-X
+Spackman Equities Group Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ SRA-X
+Stria Lithium Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SRC-X
+Stakeholder Gold Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ SRE-X
+Saville Resources Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SRG-X
+Srg Graphite Inc
+1.150	
+2.500
+2.350
+2.420
+2.420
+ SRI-X
+Sparton Resources Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SRJ-X
+Spearmint Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SRL-X
+Salazar Resources Limited
+0.120	
+N/A
+N/A
+N/A
+N/A
+ SS-X
+Summus Solutions Nv
+0.100	
+N/A
+N/A
+N/A
+N/A
+ SSA-X
+Spectra Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ SSE-X
+Silver Spruce Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SSG-X
+Sigma Industries Inc
+0.490	
+N/A
+N/A
+N/A
+N/A
+ SSP-X
+Sandspring Resources Ltd
+0.230	
+N/A
+N/A
+N/A
+N/A
+ SSS-X
+Sunvest Minerals Corp
+0.045	
+N/A
+N/A
+N/A
+N/A
+ SSV-X
+Southern Silver Exploration Corp
+0.175	
+N/A
+N/A
+N/A
+N/A
+ STA-X
+Sanatana Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ STAR-X
+Five Star Diamonds Limited
+0.080	
+N/A
+N/A
+N/A
+N/A
+ STC-X
+Sangoma Technologies Corp
+1.200	
+2.250
+2.250
+2.250
+2.250
+ STE-X
+Starr Peak Exploration Ltd
+0.085	
+N/A
+N/A
+N/A
+N/A
+ STH-X
+Stelmine Canada Ltd
+0.115	
+N/A
+N/A
+N/A
+N/A
+ STI-X
+Strategic Resources Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ STMP-X
+Stamper Oil & Gas Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ STS-X
+South Star Mining Corp
+0.285	
+N/A
+N/A
+N/A
+N/A
+ SUNM-X
+Sun Metals Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ SUP-X
+Northern Superior Resources Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SUR-X
+Surge Exploration Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ SURG-X
+Surge Copper Corp
+0.090	
+N/A
+N/A
+N/A
+N/A
+ SVE-X
+Silver One Resources Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ SVG-X
+Silver Grail Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ SVI-X
+Storagevault Canada Inc
+2.710	
+3.400
+2.750
+3.170
+3.250
+ SWA-X
+Sarama Resources Ltd
+0.065	
+0.300
+0.300
+0.300
+0.300
+ SXE-X
+Strata X Energy Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ SXL-X
+Slam Exploration Inc
+0.030	
+N/A
+N/A
+N/A
+N/A
+ SY-X
+Symbility Solutions Inc
+0.520	
+0.600
+0.600
+0.600
+0.600
+ SYH-X
+Skyharbour Resources Ltd
+0.510	
+N/A
+N/A
+N/A
+N/A
+ SYZ-X
+Sylogist Ltd
+13.500	
+18.000
+18.000
+18.000
+18.000
+ SZM-X
+Scozinc Mining Ltd
+0.730	
+N/A
+N/A
+N/A
+N/A
+ TAC-X
+Tasca Resources Ltd
+0.040	
+N/A
+N/A
+N/A
+N/A
+ TAJ-X
+Tajiri Resources Corp
+0.115	
+N/A
+N/A
+N/A
+N/A
+ TAL-X
+Petrotal Corp
+0.300	
+N/A
+N/A
+N/A
+N/A
+ TAN-X
+Tanager Energy Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ TBR-X
+Timberline Resources Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ TCA-X
+Timia Capital Corp
+0.190	
+N/A
+N/A
+N/A
+N/A
+ TCC-X
+Trenchant Capital Corp
+0.280	
+N/A
+N/A
+N/A
+N/A
+ TCO-X
+Transatlantic Mining Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ TEM-X
+Tembo Gold Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ TEN-X
+Terraco Gold Corp
+0.075	
+N/A
+N/A
+N/A
+N/A
+ TES-X
+Tesoro Minerals Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ TEST-X
+Flurotech Ltd
+0.570	
+N/A
+N/A
+N/A
+N/A
+ TETH-X
+Tethyan Resources Plc
+0.170	
+N/A
+N/A
+N/A
+N/A
+ TG-X
+Trifecta Gold Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ TGH-X
+Tornado Global Hydrovacs Ltd
+0.115	
+N/A
+N/A
+N/A
+N/A
+ TGR-X
+Tiger International Resources
+0.100	
+N/A
+N/A
+N/A
+N/A
+ TGV-X
+Tango Mining Limited
+0.020	
+N/A
+N/A
+N/A
+N/A
+ TGX-X
+True North GEMS Inc
+0.005	
+N/A
+N/A
+N/A
+N/A
+ THM-X
+Thunder Mountain Gold Inc
+0.165	
+N/A
+N/A
+N/A
+N/A
+ THP-X
+Totally Hip Technologies Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ THX-X
+Thor Explorations Ltd
+0.155	
+N/A
+N/A
+N/A
+N/A
+ TIG-X
+Triumph Gold Corp
+0.530	
+N/A
+N/A
+N/A
+N/A
+ TII-X
+Terra Firma Capital Corp
+0.600	
+1.000
+0.900
+0.950
+0.950
+ TIL-X
+Till Capital Ltd
+2.000	
+N/A
+N/A
+N/A
+N/A
+ TIM-X
+Toachi Mining Inc
+0.110	
+1.100
+1.100
+1.100
+1.100
+ TIN-X
+Eurotin Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ TK-X
+Tinka Resources Ltd
+0.360	
+1.000
+1.000
+1.000
+1.000
+ TKU-X
+Tarku Resources Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ TKX-X
+Trackx Holdings Inc
+0.310	
+N/A
+N/A
+N/A
+N/A
+ TLA-X
+Titan Logix Corp
+0.610	
+N/A
+N/A
+N/A
+N/A
+ TLG-X
+Troilus Gold Corp
+0.900	
+4.000
+2.750
+3.400
+3.250
+ TLK-X
+Frankly Inc
+1.500	
+1.250
+1.250
+1.250
+1.250
+ TM-X
+Trigon Metals Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ TNA-X
+Evergreen Gaming Corp
+0.240	
+N/A
+N/A
+N/A
+N/A
+ TNR-X
+Tnr Gold Corp
+0.040	
+N/A
+N/A
+N/A
+N/A
+ TOE-X
+Tri Origin Exploration Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ TOM-X
+Tolima Gold Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ TORQ-X
+Torq Resources Inc
+0.370	
+N/A
+N/A
+N/A
+N/A
+ TORR-X
+Torrent Capital Ltd
+0.320	
+N/A
+N/A
+N/A
+N/A
+ TPC-X
+Tenth Avenue Petroleum Corp
+0.035	
+N/A
+N/A
+N/A
+N/A
+ TR-X
+Troubadour Resources Inc
+0.200	
+N/A
+N/A
+N/A
+N/A
+ TRA-X
+Teras Resources Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ TRAK-X
+Trakopolis Iot Corp
+0.560	
+N/A
+N/A
+N/A
+N/A
+ TRM-X
+Trueclaim Exploration Inc
+0.120	
+N/A
+N/A
+N/A
+N/A
+ TRO-X
+Taranis Resources Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ TRS-X
+Tres-Or Resources Ltd
+0.035	
+N/A
+N/A
+N/A
+N/A
+ TSD-X
+Tsodilo Resources Ltd
+0.280	
+N/A
+N/A
+N/A
+N/A
+ TSG-X
+Tristar Gold Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ TSN-X
+Telson Mining Corp
+0.550	
+2.100
+2.100
+2.100
+2.100
+ TSP-X
+Titan Star Properties Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ TTD-X
+Tinkerine Studios Ltd
+0.020	
+N/A
+N/A
+N/A
+N/A
+ TTR-X
+Titanium Transportation Group Inc
+1.680	
+3.000
+2.750
+2.920
+3.000
+ TTZ-X
+Total Telcom Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ TUD-X
+Tudor Gold Corp
+0.210	
+N/A
+N/A
+N/A
+N/A
+ TUF-X
+Honey Badger Exploration Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ TUO-X
+Teuton Resources Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ TVI-X
+Tvi Pacific Inc
+0.010	
+N/A
+N/A
+N/A
+N/A
+ TVL-X
+Traverse Energy Ltd
+0.080	
+0.150
+0.150
+0.150
+0.150
+ TWR-X
+Tower Resources Ltd
+0.050	
+N/A
+N/A
+N/A
+N/A
+ TWY-X
+Twyford Ventures Inc
+0.250	
+N/A
+N/A
+N/A
+N/A
+ TXR-X
+Terrax Minerals Inc
+0.355	
+N/A
+N/A
+N/A
+N/A
+ TYE-X
+Troymet Exploration Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ TYP-X
+Typhoon Exploration Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ TZR-X
+Terrace Energy Corp
+0.020	
+0.300
+0.300
+0.300
+0.300
+ UCU-X
+Ucore Rare Metals Inc
+0.190	
+N/A
+N/A
+N/A
+N/A
+ UFC-X
+Urbanfund Corp
+0.820	
+N/A
+N/A
+N/A
+N/A
+ UGD-X
+Unigold Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ UHO-X
+United Hunter Oil and Gas Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ UI-X
+Urbanimmersive Inc
+0.135	
+N/A
+N/A
+N/A
+N/A
+ ULI-X
+Ultra Lithium Inc
+0.180	
+N/A
+N/A
+N/A
+N/A
+ UNI-X
+Unisync Corp Class B
+4.050	
+N/A
+N/A
+N/A
+N/A
+ UNO-X
+Northern Uranium Corp
+0.010	
+N/A
+N/A
+N/A
+N/A
+ URC-X
+Uracan Resources Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ URZ-X
+Urz Energy Corp
+0.500	
+N/A
+N/A
+N/A
+N/A
+ USS-X
+Uniserve Communications Corp
+0.120	
+N/A
+N/A
+N/A
+N/A
+ UTY-X
+Unity Energy Corp
+0.240	
+N/A
+N/A
+N/A
+N/A
+ UVN-X
+Uravan Minerals Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ VAL-X
+Valgold Resources Ltd
+0.125	
+N/A
+N/A
+N/A
+N/A
+ VAN-X
+Vangold Mining Corp
+0.055	
+N/A
+N/A
+N/A
+N/A
+ VAU-X
+Viva Gold Corp
+0.410	
+N/A
+N/A
+N/A
+N/A
+ VAX-X
+Vantex Resources Ltd
+0.205	
+N/A
+N/A
+N/A
+N/A
+ VCV-X
+Vatic Ventures Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ VEIN-X
+Enforcer Gold Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ VENZ-X
+Venzee Technologies Inc
+0.190	
+N/A
+N/A
+N/A
+N/A
+ VG-X
+Volcanic Gold Mines Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ VGD-X
+Visible Gold Mines Inc
+0.060	
+N/A
+N/A
+N/A
+N/A
+ VGM-X
+Global Gardens Group Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ VGN-X
+Greencastle Res Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ VHI-X
+Vitalhub Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ VIO-X
+Societe D Exploration Miniere Vior Inc
+0.080	
+N/A
+N/A
+N/A
+N/A
+ VIPR-X
+Silver Viper Minerals Corp
+0.135	
+N/A
+N/A
+N/A
+N/A
+ VIS-X
+Visionstate Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ VIT-X
+Victoria Gold Corp
+0.345	
+0.700
+0.700
+0.700
+0.700
+ VLC-X
+Velocity Minerals Ltd
+0.145	
+N/A
+N/A
+N/A
+N/A
+ VLI-X
+Vision Lithium Inc
+0.225	
+N/A
+N/A
+N/A
+N/A
+ VLT-X
+Voltaic Minerals Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ VLV-X
+Venerable Ventures Ltd
+0.125	
+N/A
+N/A
+N/A
+N/A
+ VM-X
+Voyageur Minerals Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ VML-X
+Viscount Mining Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ VO-X
+Valore Metals Corp
+0.380	
+N/A
+N/A
+N/A
+N/A
+ VOLT-X
+Volt Energy Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ VONE-X
+Vanadium One Energy Corp
+0.080	
+N/A
+N/A
+N/A
+N/A
+ VPY-X
+Versapay Corp
+1.770	
+2.300
+2.300
+2.300
+2.300
+ VQA-X
+Valterra Resource Corp
+0.020	
+N/A
+N/A
+N/A
+N/A
+ VQS-X
+Viq Solutions Inc
+0.170	
+N/A
+N/A
+N/A
+N/A
+ VR-X
+Victory Resources Corp
+0.190	
+N/A
+N/A
+N/A
+N/A
+ VRO-X
+Valoro Resources Inc
+0.140	
+N/A
+N/A
+N/A
+N/A
+ VRR-X
+Vr Resources Ltd
+0.190	
+N/A
+N/A
+N/A
+N/A
+ VRY-X
+Petro Victory Energy Corp
+0.025	
+N/A
+N/A
+N/A
+N/A
+ VSR-X
+Vanstar Mining Resources Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ VTI-X
+Valdor Technology International Inc
+0.015	
+N/A
+N/A
+N/A
+N/A
+ VTT-X
+Vendetta Mining Corp
+0.180	
+N/A
+N/A
+N/A
+N/A
+ VTX-X
+Vertex Resource Group Ltd
+0.590	
+N/A
+N/A
+N/A
+N/A
+ VUI-X
+Virginia Energy Resources Inc
+0.245	
+N/A
+N/A
+N/A
+N/A
+ VUL-X
+Vulcan Minerals Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ VUX-X
+Vital Energy Inc
+0.040	
+N/A
+N/A
+N/A
+N/A
+ VVC-X
+Vvc Exploration Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ VYC-X
+Vanity Capital Inc
+0.450	
+N/A
+N/A
+N/A
+N/A
+ WA-X
+Western Atlas Resources Inc
+0.055	
+N/A
+N/A
+N/A
+N/A
+ WAF-X
+West African Resources Ltd
+0.260	
+0.750
+0.750
+0.750
+0.750
+ WAR-X
+Warrior Gold Inc.
+0.090	
+N/A
+N/A
+N/A
+N/A
+ WBE-X
+Westbond Enterprises Corp
+0.160	
+N/A
+N/A
+N/A
+N/A
+ WCC-X
+Consolidated Woodjam Copper Corp
+0.030	
+N/A
+N/A
+N/A
+N/A
+ WCE-X
+Wescan Energy Corp
+0.065	
+N/A
+N/A
+N/A
+N/A
+ WDG-X
+Giyani Metals Corp
+0.250	
+N/A
+N/A
+N/A
+N/A
+ WEB-X
+Westbridge Energy Corp
+0.130	
+N/A
+N/A
+N/A
+N/A
+ WED-X
+The Westaim Corp
+3.170	
+4.750
+4.250
+4.500
+4.500
+ WELL-X
+Wellness Lifestyles Inc
+0.490	
+N/A
+N/A
+N/A
+N/A
+ WGF-X
+Wescan Goldfields Inc
+0.050	
+N/A
+N/A
+N/A
+N/A
+ WGO-X
+White Gold Corp
+0.970	
+2.000
+2.000
+2.000
+2.000
+ WHM-X
+White Metal Resources Corp
+0.130	
+N/A
+N/A
+N/A
+N/A
+ WHN-X
+Westhaven Ventures Inc
+0.245	
+N/A
+N/A
+N/A
+N/A
+ WHY-X
+West High Yield Resources Ltd
+0.390	
+N/A
+N/A
+N/A
+N/A
+ WI-X
+The Western Investment Co of Cda Ltd
+0.350	
+N/A
+N/A
+N/A
+N/A
+ WIL-X
+Wilton Resources Inc
+0.920	
+N/A
+N/A
+N/A
+N/A
+ WKG-X
+Westkam Gold Corp
+0.015	
+N/A
+N/A
+N/A
+N/A
+ WKM-X
+West Kirkland Mining Inc
+0.055	
+0.300
+0.300
+0.300
+0.300
+ WLF-X
+Wolfden Resources Corp
+0.290	
+0.750
+0.750
+0.750
+0.750
+ WML-X
+Wealth Minerals Ltd
+0.600	
+2.650
+2.650
+2.650
+2.650
+ WMR-X
+Westminster Resources Ltd
+0.065	
+N/A
+N/A
+N/A
+N/A
+ WNDR-X
+The Wonderfilm Media Corporation
+0.680	
+N/A
+N/A
+N/A
+N/A
+ WOW-X
+Wow Unlimited Media Inc
+1.300	
+2.600
+2.600
+2.600
+2.600
+ WP-X
+Western Pacific Trust Company
+0.150	
+N/A
+N/A
+N/A
+N/A
+ WPQ-X
+Wpc Resources Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ WRI-X
+Waseco Resources Inc
+0.035	
+N/A
+N/A
+N/A
+N/A
+ WRP-X
+Western Pacific Resources Corp
+0.250	
+N/A
+N/A
+N/A
+N/A
+ WRR-X
+Walker River Resources Corp
+0.050	
+N/A
+N/A
+N/A
+N/A
+ WTER-X
+The Alkaline Water Co Inc
+4.650	
+N/A
+N/A
+N/A
+N/A
+ WTR-X
+Westcore Energy Ltd
+0.025	
+N/A
+N/A
+N/A
+N/A
+ XAG-X
+Xtierra Inc
+0.045	
+N/A
+N/A
+N/A
+N/A
+ XIA-X
+Xiana Mining Inc
+0.430	
+N/A
+N/A
+N/A
+N/A
+ XIM-X
+Ximen Mining Corp
+0.140	
+N/A
+N/A
+N/A
+N/A
+ XL-X
+Xxl Energy Corp
+0.155	
+N/A
+N/A
+N/A
+N/A
+ XLY-X
+Auxly Cannabis Group Inc
+1.080	
+N/A
+N/A
+N/A
+N/A
+ XND-X
+Xander Resources Inc
+0.115	
+N/A
+N/A
+N/A
+N/A
+ XOP-X
+Canadian Overseas Petroleum Limited
+0.005	
+0.130
+0.130
+0.130
+0.130
+ XTM-X
+Transition Metals Corp
+0.125	
+N/A
+N/A
+N/A
+N/A
+ XTT-X
+X Terra Resources Inc
+0.125	
+N/A
+N/A
+N/A
+N/A
+ XX-X
+Avante Logixx Inc
+0.450	
+0.650
+0.650
+0.650
+0.650
+ YAK-X
+Mongolia Growth Group Ltd
+0.360	
+N/A
+N/A
+N/A
+N/A
+ YD-X
+Ydreams Global Interactive Tech Inc
+0.105	
+N/A
+N/A
+N/A
+N/A
+ YFI-X
+Edgewater Wireless Systems Inc
+0.145	
+N/A
+N/A
+N/A
+N/A
+ YMI-X
+Yellowhead Mining Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ YNV-X
+Ynvisible Interactive Inc
+0.300	
+N/A
+N/A
+N/A
+N/A
+ YOO-X
+Yangaroo Inc
+0.150	
+N/A
+N/A
+N/A
+N/A
+ YTY-X
+Wi2Wi Corp
+0.105	
+N/A
+N/A
+N/A
+N/A
+ Z-X
+Zinc One Resources Inc
+0.110	
+N/A
+N/A
+N/A
+N/A
+ ZAD-X
+Zadar Ventures Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ ZC-X
+Zimtu Capital Corp
+0.225	
+N/A
+N/A
+N/A
+N/A
+ ZDC-X
+Zedcor Energy Inc
+0.155	
+N/A
+N/A
+N/A
+N/A
+ ZEE-X
+Zenith Energy Ltd
+0.055	
+N/A
+N/A
+N/A
+N/A
+ ZEN-X
+Zenyatta Ventures Ltd
+0.470	
+2.100
+2.100
+2.100
+2.100
+ ZFR-X
+Zephyr Minerals Ltd
+0.200	
+N/A
+N/A
+N/A
+N/A
+ ZKL-X
+China Keli Electric Company Ltd
+0.015	
+N/A
+N/A
+N/A
+N/A
+ ZMA-X
+Zoomaway Travel Inc
+0.025	
+N/A
+N/A
+N/A
+N/A
+ ZMD-X
+Zoommed Inc
+0.020	
+N/A
+N/A
+N/A
+N/A
+ ZNG-X
+Group Eleven Resources Corp
+0.150	
+N/A
+N/A
+N/A
+N/A
+ ZNX-X
+Zincx Resources Corp
+0.410	
+N/A
+N/A
+N/A
+N/A
+ ZON-X
+Zonte Metals Inc
+0.275	
+N/A
+N/A
+N/A
+N/A
+ ZUM-X
+Zoomermedia Limited
+0.025	
+N/A
+N/A
+N/A
+N/A
