@@ -85,6 +85,8 @@
             this.tbMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.txtSym = new System.Windows.Forms.TextBox();
+            this.btnSearchSym = new System.Windows.Forms.Button();
             this.tabOperations.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlWaitQuery.SuspendLayout();
@@ -266,6 +268,8 @@
             // 
             // grpTools
             // 
+            this.grpTools.Controls.Add(this.btnSearchSym);
+            this.grpTools.Controls.Add(this.txtSym);
             this.grpTools.Controls.Add(this.btnSQLResultWindow);
             this.grpTools.Controls.Add(this.btnOpenSQLLogs);
             this.grpTools.Controls.Add(this.btnExecuteQuery);
@@ -317,11 +321,11 @@
             // chkSqlServer
             // 
             this.chkSqlServer.AutoSize = true;
-            this.chkSqlServer.Location = new System.Drawing.Point(376, 13);
+            this.chkSqlServer.Location = new System.Drawing.Point(513, 13);
             this.chkSqlServer.Name = "chkSqlServer";
-            this.chkSqlServer.Size = new System.Drawing.Size(109, 17);
+            this.chkSqlServer.Size = new System.Drawing.Size(40, 17);
             this.chkSqlServer.TabIndex = 10;
-            this.chkSqlServer.Text = "Stored Procedure";
+            this.chkSqlServer.Text = "SS";
             this.chkSqlServer.UseVisualStyleBackColor = true;
             // 
             // chkSemicolon
@@ -761,6 +765,23 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1844, 934);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
+            // txtSym
+            // 
+            this.txtSym.Location = new System.Drawing.Point(558, 11);
+            this.txtSym.Name = "txtSym";
+            this.txtSym.Size = new System.Drawing.Size(48, 20);
+            this.txtSym.TabIndex = 15;
+            // 
+            // btnSearchSym
+            // 
+            this.btnSearchSym.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchSym.Image")));
+            this.btnSearchSym.Location = new System.Drawing.Point(611, 9);
+            this.btnSearchSym.Name = "btnSearchSym";
+            this.btnSearchSym.Size = new System.Drawing.Size(25, 23);
+            this.btnSearchSym.TabIndex = 16;
+            this.btnSearchSym.UseVisualStyleBackColor = true;
+            this.btnSearchSym.Click += new System.EventHandler(this.btnSearchSym_Click);
+            // 
             // frmSQL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -873,6 +894,8 @@
         private System.Windows.Forms.GroupBox grpTools;
         private System.Windows.Forms.TabPage tbpST;
         private System.Windows.Forms.DataGridView dgvST;
+        private System.Windows.Forms.Button btnSearchSym;
+        private System.Windows.Forms.TextBox txtSym;
     }
 }
 

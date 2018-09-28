@@ -106,6 +106,11 @@ namespace SSIS.Entity
                         ar a = new ar();
                         string[] sy = lines[i].Split('-');
                         a.rt = sy[0].Trim();
+
+                        if (a.rt.Trim() == string.Empty)
+                        {
+                            int lll = 0;
+                        }
                         a.ex = sy[1].Trim();
                         i++; i++;
 

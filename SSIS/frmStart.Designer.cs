@@ -84,6 +84,8 @@
             this.Controls.Add(this.cmdSymbols);
             this.Controls.Add(this.btnImportAr);
             this.ForeColor = System.Drawing.Color.DarkCyan;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmStart";
             this.Text = "Dtec";
             this.ResumeLayout(false);

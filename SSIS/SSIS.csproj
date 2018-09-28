@@ -138,6 +138,7 @@
     <Content Include="ar-per\per.txt" />
     <Content Include="ar-per\tsx.txt" />
     <Content Include="ar-per\tsxv.txt" />
+    <Content Include="ar-per\ts_data.sql" />
     <Content Include="st.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>st.Context.cs</LastGenOutput>

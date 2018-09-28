@@ -33,7 +33,9 @@ namespace SQL_Migration
         private string connString = @"Provider=VFPOLEDB.1;Data Source=";// E:\client_data\nossack\dist_ii.dbc;providerName=System.Data.OleDb";
         private string dataSource = @"\dist_ii.dbc;providerName=System.Data.OleDb";
 
-        private string SQLServerConnString = @"Server=VivekPC\SQL;Database=DtecSQLDatabase;User Id = Dtec; Password=1Intersect$";
+        //        private string SQLServerConnString = @"Server=VivekPC\SQL;Database=DtecSQLDatabase;User Id = Dtec; Password=1Intersect$";
+        //data source=VIVEKPC\SQL;initial catalog=ts;user id=sa;password=LionGirnar007;
+        private string SQLServerConnString = @"Provider=sqloledb;Data Source =VivekPC\SQL;Initial Catalog=ts;Integrated Security=SSPI;User Id=sa;Password=LionGirnar007;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
 
         private string connStringFr = @"Provider=VFPOLEDB.1;Data Source=";// E:\client_data\nossack\dist_ii.dbc;providerName=System.Data.OleDb";
         private string dataSourceFr = @"\dist_ii.dbc;providerName=System.Data.OleDb";
@@ -80,11 +82,12 @@ namespace SQL_Migration
             }
             else
             {
-                spResult = sqlData.SPExecutorSQLClient(selectCommand, SQLServerConnString);
-                SqlResults sr = new SqlResults();
-                sr.AddTextToMessages(spResult.ToString(), false, false);
-                sr.AddInputQuery(selectCommand,false,false);
-                sqlResults.Add(sr);
+                sqlResults = sqlData.DataExecutor(selectCommand, SQLServerConnString);
+                //spResult = sqlData.SPExecutorSQLClient(selectCommand, SQLServerConnString);
+                //SqlResults sr = new SqlResults();
+                //sr.AddTextToMessages(spResult.ToString(), false, false);
+                //sr.AddInputQuery(selectCommand,false,false);
+                //sqlResults.Add(sr);
             }
 
             flLayoyt.Invoke((MethodInvoker)delegate {
@@ -103,8 +106,6 @@ namespace SQL_Migration
                 btnExecuteQuery.Enabled = true;
                 pnlWaitQuery.Visible = false;
             });
-
-
         }
 
         private string GetFieldTypeValue(FieldType type)
@@ -2570,6 +2571,38 @@ namespace SQL_Migration
             {
                 c.Width = flLayoyt.Width - 25;
             }
+        }
+
+        private void btnSearchSym_Click(object sender, EventArgs e)
+        {
+            txtQuery.Text = string.Empty;
+            string[] syml = txtSym.Text.Trim().Split('-');
+            string sym = syml[0];
+            string ex = syml[1];
+
+            txtQuery.Text += "select * from pr where pr.rt = trim('" + sym + "'); " + Environment.NewLine;
+            txtQuery.Text += "select * from ar_view where ar_view.rt = trim('" + sym + "');" + Environment.NewLine;
+            txtQuery.Text += "select * from per where per.rt = trim('" + sym + "');" + Environment.NewLine;
+
+            if (ex.Trim().ToLower() == "x")
+            {
+                txtQuery.Text += "select * from tx_sec_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                txtQuery.Text += "select * from tx_res_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                txtQuery.Text += "select * from tx_region_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+            }
+            else
+            {
+                txtQuery.Text += "select * from t_sec_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                txtQuery.Text += "select * from t_res_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                txtQuery.Text += "select * from t_region_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+            }
+
+            txtQuery.SelectionStart = 0;
+            txtQuery.SelectionLength = txtQuery.Text.Length;
+
+            chkSqlServer.Checked = true;
+            chkSqlServer.CheckState = CheckState.Checked;
+            btnExecuteQuery_Click(null, null);
         }
     }
 }
