@@ -371,6 +371,98 @@ namespace SSIS.Entity
             }
         }
 
+        public static void DumpSym(this tsEntities db, string fileName)
+        {
+            foreach (var r in db.prs.OrderBy(a => a.ex).ThenBy(a=>a.rt))
+            {
+                if (r.rt.Trim() != string.Empty)
+                {
+                    File.AppendAllText(fileName, r.rt.Trim() +"-"+ r.ex_short.Trim() + ",");
+                }
+            }
+            Debug.WriteLine("Done!.");
+        }
+
+        public static void ImportNYSESymbols(this tsEntities db, string v, string Ex, long seedValue, char deli=',')
+        {
+            string[] stLines = File.ReadAllLines(v);
+            long pKey = seedValue;
+            foreach(string st in stLines)
+            {
+                string[] stl = st.Split(deli);
+                t_s ts = new t_s();
+                ts.pKey = pKey++;
+                ts.root__ticker = stl[0].Trim();
+                ts.Name = stl[1].Trim();
+                ts.Exchange = Ex;
+
+                double price = 0;
+                if (!double.TryParse(stl[2], out price))
+                {
+                    price = 0;
+                }
+
+                pr p = new pr();
+                p.rt = stl[0].Trim();
+                p.ex = Ex.Trim();
+                p.price = price;
+
+                try
+                {
+                    pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                    if (pd == null)
+                    {
+                        db.prs.Add(p);
+                        db.SaveChanges();
+                        db.RefreshDatabase(p);
+                    }
+                    else
+                    {
+                        pd.price = p.price;
+                        db.SaveChanges();
+                        db.RefreshDatabase(pd);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.ToString());
+                }
+
+                ts.QMV = stl[3].Trim();
+                ts.Sector = stl[6].Trim();
+                ts.Sub_Sector = stl[7].Trim();
+
+                try
+                {
+                    t_s ad = db.t_s.SingleOrDefault(p1 => (p1.root__ticker.Trim() == ts.root__ticker.Trim() && p1.Exchange.Trim() == ts.Exchange.Trim()));
+                    if (ad == null)
+                    {
+                        ts.Co_ID = ts.pKey.ToString();
+                        db.t_s.Add(ts);
+                        db.SaveChanges();
+                        db.RefreshDatabase(ts);
+                        Debug.WriteLine(ts.root__ticker.ToString() + " - " + ts.Name.ToString());
+                    }
+                    else
+                    {
+                        ad.Name = ts.Name;
+                        ad.QMV = ts.QMV;
+                        ad.Sector = ts.Sector;
+                        ad.Sub_Sector = ts.Sub_Sector;
+                        db.SaveChanges();
+                        db.RefreshDatabase(ad);
+                        Debug.WriteLine("update >>> " + ts.root__ticker.ToString() + " - " + ts.Name.ToString());
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.ToString());
+                }
+
+            }
+        }
+
         public static void RefreshDatabase(this tsEntities db, Object entity)
         {
             ((IObjectContextAdapter)db)

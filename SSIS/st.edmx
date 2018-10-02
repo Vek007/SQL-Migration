@@ -37,17 +37,17 @@
           </Key>
           <Property Name="rt" Type="nvarchar" MaxLength="10" Nullable="false" />
           <Property Name="ex" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="ex_short" Type="nchar" MaxLength="10" />
           <Property Name="price" Type="float" />
           <Property Name="timestamp" Type="datetimeoffset" Precision="7" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="t_s">
           <Key>
             <PropertyRef Name="pKey" />
+            <PropertyRef Name="Co_ID" />
           </Key>
           <Property Name="pKey" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Co_ID" Type="nvarchar" MaxLength="50" />
+          <Property Name="Co_ID" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Exchange" Type="nvarchar" MaxLength="50" />
           <Property Name="Name" Type="nvarchar" MaxLength="100" />
           <Property Name="root__ticker" Type="nvarchar" MaxLength="50" />
@@ -57,7 +57,7 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <Property Name="cps" Type="nvarchar" MaxLength="50" />
           <Property Name="re" Type="nvarchar" MaxLength="50" />
           <Property Name="Sector" Type="nvarchar" MaxLength="50" />
-          <Property Name="Sub_Sector" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sub_Sector" Type="nvarchar" MaxLength="150" />
           <Property Name="type_of_listing" Type="nvarchar" MaxLength="50" />
           <Property Name="date_of_listing" Type="nvarchar" MaxLength="50" />
           <Property Name="hq_location" Type="nvarchar" MaxLength="50" />
@@ -181,73 +181,8 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <EntitySet Name="ar" EntityType="Self.ar" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="per" EntityType="Self.per" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="pr" EntityType="Self.pr" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="t_s" EntityType="Self.t_s" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="t_x" EntityType="Self.t_x" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="t_s" EntityType="Self.t_s" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [t_s].[pKey] AS [pKey], 
-    [t_s].[Co_ID] AS [Co_ID], 
-    [t_s].[Exchange] AS [Exchange], 
-    [t_s].[Name] AS [Name], 
-    [t_s].[root__ticker] AS [root__ticker], 
-    [t_s].[QMV] AS [QMV], 
-    [t_s].[OS_Shares] AS [OS_Shares], 
-    [t_s].[tech_sub_sector] AS [tech_sub_sector], 
-    [t_s].[cps] AS [cps], 
-    [t_s].[re] AS [re], 
-    [t_s].[Sector] AS [Sector], 
-    [t_s].[Sub_Sector] AS [Sub_Sector], 
-    [t_s].[type_of_listing] AS [type_of_listing], 
-    [t_s].[date_of_listing] AS [date_of_listing], 
-    [t_s].[hq_location] AS [hq_location], 
-    [t_s].[hq_region] AS [hq_region], 
-    [t_s].[interlisted_code_1] AS [interlisted_code_1], 
-    [t_s].[interlisted_code_2] AS [interlisted_code_2], 
-    [t_s].[tsx_ven_grad] AS [tsx_ven_grad], 
-    [t_s].[former_cpc] AS [former_cpc], 
-    [t_s].[Index] AS [Index], 
-    [t_s].[technology_sub_sector] AS [technology_sub_sector], 
-    [t_s].[usa_city] AS [usa_city], 
-    [t_s].[USA_State] AS [USA_State], 
-    [t_s].[asia_region] AS [asia_region], 
-    [t_s].[place_inCopporated] AS [place_inCopporated], 
-    [t_s].[fundfamily] AS [fundfamily], 
-    [t_s].[sp_grouping] AS [sp_grouping], 
-    [t_s].[SP_Sub] AS [SP_Sub], 
-    [t_s].[income_trust_conversion] AS [income_trust_conversion], 
-    [t_s].[volume_ytd] AS [volume_ytd], 
-    [t_s].[value__ytd] AS [value__ytd], 
-    [t_s].[num_traded_share_ytd] AS [num_traded_share_ytd], 
-    [t_s].[num_of_month_trading_data] AS [num_of_month_trading_data], 
-    [t_s].[AFRICA] AS [AFRICA], 
-    [t_s].[AUS_NZ_PNG] AS [AUS_NZ_PNG], 
-    [t_s].[CANADA] AS [CANADA], 
-    [t_s].[CHINA__ASIA] AS [CHINA__ASIA], 
-    [t_s].[LATIN_AMERICA] AS [LATIN_AMERICA], 
-    [t_s].[OTHER] AS [OTHER], 
-    [t_s].[UK_EUROPE] AS [UK_EUROPE], 
-    [t_s].[USA] AS [USA], 
-    [t_s].[Oil_Gas] AS [Oil_Gas], 
-    [t_s].[Gold] AS [Gold], 
-    [t_s].[Silver] AS [Silver], 
-    [t_s].[Copper] AS [Copper], 
-    [t_s].[Nickel] AS [Nickel], 
-    [t_s].[Diamond] AS [Diamond], 
-    [t_s].[Molybdenum] AS [Molybdenum], 
-    [t_s].[Platinum_PGM] AS [Platinum_PGM], 
-    [t_s].[Iron] AS [Iron], 
-    [t_s].[Lead] AS [Lead], 
-    [t_s].[Zinc] AS [Zinc], 
-    [t_s].[Rare_Earths] AS [Rare_Earths], 
-    [t_s].[Potash] AS [Potash], 
-    [t_s].[Lithium] AS [Lithium], 
-    [t_s].[Uranium] AS [Uranium], 
-    [t_s].[Coal] AS [Coal], 
-    [t_s].[Tungsten] AS [Tungsten], 
-    [t_s].[base__precious_metals] AS [base__precious_metals], 
-    [t_s].[mineral_properties] AS [mineral_properties], 
-    [t_s].[other_properties] AS [other_properties]
-    FROM [dbo].[t_s] AS [t_s]</DefiningQuery>
-          </EntitySet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -255,10 +190,10 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
       <Schema Namespace="tsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="tsEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="t_x" EntityType="tsModel.t_x" />
-          <EntitySet Name="t_s" EntityType="tsModel.t_s" />
           <EntitySet Name="ars" EntityType="tsModel.ar" />
-          <EntitySet Name="prs" EntityType="tsModel.pr" />
           <EntitySet Name="pers" EntityType="tsModel.per" />
+          <EntitySet Name="t_s" EntityType="tsModel.t_s" />
+          <EntitySet Name="prs" EntityType="tsModel.pr" />
         </EntityContainer>
         <EntityType Name="t_x">
           <Key>
@@ -328,12 +263,38 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <Property Name="mineral_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="other_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
+        <EntityType Name="ar">
+          <Key>
+            <PropertyRef Name="rt" />
+            <PropertyRef Name="ex" />
+          </Key>
+          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ht" Type="Double" />
+          <Property Name="lt" Type="Double" />
+          <Property Name="met" Type="Double" />
+          <Property Name="mdt" Type="Double" />
+        </EntityType>
+        <EntityType Name="per">
+          <Key>
+            <PropertyRef Name="rt" />
+            <PropertyRef Name="ex" />
+          </Key>
+          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ytd" Type="Double" />
+          <Property Name="five_day" Type="Double" />
+          <Property Name="one_month" Type="Double" />
+          <Property Name="three_month" Type="Double" />
+          <Property Name="one_year" Type="Double" />
+        </EntityType>
         <EntityType Name="t_s">
           <Key>
             <PropertyRef Name="pKey" />
+            <PropertyRef Name="Co_ID" />
           </Key>
           <Property Name="pKey" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Co_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Co_ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Exchange" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="root__ticker" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -343,7 +304,7 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <Property Name="cps" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="re" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Sector" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Sub_Sector" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sub_Sector" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="type_of_listing" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="date_of_listing" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="hq_location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -395,18 +356,6 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           <Property Name="mineral_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="other_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="ar">
-          <Key>
-            <PropertyRef Name="rt" />
-            <PropertyRef Name="ex" />
-          </Key>
-          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="ht" Type="Double" />
-          <Property Name="lt" Type="Double" />
-          <Property Name="met" Type="Double" />
-          <Property Name="mdt" Type="Double" />
-        </EntityType>
         <EntityType Name="pr">
           <Key>
             <PropertyRef Name="rt" />
@@ -414,21 +363,9 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
           </Key>
           <Property Name="rt" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
           <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ex_short" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="price" Type="Double" />
           <Property Name="timestamp" Type="DateTimeOffset" Precision="7" />
-        </EntityType>
-        <EntityType Name="per">
-          <Key>
-            <PropertyRef Name="rt" />
-            <PropertyRef Name="ex" />
-          </Key>
-          <Property Name="rt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ex" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="ytd" Type="Double" />
-          <Property Name="five_day" Type="Double" />
-          <Property Name="one_month" Type="Double" />
-          <Property Name="three_month" Type="Double" />
-          <Property Name="one_year" Type="Double" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -505,6 +442,31 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="ars">
+            <EntityTypeMapping TypeName="tsModel.ar">
+              <MappingFragment StoreEntitySet="ar">
+                <ScalarProperty Name="mdt" ColumnName="mdt" />
+                <ScalarProperty Name="met" ColumnName="met" />
+                <ScalarProperty Name="lt" ColumnName="lt" />
+                <ScalarProperty Name="ht" ColumnName="ht" />
+                <ScalarProperty Name="ex" ColumnName="ex" />
+                <ScalarProperty Name="rt" ColumnName="rt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pers">
+            <EntityTypeMapping TypeName="tsModel.per">
+              <MappingFragment StoreEntitySet="per">
+                <ScalarProperty Name="one_year" ColumnName="one_year" />
+                <ScalarProperty Name="three_month" ColumnName="three_month" />
+                <ScalarProperty Name="one_month" ColumnName="one_month" />
+                <ScalarProperty Name="five_day" ColumnName="five_day" />
+                <ScalarProperty Name="ytd" ColumnName="ytd" />
+                <ScalarProperty Name="ex" ColumnName="ex" />
+                <ScalarProperty Name="rt" ColumnName="rt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="t_s">
             <EntityTypeMapping TypeName="tsModel.t_s">
               <MappingFragment StoreEntitySet="t_s">
@@ -573,36 +535,12 @@ warning 6002: The table/view 'ts.dbo.t_s' does not have a primary key defined. T
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="ars">
-            <EntityTypeMapping TypeName="tsModel.ar">
-              <MappingFragment StoreEntitySet="ar">
-                <ScalarProperty Name="mdt" ColumnName="mdt" />
-                <ScalarProperty Name="met" ColumnName="met" />
-                <ScalarProperty Name="lt" ColumnName="lt" />
-                <ScalarProperty Name="ht" ColumnName="ht" />
-                <ScalarProperty Name="ex" ColumnName="ex" />
-                <ScalarProperty Name="rt" ColumnName="rt" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="prs">
             <EntityTypeMapping TypeName="tsModel.pr">
               <MappingFragment StoreEntitySet="pr">
                 <ScalarProperty Name="timestamp" ColumnName="timestamp" />
                 <ScalarProperty Name="price" ColumnName="price" />
-                <ScalarProperty Name="ex" ColumnName="ex" />
-                <ScalarProperty Name="rt" ColumnName="rt" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="pers">
-            <EntityTypeMapping TypeName="tsModel.per">
-              <MappingFragment StoreEntitySet="per">
-                <ScalarProperty Name="one_year" ColumnName="one_year" />
-                <ScalarProperty Name="three_month" ColumnName="three_month" />
-                <ScalarProperty Name="one_month" ColumnName="one_month" />
-                <ScalarProperty Name="five_day" ColumnName="five_day" />
-                <ScalarProperty Name="ytd" ColumnName="ytd" />
+                <ScalarProperty Name="ex_short" ColumnName="ex_short" />
                 <ScalarProperty Name="ex" ColumnName="ex" />
                 <ScalarProperty Name="rt" ColumnName="rt" />
               </MappingFragment>

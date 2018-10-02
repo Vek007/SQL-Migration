@@ -16,6 +16,7 @@ namespace SSIS
     {
         public string rt { get; set; }
         public string ex { get; set; }
+        public string ex_short { get; set; }
         public Nullable<double> price { get; set; }
         public Nullable<System.DateTimeOffset> timestamp { get; set; }
     }

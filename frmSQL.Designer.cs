@@ -43,6 +43,8 @@
             this.pnlSQLFlow = new System.Windows.Forms.Panel();
             this.flLayoyt = new System.Windows.Forms.FlowLayoutPanel();
             this.grpTools = new System.Windows.Forms.GroupBox();
+            this.btnSearchSym = new System.Windows.Forms.Button();
+            this.txtSym = new System.Windows.Forms.TextBox();
             this.btnSQLResultWindow = new System.Windows.Forms.Button();
             this.btnOpenSQLLogs = new System.Windows.Forms.Button();
             this.btnExecuteQuery = new System.Windows.Forms.Button();
@@ -85,8 +87,6 @@
             this.tbMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtSym = new System.Windows.Forms.TextBox();
-            this.btnSearchSym = new System.Windows.Forms.Button();
             this.tabOperations.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlWaitQuery.SuspendLayout();
@@ -282,6 +282,23 @@
             this.grpTools.Size = new System.Drawing.Size(1390, 36);
             this.grpTools.TabIndex = 9;
             this.grpTools.TabStop = false;
+            // 
+            // btnSearchSym
+            // 
+            this.btnSearchSym.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchSym.Image")));
+            this.btnSearchSym.Location = new System.Drawing.Point(611, 9);
+            this.btnSearchSym.Name = "btnSearchSym";
+            this.btnSearchSym.Size = new System.Drawing.Size(25, 23);
+            this.btnSearchSym.TabIndex = 16;
+            this.btnSearchSym.UseVisualStyleBackColor = true;
+            this.btnSearchSym.Click += new System.EventHandler(this.btnSearchSym_Click);
+            // 
+            // txtSym
+            // 
+            this.txtSym.Location = new System.Drawing.Point(558, 11);
+            this.txtSym.Name = "txtSym";
+            this.txtSym.Size = new System.Drawing.Size(48, 20);
+            this.txtSym.TabIndex = 15;
             // 
             // btnSQLResultWindow
             // 
@@ -764,23 +781,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1844, 934);
             this.tableLayoutPanel3.TabIndex = 1;
-            // 
-            // txtSym
-            // 
-            this.txtSym.Location = new System.Drawing.Point(558, 11);
-            this.txtSym.Name = "txtSym";
-            this.txtSym.Size = new System.Drawing.Size(48, 20);
-            this.txtSym.TabIndex = 15;
-            // 
-            // btnSearchSym
-            // 
-            this.btnSearchSym.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchSym.Image")));
-            this.btnSearchSym.Location = new System.Drawing.Point(611, 9);
-            this.btnSearchSym.Name = "btnSearchSym";
-            this.btnSearchSym.Size = new System.Drawing.Size(25, 23);
-            this.btnSearchSym.TabIndex = 16;
-            this.btnSearchSym.UseVisualStyleBackColor = true;
-            this.btnSearchSym.Click += new System.EventHandler(this.btnSearchSym_Click);
             // 
             // frmSQL
             // 

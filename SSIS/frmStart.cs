@@ -29,8 +29,9 @@ namespace SSIS
 
         private void cmdSymbols_Click(object sender, EventArgs e)
         {
-            alDb.DumpTsxSym("E:\\vivek\\st\\tsx.txt");
-            alDb.DumpTsxvSym("E:\\vivek\\st\\tsxv.txt");
+            //alDb.DumpTsxSym("E:\\vivek\\st\\tsx.txt");
+            //alDb.DumpTsxvSym("E:\\vivek\\st\\tsxv.txt");
+            alDb.DumpSym(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\allSym.csv");
         }
 
         private void btnPer_Click(object sender, EventArgs e)
@@ -38,9 +39,11 @@ namespace SSIS
             alDb.PopulatePerFromFile("E:\\vivek\\st\\per.txt");
         }
 
-        private void btnDumpSymbol_Click(object sender, EventArgs e)
+        private void btnImpSymbol_Click(object sender, EventArgs e)
         {
-
+            //alDb.ImportNYSESymbols(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\NYSE.csv","NYSE", 300000,'|');
+            //alDb.ImportNYSESymbols(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\nas.csv", "NAS", 400000, '|');
+            alDb.ImportNYSESymbols(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\amex.csv", "AMEX", 500000, '|');
         }
     }
 }

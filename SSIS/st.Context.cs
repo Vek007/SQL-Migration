@@ -26,9 +26,9 @@ namespace SSIS
         }
     
         public virtual DbSet<t_x> t_x { get; set; }
-        public virtual DbSet<t_s> t_s { get; set; }
         public virtual DbSet<ar> ars { get; set; }
-        public virtual DbSet<pr> prs { get; set; }
         public virtual DbSet<per> pers { get; set; }
+        public virtual DbSet<t_s> t_s { get; set; }
+        public virtual DbSet<pr> prs { get; set; }
     }
 }

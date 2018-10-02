@@ -31,7 +31,7 @@
             this.btnImportAr = new System.Windows.Forms.Button();
             this.cmdSymbols = new System.Windows.Forms.Button();
             this.btnPer = new System.Windows.Forms.Button();
-            this.btnDumpSymbol = new System.Windows.Forms.Button();
+            this.btnImpSymbol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnImportAr
@@ -64,22 +64,22 @@
             this.btnPer.UseVisualStyleBackColor = true;
             this.btnPer.Click += new System.EventHandler(this.btnPer_Click);
             // 
-            // btnDumpSymbol
+            // btnImpSymbol
             // 
-            this.btnDumpSymbol.Location = new System.Drawing.Point(3, 82);
-            this.btnDumpSymbol.Name = "btnDumpSymbol";
-            this.btnDumpSymbol.Size = new System.Drawing.Size(110, 23);
-            this.btnDumpSymbol.TabIndex = 3;
-            this.btnDumpSymbol.Text = "dump Sym";
-            this.btnDumpSymbol.UseVisualStyleBackColor = true;
-            this.btnDumpSymbol.Click += new System.EventHandler(this.btnDumpSymbol_Click);
+            this.btnImpSymbol.Location = new System.Drawing.Point(3, 82);
+            this.btnImpSymbol.Name = "btnImpSymbol";
+            this.btnImpSymbol.Size = new System.Drawing.Size(110, 23);
+            this.btnImpSymbol.TabIndex = 3;
+            this.btnImpSymbol.Text = "Import Sym";
+            this.btnImpSymbol.UseVisualStyleBackColor = true;
+            this.btnImpSymbol.Click += new System.EventHandler(this.btnImpSymbol_Click);
             // 
             // frmStart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(120, 112);
-            this.Controls.Add(this.btnDumpSymbol);
+            this.Controls.Add(this.btnImpSymbol);
             this.Controls.Add(this.btnPer);
             this.Controls.Add(this.cmdSymbols);
             this.Controls.Add(this.btnImportAr);
@@ -97,7 +97,7 @@
         private System.Windows.Forms.Button btnImportAr;
         private System.Windows.Forms.Button cmdSymbols;
         private System.Windows.Forms.Button btnPer;
-        private System.Windows.Forms.Button btnDumpSymbol;
+        private System.Windows.Forms.Button btnImpSymbol;
     }
 }
 
