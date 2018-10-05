@@ -239,11 +239,13 @@ namespace SSIS.Entity
                             int iii = 0;
                         }
 
-
+                        bool skipPr = false;
                         double pr = 0;
                         if (!double.TryParse(lines[i], out pr))
                         {
                             pr = 0;
+                            i--;
+                            skipPr = true;
                         }
                         i++;
 
@@ -252,25 +254,29 @@ namespace SSIS.Entity
                         p.ex = a.ex;
                         p.price = pr;
 
-                        try
+                        if (skipPr)
                         {
-                            pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
-                            if (pd == null)
+
+                            try
                             {
-                                db.prs.Add(p);
-                                db.SaveChanges();
-                                db.RefreshDatabase(p);
+                                pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                                if (pd == null)
+                                {
+                                    db.prs.Add(p);
+                                    db.SaveChanges();
+                                    db.RefreshDatabase(p);
+                                }
+                                else
+                                {
+                                    pd.price = p.price;
+                                    db.SaveChanges();
+                                    db.RefreshDatabase(pd);
+                                }
                             }
-                            else
+                            catch (Exception ex)
                             {
-                                pd.price = p.price;
-                                db.SaveChanges();
-                                db.RefreshDatabase(pd);
+                                Debug.WriteLine(ex.ToString());
                             }
-                        }
-                        catch (Exception ex)
-                        {
-                            Debug.WriteLine(ex.ToString());
                         }
 
                         double ht = 0;

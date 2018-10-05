@@ -43,6 +43,7 @@
             this.pnlSQLFlow = new System.Windows.Forms.Panel();
             this.flLayoyt = new System.Windows.Forms.FlowLayoutPanel();
             this.grpTools = new System.Windows.Forms.GroupBox();
+            this.btnSSIS = new System.Windows.Forms.Button();
             this.btnSearchSym = new System.Windows.Forms.Button();
             this.txtSym = new System.Windows.Forms.TextBox();
             this.btnSQLResultWindow = new System.Windows.Forms.Button();
@@ -268,6 +269,7 @@
             // 
             // grpTools
             // 
+            this.grpTools.Controls.Add(this.btnSSIS);
             this.grpTools.Controls.Add(this.btnSearchSym);
             this.grpTools.Controls.Add(this.txtSym);
             this.grpTools.Controls.Add(this.btnSQLResultWindow);
@@ -282,6 +284,16 @@
             this.grpTools.Size = new System.Drawing.Size(1390, 36);
             this.grpTools.TabIndex = 9;
             this.grpTools.TabStop = false;
+            // 
+            // btnSSIS
+            // 
+            this.btnSSIS.Image = ((System.Drawing.Image)(resources.GetObject("btnSSIS.Image")));
+            this.btnSSIS.Location = new System.Drawing.Point(642, 9);
+            this.btnSSIS.Name = "btnSSIS";
+            this.btnSSIS.Size = new System.Drawing.Size(25, 24);
+            this.btnSSIS.TabIndex = 17;
+            this.btnSSIS.UseVisualStyleBackColor = true;
+            this.btnSSIS.Click += new System.EventHandler(this.btnSSIS_Click);
             // 
             // btnSearchSym
             // 
@@ -896,6 +908,7 @@
         private System.Windows.Forms.DataGridView dgvST;
         private System.Windows.Forms.Button btnSearchSym;
         private System.Windows.Forms.TextBox txtSym;
+        private System.Windows.Forms.Button btnSSIS;
     }
 }
 

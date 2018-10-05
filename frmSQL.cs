@@ -17,6 +17,7 @@ using System.Security;
 using System.Text;
 using System.Diagnostics;
 using System.Data.Entity;
+using SSIS.Entity;
 
 namespace SQL_Migration
 {
@@ -53,10 +54,6 @@ namespace SQL_Migration
             this.lvColumns.View = View.Details;
             // Add columns and set their text.
             this.lvColumns.Columns[0].Width = 400;
-
-            dgvST.DataSource = Data.ST_DB.pers.ToList();
-            dgvST.Refresh();
-
         }
 
         List<SqlResults> sqlResults = new List<SqlResults>();
@@ -2603,6 +2600,20 @@ namespace SQL_Migration
             chkSqlServer.Checked = true;
             chkSqlServer.CheckState = CheckState.Checked;
             btnExecuteQuery_Click(null, null);
+        }
+
+        private void btnSSIS_Click(object sender, EventArgs e)
+        {
+            Thread thread = new Thread(() => ImportArPer());
+            thread.Start();
+        }
+
+        private void ImportArPer()
+        {
+            SSIS.tsEntities alDb = new SSIS.tsEntities();
+            alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
+            alDb.PopulatePerFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\per.txt");
+
         }
     }
 }
