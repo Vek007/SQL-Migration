@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\SQL Migration\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\SQL Migration\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -110,7 +110,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="ar-per\Amex.csv" />
-    <None Include="ar-per\NAS_list.csv" />
     <None Include="ar-per\NYSE.csv" />
     <None Include="ar-per\t_s.csv" />
     <None Include="ar-per\t_v.csv" />
@@ -138,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ar-per\ar.txt" />
+    <Content Include="ar-per\DAily_SQL.sql" />
     <Content Include="ar-per\per.txt" />
     <Content Include="ar-per\tsx.txt" />
     <Content Include="ar-per\tsxv.txt" />
