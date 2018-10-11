@@ -24,7 +24,7 @@ namespace SSIS
 
         private void btnSSIS_Click(object sender, EventArgs e)
         {
-            alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
+            //alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
         }
 
         private void cmdSymbols_Click(object sender, EventArgs e)
