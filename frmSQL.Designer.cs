@@ -71,8 +71,6 @@
             this.btnPrgFiles = new System.Windows.Forms.Button();
             this.tbSync = new System.Windows.Forms.TabPage();
             this.txtSyncLog = new System.Windows.Forms.TextBox();
-            this.tbpST = new System.Windows.Forms.TabPage();
-            this.dgvST = new System.Windows.Forms.DataGridView();
             this.tbLeft = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -102,8 +100,6 @@
             this.TabConcateMessageBox.SuspendLayout();
             this.tbSmText.SuspendLayout();
             this.tbSync.SuspendLayout();
-            this.tbpST.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvST)).BeginInit();
             this.tbLeft.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -186,7 +182,6 @@
             this.tabOperations.Controls.Add(this.tabSourceAnyWhere);
             this.tabOperations.Controls.Add(this.tabPage2);
             this.tabOperations.Controls.Add(this.tbSync);
-            this.tabOperations.Controls.Add(this.tbpST);
             this.tabOperations.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabOperations.Location = new System.Drawing.Point(431, 3);
             this.tabOperations.Name = "tabOperations";
@@ -594,26 +589,6 @@
             this.txtSyncLog.Size = new System.Drawing.Size(1372, 891);
             this.txtSyncLog.TabIndex = 3;
             // 
-            // tbpST
-            // 
-            this.tbpST.Controls.Add(this.dgvST);
-            this.tbpST.Location = new System.Drawing.Point(4, 22);
-            this.tbpST.Name = "tbpST";
-            this.tbpST.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpST.Size = new System.Drawing.Size(1402, 902);
-            this.tbpST.TabIndex = 4;
-            this.tbpST.Text = "ST";
-            this.tbpST.UseVisualStyleBackColor = true;
-            // 
-            // dgvST
-            // 
-            this.dgvST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvST.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvST.Location = new System.Drawing.Point(3, 3);
-            this.dgvST.Name = "dgvST";
-            this.dgvST.Size = new System.Drawing.Size(1396, 896);
-            this.dgvST.TabIndex = 0;
-            // 
             // tbLeft
             // 
             this.tbLeft.Controls.Add(this.tabPage3);
@@ -833,8 +808,6 @@
             this.tbSmText.PerformLayout();
             this.tbSync.ResumeLayout(false);
             this.tbSync.PerformLayout();
-            this.tbpST.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvST)).EndInit();
             this.tbLeft.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
@@ -904,8 +877,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox grpTools;
-        private System.Windows.Forms.TabPage tbpST;
-        private System.Windows.Forms.DataGridView dgvST;
         private System.Windows.Forms.Button btnSearchSym;
         private System.Windows.Forms.TextBox txtSym;
         private System.Windows.Forms.Button btnSSIS;

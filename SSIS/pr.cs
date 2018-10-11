@@ -19,5 +19,10 @@ namespace SSIS
         public string ex_short { get; set; }
         public Nullable<double> price { get; set; }
         public Nullable<System.DateTimeOffset> timestamp { get; set; }
+        public Nullable<double> daily_change { get; set; }
+        public Nullable<double> per_dayly_change { get; set; }
+        public Nullable<long> vol { get; set; }
+        public Nullable<double> week_52_h { get; set; }
+        public Nullable<double> week_52_l { get; set; }
     }
 }

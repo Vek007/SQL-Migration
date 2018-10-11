@@ -103,7 +103,7 @@ namespace SSIS.Entity
                     Debug.WriteLine(i.ToString() + lines[i]);
                     if (lines[i].Trim().Contains("-"))
                     {
-                        ar a = new ar();
+                        pr a = new pr();
                         string[] sy = lines[i].Split('-');
                         a.rt = sy[0].Trim();
 
@@ -119,84 +119,75 @@ namespace SSIS.Entity
                         {
                             pr = 0;
                         }
+                        a.price = pr;
                         i++;
 
-                        pr p = new pr();
-                        p.rt = a.rt;
-                        p.ex = a.ex;
-                        p.price = pr;
-
-                        try
+                        double daily_ch = 0;
+                        if (!double.TryParse(lines[i], out daily_ch))
                         {
-                            pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
-                            if (pd == null)
-                            {
-                                db.prs.Add(p);
-                                db.SaveChanges();
-                                db.RefreshDatabase(p);
-                            }
-                            else
-                            {
-                                pd.price = p.price;
-                                db.SaveChanges();
-                                db.RefreshDatabase(pd);
-                            }
+                            daily_ch = 0;
                         }
-                        catch (Exception ex)
-                        {
-                            Debug.WriteLine(ex.ToString());
-                        }
-
-                        double ht = 0;
-                        if (!double.TryParse(lines[i], out ht))
-                        {
-                            ht = 0;
-                        }
+                        a.daily_change = daily_ch;
                         i++;
-                        a.ht = ht;
 
                         double lt = 0;
-                        if (!double.TryParse(lines[i], out lt))
+                        string newVal = lines[i].Replace('%', ' ').Trim();
+                        if (!double.TryParse(newVal, out lt))
                         {
                             lt = 0;
                         }
+                        a.per_dayly_change = lt;
                         i++;
-                        a.lt = lt;
 
-                        double met = 0;
-                        if (!double.TryParse(lines[i], out met))
+                        if (!lines[i].Contains('.'))
                         {
-                            met = 0;
+                            double v = 0;
+                            if (!double.TryParse(lines[i], out v))
+                            {
+                                v = 0;
+                            }
+                            a.vol = (long)v;
+                            i++;
                         }
+                        else
+                        {
+                            Debug.WriteLine("no vol");
+                        }
+
+                        double high = 0;
+                        if (!double.TryParse(lines[i], out high))
+                        {
+                            high = 0;
+                        }
+                        a.week_52_h = high;
                         i++;
-                        a.met = met;
 
-                        double mdt = 0;
-                        if (!double.TryParse(lines[i], out mdt))
+                        double low = 0;
+                        if (!double.TryParse(lines[i], out low))
                         {
-                            mdt = 0;
+                            low = 0;
+                        }
+                        a.week_52_l = low;
+                        i++;
+
+                        a.timestamp = DateTime.UtcNow;
+
+                        if (i<lines.Length && lines[i].Contains("-") && !lines[i].Contains('|'))
+                        {
+                            i--;
                         }
 
-                        a.mdt = mdt;
+                        // a.mdt = mdt;
                         try
                         {
-                            ar ad = db.ars.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            pr ad = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == a.rt.Trim() && p1.ex.Trim() == a.ex.Trim()));
                             if (ad == null)
                             {
-                                db.ars.Add(a);
+                                db.prs.Add(a);
                                 db.SaveChanges();
                                 db.RefreshDatabase(a);
+                                Debug.WriteLine(">> "+a.rt+" - "+a.ex);
                             }
-                            else
-                            {
-                                ad.ht = a.ht;
-                                ad.lt = a.lt;
-                                ad.met = a.met;
-                                ad.mdt = a.mdt;
-                                db.SaveChanges();
-                                db.RefreshDatabase(ad);
-                            }
-                            
                         }
                         catch (Exception ex)
                         {
@@ -266,12 +257,12 @@ namespace SSIS.Entity
                                     db.SaveChanges();
                                     db.RefreshDatabase(p);
                                 }
-                                else
+                                /*else
                                 {
                                     pd.price = p.price;
                                     db.SaveChanges();
                                     db.RefreshDatabase(pd);
-                                }
+                                }*/
                             }
                             catch (Exception ex)
                             {
@@ -474,6 +465,224 @@ namespace SSIS.Entity
             ((IObjectContextAdapter)db)
                 .ObjectContext
                 .Refresh(RefreshMode.StoreWins, entity);
+        }
+
+        public static void TransferVxToT(this tsEntities db)
+        {
+            foreach (var r in db.t_x.OrderBy(a => a.Root_Ticker).ToList())
+            {
+                try
+                {
+                    t_s tt = new t_s();
+                    tt.AFRICA = r.AFRICA;
+                    tt.asia_region = r.Asia_Region;
+                    tt.AUS_NZ_PNG = r.AUS_NZ_PNG;
+                    tt.base__precious_metals = r.base__precious_metals;
+                    tt.CANADA = r.CANADA;
+                    tt.CHINA__ASIA = r.CHINA__ASIA;
+                    tt.clean_tech_primary = r.clean_tech_primary;
+                    tt.clean_tech_sub_sector = r.clean_tech_sub_sector;
+                    tt.Coal = r.Coal;
+                    tt.Copper = r.Copper;
+                    tt.Co_ID = r.Co_ID;
+                    tt.cps = r.cps;
+                    tt.date_of_amalgamation = r.Date_of_amalgamation;
+                    tt.date_of_listing = r.date_of_listing;
+                    tt.Diamond = r.Diamond;
+                    tt.Exchange = r.Exchange;
+                    tt.former_cpc = r.formar_cpc_or_cpc;
+                    tt.Gold = r.Gold;
+                    tt.hq_location = r.hq_location;
+                    tt.hq_region = r.hq_region;
+                    tt.Index = r.Index;
+                    tt.interlisted = r.Interlisted;
+                    tt.Iron = r.Iron;
+                    tt.LATIN_AMERICA = r.LATIN_AMERICA;
+                    tt.Lead = r.Lead;
+                    tt.Lithium = r.Lithium;
+                    tt.mineral_properties = r.mineral_properties;
+                    tt.Molybdenum = r.Molybdenum;
+                    tt.Name = r.Name;
+                    tt.Nickel = r.Nickel;
+                    tt.num_of_month_trading_data = r.num_of_month_trading_data;
+                    tt.num_traded_share_ytd = r.num_traded_share_ytd;
+                    tt.Oil_Gas = r.Oil_Gas;
+                    tt.OS_Shares = r.OS_Shares;
+                    tt.OTHER = r.OTHER;
+                    tt.other_properties = r.other_properties;
+                    tt.Platinum_PGM = r.Platinum_PGM;
+                    tt.Potash = r.Potash;
+                    tt.QMV = r.qmv;
+                    tt.qt_date = r.QT_Date;
+                    tt.Rare_Earths = r.Rare_Earths;
+                    tt.re = r.re;
+                    tt.root__ticker = r.Root_Ticker;
+                    tt.rto_date = r.RTO_Date;
+                    tt.section = r.Section;
+                    tt.Sector = r.Sector;
+                    tt.Silver = r.Silver;
+                    tt.Sub_Sector = r.Sub_Sector;
+                    tt.technology_sub_sector = r.tech_sub_sec;
+                    tt.trust = r.trust;
+                    tt.Tungsten = r.Tungsten;
+                    tt.type_of_listing = r.type_of_listing;
+                    tt.UK_EUROPE = r.UK_EUROPE;
+                    tt.Uranium = r.Uranium;
+                    tt.USA = r.USA;
+                    tt.usa_city = r.usa_city;
+                    tt.USA_State = r.USA_State;
+                    tt.value__ytd = r.value__ytd;
+                    tt.ven_50_2018 = r.Ven_50_2018;
+                    tt.volume_ytd = r.volume_ytd;
+                    tt.Zinc = r.Zinc;
+
+                    db.t_s.Add(tt);
+                    db.SaveChanges();
+                    db.RefreshDatabase(tt);
+
+                    Debug.WriteLine(">> " + tt.root__ticker + " - " + tt.Name);
+
+                }
+                catch (Exception ex) { Debug.WriteLine(ex.ToString()); }
+
+            }
+        }
+
+        public static bool PopulateNewFromFile(this tsEntities db, string fileName)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(fileName);
+
+                Debug.WriteLine(fileName);
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    Debug.WriteLine(i.ToString() + lines[i]);
+                    if (lines[i].Trim().Contains("-"))
+                    {
+                        per a = new per();
+                        string[] sy = lines[i].Split('-');
+                        a.rt = sy[0].Trim();
+                        a.ex = sy[1].Trim();
+                        i++; i++;
+
+                        if (a.rt.Trim().ToLower() == "")
+                        {
+                            int iii = 0;
+                        }
+
+                        bool skipPr = false;
+                        double pr = 0;
+                        if (!double.TryParse(lines[i], out pr))
+                        {
+                            pr = 0;
+                            i--;
+                            skipPr = true;
+                        }
+                        i++;
+
+                        pr p = new pr();
+                        p.rt = a.rt;
+                        p.ex = a.ex;
+                        p.price = pr;
+
+                        if (skipPr)
+                        {
+                            try
+                            {
+                                pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                                if (pd == null)
+                                {
+                                    db.prs.Add(p);
+                                    db.SaveChanges();
+                                    db.RefreshDatabase(p);
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Debug.WriteLine(ex.ToString());
+                            }
+                        }
+
+                        double ht = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out ht))
+                        {
+                            ht = 0;
+                        }
+                        i++;
+                        a.ytd = ht;
+
+                        double lt = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out lt))
+                        {
+                            lt = 0;
+                        }
+                        i++;
+                        a.five_day = lt;
+
+                        double oneM = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out oneM))
+                        {
+                            oneM = 0;
+                        }
+                        i++;
+                        a.one_month = oneM;
+
+                        double threeM = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out threeM))
+                        {
+                            threeM = 0;
+                        }
+                        i++;
+                        a.three_month = threeM;
+
+                        double oneY = 0;
+                        lines[i] = lines[i].Replace("%", "0");
+                        if (!double.TryParse(lines[i], out oneY))
+                        {
+                            oneY = 0;
+                        }
+                        a.one_year = oneY;
+
+                        try
+                        {
+                            per ad = db.pers.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            if (ad == null)
+                            {
+                                db.pers.Add(a);
+                                db.SaveChanges();
+                                db.RefreshDatabase(a);
+                            }
+                            else
+                            {
+                                ad.ytd = a.ytd;
+                                ad.five_day = a.five_day;
+                                ad.one_month = a.one_month;
+                                ad.three_month = a.three_month;
+                                ad.one_year = a.one_year;
+                                db.SaveChanges();
+                                db.RefreshDatabase(ad);
+                            }
+
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine(ex.ToString());
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
+
+            return true;
         }
 
     }

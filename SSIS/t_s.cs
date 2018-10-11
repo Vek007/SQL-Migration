@@ -76,5 +76,14 @@ namespace SSIS
         public string base__precious_metals { get; set; }
         public string mineral_properties { get; set; }
         public string other_properties { get; set; }
+        public string qt_date { get; set; }
+        public string rto_date { get; set; }
+        public string date_of_amalgamation { get; set; }
+        public string interlisted { get; set; }
+        public string ven_50_2018 { get; set; }
+        public string clean_tech_primary { get; set; }
+        public string clean_tech_sub_sector { get; set; }
+        public string section { get; set; }
+        public string trust { get; set; }
     }
 }

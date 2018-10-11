@@ -2611,9 +2611,9 @@ namespace SQL_Migration
         private void ImportArPer()
         {
             SSIS.tsEntities alDb = new SSIS.tsEntities();
-            alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
+            alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\new.txt");
             alDb.PopulatePerFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\per.txt");
-
+            //alDb.TransferVxToT();
         }
     }
 }

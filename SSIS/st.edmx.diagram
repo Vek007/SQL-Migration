@@ -7,9 +7,9 @@
       <Diagram DiagramId="483913f878c443899ed12d9d65341fae" Name="Diagram1" ZoomLevel="42">
         <EntityTypeShape EntityType="tsModel.t_x" Width="1.5" PointX="0.75" PointY="0.75" />
         <EntityTypeShape EntityType="tsModel.ar" Width="1.5" PointX="5.375" PointY="0.75" />
-        <EntityTypeShape EntityType="tsModel.per" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="tsModel.per" Width="1.5" PointX="5.375" PointY="7.25" />
         <EntityTypeShape EntityType="tsModel.t_s" Width="1.5" PointX="3.125" PointY="0.75" />
-        <EntityTypeShape EntityType="tsModel.pr" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="tsModel.pr" Width="1.5" PointX="7.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

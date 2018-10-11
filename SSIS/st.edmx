@@ -40,6 +40,11 @@
           <Property Name="ex_short" Type="nchar" MaxLength="10" />
           <Property Name="price" Type="float" />
           <Property Name="timestamp" Type="datetimeoffset" Precision="7" />
+          <Property Name="daily_change" Type="float" />
+          <Property Name="per_dayly_change" Type="float" />
+          <Property Name="vol" Type="bigint" />
+          <Property Name="week_52_h" Type="float" />
+          <Property Name="week_52_l" Type="float" />
         </EntityType>
         <EntityType Name="t_s">
           <Key>
@@ -108,6 +113,15 @@
           <Property Name="base__precious_metals" Type="nvarchar" MaxLength="50" />
           <Property Name="mineral_properties" Type="nvarchar" MaxLength="50" />
           <Property Name="other_properties" Type="nvarchar" MaxLength="50" />
+          <Property Name="qt_date" Type="nvarchar" MaxLength="50" />
+          <Property Name="rto_date" Type="nvarchar" MaxLength="50" />
+          <Property Name="date_of_amalgamation" Type="nvarchar" MaxLength="50" />
+          <Property Name="interlisted" Type="nvarchar" MaxLength="50" />
+          <Property Name="ven_50_2018" Type="nvarchar" MaxLength="50" />
+          <Property Name="clean_tech_primary" Type="nvarchar" MaxLength="100" />
+          <Property Name="clean_tech_sub_sector" Type="nvarchar" MaxLength="100" />
+          <Property Name="section" Type="nvarchar" MaxLength="50" />
+          <Property Name="trust" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="t_x">
           <Key>
@@ -355,6 +369,15 @@
           <Property Name="base__precious_metals" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="mineral_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="other_properties" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="qt_date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="rto_date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="date_of_amalgamation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="interlisted" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ven_50_2018" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="clean_tech_primary" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="clean_tech_sub_sector" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="section" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="trust" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="pr">
           <Key>
@@ -366,6 +389,11 @@
           <Property Name="ex_short" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="price" Type="Double" />
           <Property Name="timestamp" Type="DateTimeOffset" Precision="7" />
+          <Property Name="daily_change" Type="Double" />
+          <Property Name="per_dayly_change" Type="Double" />
+          <Property Name="vol" Type="Int64" />
+          <Property Name="week_52_h" Type="Double" />
+          <Property Name="week_52_l" Type="Double" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -470,6 +498,15 @@
           <EntitySetMapping Name="t_s">
             <EntityTypeMapping TypeName="tsModel.t_s">
               <MappingFragment StoreEntitySet="t_s">
+                <ScalarProperty Name="trust" ColumnName="trust" />
+                <ScalarProperty Name="section" ColumnName="section" />
+                <ScalarProperty Name="clean_tech_sub_sector" ColumnName="clean_tech_sub_sector" />
+                <ScalarProperty Name="clean_tech_primary" ColumnName="clean_tech_primary" />
+                <ScalarProperty Name="ven_50_2018" ColumnName="ven_50_2018" />
+                <ScalarProperty Name="interlisted" ColumnName="interlisted" />
+                <ScalarProperty Name="date_of_amalgamation" ColumnName="date_of_amalgamation" />
+                <ScalarProperty Name="rto_date" ColumnName="rto_date" />
+                <ScalarProperty Name="qt_date" ColumnName="qt_date" />
                 <ScalarProperty Name="other_properties" ColumnName="other_properties" />
                 <ScalarProperty Name="mineral_properties" ColumnName="mineral_properties" />
                 <ScalarProperty Name="base__precious_metals" ColumnName="base__precious_metals" />
@@ -538,6 +575,11 @@
           <EntitySetMapping Name="prs">
             <EntityTypeMapping TypeName="tsModel.pr">
               <MappingFragment StoreEntitySet="pr">
+                <ScalarProperty Name="week_52_l" ColumnName="week_52_l" />
+                <ScalarProperty Name="week_52_h" ColumnName="week_52_h" />
+                <ScalarProperty Name="vol" ColumnName="vol" />
+                <ScalarProperty Name="per_dayly_change" ColumnName="per_dayly_change" />
+                <ScalarProperty Name="daily_change" ColumnName="daily_change" />
                 <ScalarProperty Name="timestamp" ColumnName="timestamp" />
                 <ScalarProperty Name="price" ColumnName="price" />
                 <ScalarProperty Name="ex_short" ColumnName="ex_short" />

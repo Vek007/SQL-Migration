@@ -47,6 +47,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -91,6 +92,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>st.edmx</DependentUpon>
     </Compile>
+    <Compile Include="TitledGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TitledGrid.Designer.cs">
+      <DependentUpon>TitledGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitledChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TitledChart.Designer.cs">
+      <DependentUpon>TitledChart.cs</DependentUpon>
+    </Compile>
     <Compile Include="t_s.cs">
       <DependentUpon>st.tt</DependentUpon>
     </Compile>
@@ -109,6 +122,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TitledGrid.resx">
+      <DependentUpon>TitledGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitledChart.resx">
+      <DependentUpon>TitledChart.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ar-per\Amex.csv" />
     <None Include="ar-per\NYSE.csv" />
     <None Include="ar-per\t_s.csv" />
@@ -156,6 +175,11 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CollapsiblePanel\CustomControls.csproj">
+      <Project>{e18bbcd6-decd-457e-b9fe-9df696964b78}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
