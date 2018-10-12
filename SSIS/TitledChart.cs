@@ -16,10 +16,12 @@ namespace SSIS
         public TitledChart()
         {
             InitializeComponent();
+            this.chart.ChartAreas[0].AxisY2.Enabled = AxisEnabled.True; 
         }
 
         public void SetChartData(Series s, string title)
         {
+            this.chart.Series.Clear();
             this.chart.Series.Add(s);
         }
     }

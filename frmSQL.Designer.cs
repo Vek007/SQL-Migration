@@ -43,6 +43,7 @@
             this.pnlSQLFlow = new System.Windows.Forms.Panel();
             this.flLayoyt = new System.Windows.Forms.FlowLayoutPanel();
             this.grpTools = new System.Windows.Forms.GroupBox();
+            this.chkDb = new System.Windows.Forms.CheckBox();
             this.btnSSIS = new System.Windows.Forms.Button();
             this.btnSearchSym = new System.Windows.Forms.Button();
             this.txtSym = new System.Windows.Forms.TextBox();
@@ -86,7 +87,6 @@
             this.tbMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.chkDb = new System.Windows.Forms.CheckBox();
             this.tabOperations.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlWaitQuery.SuspendLayout();
@@ -281,6 +281,18 @@
             this.grpTools.Size = new System.Drawing.Size(1390, 36);
             this.grpTools.TabIndex = 9;
             this.grpTools.TabStop = false;
+            // 
+            // chkDb
+            // 
+            this.chkDb.AutoSize = true;
+            this.chkDb.Checked = true;
+            this.chkDb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkDb.Location = new System.Drawing.Point(467, 13);
+            this.chkDb.Name = "chkDb";
+            this.chkDb.Size = new System.Drawing.Size(41, 17);
+            this.chkDb.TabIndex = 18;
+            this.chkDb.Text = "DB";
+            this.chkDb.UseVisualStyleBackColor = true;
             // 
             // btnSSIS
             // 
@@ -770,16 +782,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1844, 934);
             this.tableLayoutPanel3.TabIndex = 1;
-            // 
-            // chkDb
-            // 
-            this.chkDb.AutoSize = true;
-            this.chkDb.Location = new System.Drawing.Point(467, 13);
-            this.chkDb.Name = "chkDb";
-            this.chkDb.Size = new System.Drawing.Size(41, 17);
-            this.chkDb.TabIndex = 18;
-            this.chkDb.Text = "DB";
-            this.chkDb.UseVisualStyleBackColor = true;
             // 
             // frmSQL
             // 

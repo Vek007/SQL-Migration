@@ -31,19 +31,17 @@
             this.tblMain = new System.Windows.Forms.TableLayoutPanel();
             this.dbePer = new SSIS.DashBoardElement();
             this.dbeAr = new SSIS.DashBoardElement();
-            this.dbePrice = new SSIS.DashBoardElement();
             this.tblMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // tblMain
             // 
-            this.tblMain.ColumnCount = 3;
-            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tblMain.ColumnCount = 2;
+            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tblMain.Controls.Add(this.dbePer, 0, 0);
             this.tblMain.Controls.Add(this.dbeAr, 1, 0);
-            this.tblMain.Controls.Add(this.dbePrice, 2, 0);
             this.tblMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tblMain.Location = new System.Drawing.Point(0, 0);
             this.tblMain.Name = "tblMain";
@@ -57,24 +55,16 @@
             this.dbePer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dbePer.Location = new System.Drawing.Point(3, 3);
             this.dbePer.Name = "dbePer";
-            this.dbePer.Size = new System.Drawing.Size(328, 390);
+            this.dbePer.Size = new System.Drawing.Size(496, 390);
             this.dbePer.TabIndex = 0;
             // 
             // dbeAr
             // 
             this.dbeAr.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dbeAr.Location = new System.Drawing.Point(337, 3);
+            this.dbeAr.Location = new System.Drawing.Point(505, 3);
             this.dbeAr.Name = "dbeAr";
-            this.dbeAr.Size = new System.Drawing.Size(328, 390);
+            this.dbeAr.Size = new System.Drawing.Size(496, 390);
             this.dbeAr.TabIndex = 1;
-            // 
-            // dbePrice
-            // 
-            this.dbePrice.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dbePrice.Location = new System.Drawing.Point(671, 3);
-            this.dbePrice.Name = "dbePrice";
-            this.dbePrice.Size = new System.Drawing.Size(330, 390);
-            this.dbePrice.TabIndex = 2;
             // 
             // DashBoard
             // 
@@ -96,6 +86,5 @@
         private System.Windows.Forms.TableLayoutPanel tblMain;
         private DashBoardElement dbePer;
         private DashBoardElement dbeAr;
-        private DashBoardElement dbePrice;
     }
 }

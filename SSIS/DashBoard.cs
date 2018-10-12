@@ -48,13 +48,6 @@ namespace SSIS
             this.dbePer.SetData(data, "Per");
         }
 
-        public void SetPr(DataTable dt)
-        {
-            List<KeyValuePair<string, double>> data = GetKvpData(dt);
-
-            this.dbePrice.SetData(data, "Pr");
-        }
-
         public void SetTitle(string text)
         {
             this.Text = text;
@@ -70,13 +63,15 @@ namespace SSIS
                 List<KeyValuePair<string, double>> data = new List<KeyValuePair<string, double>>();
 
                 data.Add(new KeyValuePair<string, double>("low", (a.lt.HasValue ? a.lt.Value : 0)));
-                data.Add(new KeyValuePair<string, double>("med", (a.lt.HasValue ? a.mdt.Value : 0)));
-                data.Add(new KeyValuePair<string, double>("mean", (a.lt.HasValue ? a.met.Value : 0)));
-                data.Add(new KeyValuePair<string, double>("high", (a.lt.HasValue ? a.ht.Value : 0)));
+                data.Add(new KeyValuePair<string, double>("med", (a.mdt.HasValue ? a.mdt.Value : 0)));
+                data.Add(new KeyValuePair<string, double>("mean", (a.met.HasValue ? a.met.Value : 0)));
+                data.Add(new KeyValuePair<string, double>("high", (a.ht.HasValue ? a.ht.Value : 0)));
 
                 if (pr != null)
                 {
                     data.Add(new KeyValuePair<string, double>("cur", (pr.price.HasValue ? pr.price.Value : 0)));
+                    data.Add(new KeyValuePair<string, double>("52H", (pr.week_52_h.HasValue ? pr.week_52_h.Value : 0)));
+                    data.Add(new KeyValuePair<string, double>("52L", (pr.week_52_l.HasValue ? pr.week_52_l.Value : 0)));
                 }
 
                 this.dbeAr.SetData(data, "AR");

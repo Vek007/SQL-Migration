@@ -2597,8 +2597,9 @@ namespace SQL_Migration
                 }
             }
 
-            if (!chkDb.Checked)
+            if (chkDb.Checked)
             {
+                this.db = new SSIS.DashBoard();
                 SSIS.tsEntities alDb = new SSIS.tsEntities();
                 this.db.SetSymbol(sym, ex);
                 this.db.Show();
@@ -2621,9 +2622,9 @@ namespace SQL_Migration
         private void ImportArPer()
         {
             SSIS.tsEntities alDb = new SSIS.tsEntities();
-            alDb.PopulateNewFromFile(@"C:\vivek\SQL\SQL Migration\SSIS\ar-per\new.txt");
-            alDb.PopulateArFromFile(@"C:\vivek\SQL\SQL-Migration\SSIS\ar-per\ar.txt");
-            alDb.PopulatePerFromFile(@"C:\vivek\SQL\SQL-Migration\SSIS\ar-per\per.txt");
+            alDb.PopulateNewFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\new.txt");
+            alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
+            alDb.PopulatePerFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\per.txt");
             //alDb.TransferVxToT();
         }
     }
