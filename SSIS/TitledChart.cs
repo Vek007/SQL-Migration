@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SSIS
 {
@@ -15,6 +16,11 @@ namespace SSIS
         public TitledChart()
         {
             InitializeComponent();
+        }
+
+        public void SetChartData(Series s, string title)
+        {
+            this.chart.Series.Add(s);
         }
     }
 }

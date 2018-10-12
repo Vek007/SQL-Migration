@@ -62,6 +62,18 @@
     <Compile Include="ar.cs">
       <DependentUpon>st.tt</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashBoardElement.Designer.cs">
+      <DependentUpon>DashBoardElement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entity\ExtensionMethods.cs" />
     <Compile Include="frmStart.cs">
       <SubType>Form</SubType>
@@ -110,6 +122,12 @@
     <Compile Include="t_x.cs">
       <DependentUpon>st.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardElement.resx">
+      <DependentUpon>DashBoardElement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStart.resx">
       <DependentUpon>frmStart.cs</DependentUpon>
     </EmbeddedResource>

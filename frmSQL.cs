@@ -2570,6 +2570,7 @@ namespace SQL_Migration
             }
         }
 
+        SSIS.DashBoard db = new SSIS.DashBoard();
         private void btnSearchSym_Click(object sender, EventArgs e)
         {
             txtQuery.Text = string.Empty;
@@ -2577,21 +2578,30 @@ namespace SQL_Migration
             string sym = syml[0];
             string ex = syml[1];
 
-            txtQuery.Text += "select * from pr where pr.rt = trim('" + sym + "'); " + Environment.NewLine;
-            txtQuery.Text += "select * from ar_view where ar_view.rt = trim('" + sym + "');" + Environment.NewLine;
-            txtQuery.Text += "select * from per where per.rt = trim('" + sym + "');" + Environment.NewLine;
+            {
+                txtQuery.Text += "select * from pr where pr.rt = trim('" + sym + "'); " + Environment.NewLine;
+                txtQuery.Text += "select * from ar_view where ar_view.rt = trim('" + sym + "');" + Environment.NewLine;
+                txtQuery.Text += "select * from per where per.rt = trim('" + sym + "');" + Environment.NewLine;
 
-            if (ex.Trim().ToLower() == "x")
-            {
-                txtQuery.Text += "select * from tx_sec_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
-                txtQuery.Text += "select * from tx_res_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
-                txtQuery.Text += "select * from tx_region_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                if (ex.Trim().ToLower() == "x")
+                {
+                    txtQuery.Text += "select * from tx_sec_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                    txtQuery.Text += "select * from tx_res_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                    txtQuery.Text += "select * from tx_region_view where root_ticker = trim('" + sym + "');" + Environment.NewLine;
+                }
+                else
+                {
+                    txtQuery.Text += "select * from t_sec_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                    txtQuery.Text += "select * from t_res_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                    txtQuery.Text += "select * from t_region_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                }
             }
-            else
+
+            if (!chkDb.Checked)
             {
-                txtQuery.Text += "select * from t_sec_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
-                txtQuery.Text += "select * from t_res_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
-                txtQuery.Text += "select * from t_region_view where root__ticker = trim('" + sym + "');" + Environment.NewLine;
+                SSIS.tsEntities alDb = new SSIS.tsEntities();
+                this.db.SetSymbol(sym, ex);
+                this.db.Show();
             }
 
             txtQuery.SelectionStart = 0;

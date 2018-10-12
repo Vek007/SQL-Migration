@@ -86,6 +86,7 @@
             this.tbMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.chkDb = new System.Windows.Forms.CheckBox();
             this.tabOperations.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlWaitQuery.SuspendLayout();
@@ -264,6 +265,7 @@
             // 
             // grpTools
             // 
+            this.grpTools.Controls.Add(this.chkDb);
             this.grpTools.Controls.Add(this.btnSSIS);
             this.grpTools.Controls.Add(this.btnSearchSym);
             this.grpTools.Controls.Add(this.txtSym);
@@ -769,6 +771,16 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1844, 934);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
+            // chkDb
+            // 
+            this.chkDb.AutoSize = true;
+            this.chkDb.Location = new System.Drawing.Point(467, 13);
+            this.chkDb.Name = "chkDb";
+            this.chkDb.Size = new System.Drawing.Size(41, 17);
+            this.chkDb.TabIndex = 18;
+            this.chkDb.Text = "DB";
+            this.chkDb.UseVisualStyleBackColor = true;
+            // 
             // frmSQL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -880,6 +892,7 @@
         private System.Windows.Forms.Button btnSearchSym;
         private System.Windows.Forms.TextBox txtSym;
         private System.Windows.Forms.Button btnSSIS;
+        private System.Windows.Forms.CheckBox chkDb;
     }
 }
 
