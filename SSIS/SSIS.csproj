@@ -175,6 +175,7 @@
   <ItemGroup>
     <Content Include="ar-per\ar.txt" />
     <Content Include="ar-per\DAily_SQL.sql" />
+    <Content Include="ar-per\new.txt" />
     <Content Include="ar-per\per.txt" />
     <Content Include="ar-per\tsx.txt" />
     <Content Include="ar-per\tsxv.txt" />

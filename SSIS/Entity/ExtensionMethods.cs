@@ -91,7 +91,7 @@ namespace SSIS.Entity
             return true;
         }
 
-        public static bool PopulateArFromFile(this tsEntities db, string fileName)
+        public static bool PopulateNewFromFile(this tsEntities db, string fileName)
         {
             try
             {
@@ -207,7 +207,7 @@ namespace SSIS.Entity
             return true;
         }
 
-        public static bool PopulatePerFromFile(this tsEntities db, string fileName)
+        public static bool PopulateArFromFile(this tsEntities db, string fileName)
         {
             try
             {
@@ -219,24 +219,21 @@ namespace SSIS.Entity
                     Debug.WriteLine(i.ToString() + lines[i]);
                     if (lines[i].Trim().Contains("-"))
                     {
-                        per a = new per();
+                        ar a = new ar();
                         string[] sy = lines[i].Split('-');
                         a.rt = sy[0].Trim();
+
+                        if (a.rt.Trim() == string.Empty)
+                        {
+                            int lll = 0;
+                        }
                         a.ex = sy[1].Trim();
                         i++; i++;
 
-                        if (a.rt.Trim().ToLower() == "")
-                        {
-                            int iii = 0;
-                        }
-
-                        bool skipPr = false;
                         double pr = 0;
                         if (!double.TryParse(lines[i], out pr))
                         {
                             pr = 0;
-                            i--;
-                            skipPr = true;
                         }
                         i++;
 
@@ -245,91 +242,73 @@ namespace SSIS.Entity
                         p.ex = a.ex;
                         p.price = pr;
 
-                        if (skipPr)
+                        try
                         {
-
-                            try
+                            pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            if (pd == null)
                             {
-                                pr pd = db.prs.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
-                                if (pd == null)
-                                {
-                                    db.prs.Add(p);
-                                    db.SaveChanges();
-                                    db.RefreshDatabase(p);
-                                }
-                                /*else
-                                {
-                                    pd.price = p.price;
-                                    db.SaveChanges();
-                                    db.RefreshDatabase(pd);
-                                }*/
+                                db.prs.Add(p);
+                                db.SaveChanges();
+                                db.RefreshDatabase(p);
                             }
-                            catch (Exception ex)
+                            else
                             {
-                                Debug.WriteLine(ex.ToString());
+                                //pd.price = p.price;
+                                //db.SaveChanges();
+                                //db.RefreshDatabase(pd);
                             }
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine(ex.ToString());
                         }
 
                         double ht = 0;
-                        lines[i]=lines[i].Replace("%", "0");
                         if (!double.TryParse(lines[i], out ht))
                         {
                             ht = 0;
                         }
                         i++;
-                        a.ytd = ht;
+                        a.ht = ht;
 
                         double lt = 0;
-                        lines[i] = lines[i].Replace("%", "0");
                         if (!double.TryParse(lines[i], out lt))
                         {
                             lt = 0;
                         }
                         i++;
-                        a.five_day = lt;
+                        a.lt = lt;
 
-                        double oneM = 0;
-                        lines[i] = lines[i].Replace("%", "0");
-                        if (!double.TryParse(lines[i], out oneM))
+                        double met = 0;
+                        if (!double.TryParse(lines[i], out met))
                         {
-                            oneM = 0;
+                            met = 0;
                         }
                         i++;
-                        a.one_month = oneM;
+                        a.met = met;
 
-                        double threeM = 0;
-                        lines[i] = lines[i].Replace("%", "0");
-                        if (!double.TryParse(lines[i], out threeM))
+                        double mdt = 0;
+                        if (!double.TryParse(lines[i], out mdt))
                         {
-                            threeM = 0;
+                            mdt = 0;
                         }
-                        i++;
-                        a.three_month = threeM;
 
-                        double oneY = 0;
-                        lines[i] = lines[i].Replace("%", "0");
-                        if (!double.TryParse(lines[i], out oneY))
-                        {
-                            oneY = 0;
-                        }
-                        a.one_year = oneY;
-
+                        a.mdt = mdt;
                         try
                         {
-                            per ad = db.pers.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
+                            ar ad = db.ars.SingleOrDefault(p1 => (p1.rt.Trim() == p.rt.Trim() && p1.ex.Trim() == p.ex.Trim()));
                             if (ad == null)
                             {
-                                db.pers.Add(a);
+                                db.ars.Add(a);
                                 db.SaveChanges();
                                 db.RefreshDatabase(a);
                             }
                             else
                             {
-                                ad.ytd = a.ytd;
-                                ad.five_day = a.five_day;
-                                ad.one_month = a.one_month;
-                                ad.three_month = a.three_month;
-                                ad.one_year = a.one_year;
+                                ad.ht = a.ht;
+                                ad.lt = a.lt;
+                                ad.met = a.met;
+                                ad.mdt = a.mdt;
                                 db.SaveChanges();
                                 db.RefreshDatabase(ad);
                             }
@@ -347,6 +326,8 @@ namespace SSIS.Entity
             {
                 Debug.WriteLine(ex.ToString());
             }
+
+
 
             return true;
         }
@@ -548,7 +529,7 @@ namespace SSIS.Entity
             }
         }
 
-        public static bool PopulateNewFromFile(this tsEntities db, string fileName)
+        public static bool PopulatePerFromFile(this tsEntities db, string fileName)
         {
             try
             {
