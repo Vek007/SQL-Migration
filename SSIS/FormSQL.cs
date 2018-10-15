@@ -28,7 +28,12 @@ namespace SSIS
 
         //        private string SQLServerConnString = @"Server=VivekPC\SQL;Database=DtecSQLDatabase;User Id = Dtec; Password=1Intersect$";
         //data source=VIVEKPC\SQL;initial catalog=ts;user id=sa;password=LionGirnar007;
-        private string SQLServerConnString = @"Provider=sqloledb;Data Source =VivekPC\SQL;Initial Catalog=ts;Integrated Security=SSPI;User Id=sa;Password=LionGirnar007;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
+
+        //data source = DESKTOP - B6OO0H7\VEKSQLSERVER;initial catalog = ts; user id = sa; password=pASS1111;
+        private string SQLServerConnString = @"Provider=sqloledb;data source=DESKTOP-B6OO0H7\VEKSQLSERVER;initial catalog = ts; user id = sa; password=pASS1111;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
+
+
+        private string SQLServerConnString1 = @"Provider=sqloledb;Data Source =VivekPC\SQL;Initial Catalog=ts;Integrated Security=SSPI;User Id=sa;Password=LionGirnar007;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
 
         private string connStringFr = @"Provider=VFPOLEDB.1;Data Source=";// E:\client_data\nossack\dist_ii.dbc;providerName=System.Data.OleDb";
         private string dataSourceFr = @"\dist_ii.dbc;providerName=System.Data.OleDb";
@@ -67,16 +72,20 @@ namespace SSIS
 
             flLayoyt.Invoke((MethodInvoker)delegate {
                 flLayoyt.Controls.Clear();
+                flLayoyt.SuspendLayout();
                 foreach (SqlResults sr in sqlResults)
                 {
+                    //sr.Dock = DockStyle.Fill;
+                    //sr.Anchor = AnchorStyles.Left | AnchorStyles.Right;
                     flLayoyt.Controls.Add(sr);
                 }
 
                 foreach (Control ct in flLayoyt.Controls)
                 {
-                    ct.Dock = DockStyle.Right;
+                   // ct.Dock = DockStyle.Fill;
                 }
 
+                flLayoyt.ResumeLayout();
                 flLayoyt.Refresh();
                 btnExecuteQuery.Enabled = true;
                 pnlWaitQuery.Visible = false;
@@ -112,7 +121,11 @@ namespace SSIS
 
             if (chkDb.Checked)
             {
-                this.db = new SSIS.DashBoard();
+                if (this.db == null)
+                {
+                    this.db = new SSIS.DashBoard();
+                }
+                this.db.Hide();
                 SSIS.tsEntities alDb = new SSIS.tsEntities();
                 this.db.SetSymbol(sym, ex);
                 this.db.Show();
