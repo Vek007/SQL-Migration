@@ -137,6 +137,8 @@ namespace SSIS
             chkSqlServer.Checked = true;
             chkSqlServer.CheckState = CheckState.Checked;
             btnExecuteQuery_Click(null, null);
+
+            Debug.WriteLine(Webber.GetMStarOwnershipInfo(sym, ex));
         }
 
         private void btnExecuteQuery_Click(object sender, EventArgs e)
