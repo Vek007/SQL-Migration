@@ -75,6 +75,8 @@
             this.tbLeft = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.txtFieldSearch = new System.Windows.Forms.TextBox();
+            this.btnFieldSearch = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lvColumns = new System.Windows.Forms.ListView();
@@ -629,6 +631,8 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.txtFieldSearch);
+            this.tabPage4.Controls.Add(this.btnFieldSearch);
             this.tabPage4.Controls.Add(this.btnSearch);
             this.tabPage4.Controls.Add(this.txtSearch);
             this.tabPage4.Controls.Add(this.lvColumns);
@@ -640,6 +644,24 @@
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "List View";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // txtFieldSearch
+            // 
+            this.txtFieldSearch.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFieldSearch.Location = new System.Drawing.Point(6, 518);
+            this.txtFieldSearch.Name = "txtFieldSearch";
+            this.txtFieldSearch.Size = new System.Drawing.Size(372, 23);
+            this.txtFieldSearch.TabIndex = 5;
+            // 
+            // btnFieldSearch
+            // 
+            this.btnFieldSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnFieldSearch.Image")));
+            this.btnFieldSearch.Location = new System.Drawing.Point(382, 518);
+            this.btnFieldSearch.Name = "btnFieldSearch";
+            this.btnFieldSearch.Size = new System.Drawing.Size(29, 25);
+            this.btnFieldSearch.TabIndex = 4;
+            this.btnFieldSearch.UseVisualStyleBackColor = true;
+            this.btnFieldSearch.Click += new System.EventHandler(this.btnFieldSearch_Click);
             // 
             // btnSearch
             // 
@@ -688,10 +710,9 @@
             this.lvTables.ForeColor = System.Drawing.Color.Lime;
             this.lvTables.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvTables.Location = new System.Drawing.Point(6, 36);
-            this.lvTables.MultiSelect = false;
             this.lvTables.Name = "lvTables";
             this.lvTables.ShowGroups = false;
-            this.lvTables.Size = new System.Drawing.Size(407, 501);
+            this.lvTables.Size = new System.Drawing.Size(407, 471);
             this.lvTables.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lvTables.TabIndex = 0;
             this.lvTables.UseCompatibleStateImageBehavior = false;
@@ -895,6 +916,8 @@
         private System.Windows.Forms.TextBox txtSym;
         private System.Windows.Forms.Button btnSSIS;
         private System.Windows.Forms.CheckBox chkDb;
+        private System.Windows.Forms.TextBox txtFieldSearch;
+        private System.Windows.Forms.Button btnFieldSearch;
     }
 }
 

@@ -84,19 +84,6 @@ namespace SSIS.Entity
                                 }
                             }
                         }
-                            
-
-                        //    o.Click();
-                        //    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-
-                        //    WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(40000));
-
-                        //    // Test the autocomplete response - Explicit Wait
-                        //    IWebElement autocomplete = wait.Until(x => x.FindElement(By.Id("sal-components-ownership")));
-
-                        //    Debug.WriteLine(autocomplete.Text);
-                        //    txtLog.AppendText(autocomplete.Text);
-
                     }
                 }
                 return retValue;

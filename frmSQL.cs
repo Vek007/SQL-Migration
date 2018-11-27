@@ -496,18 +496,31 @@ namespace SQL_Migration
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            foreach (ListViewItem lvi in lvTables.Items)
+            {
+                lvi.BackColor = Color.Black;
+                lvi.ForeColor = Color.Lime;
+
+                lvi.Selected = false;
+            }
+
+
+            
+            lvTables.Refresh();
+
             if (String.IsNullOrEmpty(txtSearch.Text))
                 return;
 
             foreach (ListViewItem lvi in lvTables.Items)
             {
+                lvi.BackColor = Color.Black;
+                lvi.ForeColor = Color.Lime;
                 if (lvi.Text.ToLower().Contains(txtSearch.Text.ToLower()))
                 {
                     lvi.BackColor = SystemColors.Highlight;
                     lvi.ForeColor = SystemColors.HighlightText;
                     lvi.Selected = true;
                     lvTables.EnsureVisible(lvi.Index);
-                    break;
                 }
             }
 
@@ -2542,10 +2555,18 @@ namespace SQL_Migration
 
         private void txtQuery_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control && e.KeyCode == Keys.V)
+            if (e.Control)
             {
-                bFormatText = true;
-                Debug.WriteLine(txtQuery.Text.Trim());
+                if (e.KeyCode == Keys.V)
+                {
+                    bFormatText = true;
+                    Debug.WriteLine(txtQuery.Text.Trim());
+                }
+                else if (e.KeyCode == Keys.F)
+                {
+                    string newt = txtQuery.Text.Replace(';', ' ');
+                    txtQuery.Text = newt;
+                }
             }
         }
 
@@ -2626,6 +2647,33 @@ namespace SQL_Migration
             alDb.PopulateArFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\ar.txt");
             alDb.PopulatePerFromFile(@"E:\vivek\SQL\SQL\SQL Migration\SSIS\ar-per\per.txt");
             //alDb.TransferVxToT();
+        }
+
+        private void btnFieldSearch_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem lvi in lvColumns.Items)
+            {
+                lvi.BackColor = Color.Black;
+                lvi.ForeColor = Color.Lime;
+                lvi.Selected = false;
+            }
+            lvColumns.SelectedItems.Clear();
+            if (String.IsNullOrEmpty(txtFieldSearch.Text))
+                return;
+
+            foreach (ListViewItem lvi in lvColumns.Items)
+            {
+                lvi.BackColor = Color.Black;
+                lvi.ForeColor = Color.Lime;
+
+                if (lvi.Text.ToLower().Contains(txtFieldSearch.Text.ToLower()))
+                {
+                    lvi.BackColor = SystemColors.Highlight;
+                    lvi.ForeColor = SystemColors.HighlightText;
+                    lvi.Selected = true;
+                    lvColumns.EnsureVisible(lvi.Index);
+                }
+            }
         }
     }
 }

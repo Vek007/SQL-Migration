@@ -30,10 +30,10 @@ namespace SSIS
         //data source=VIVEKPC\SQL;initial catalog=ts;user id=sa;password=LionGirnar007;
 
         //data source = DESKTOP - B6OO0H7\VEKSQLSERVER;initial catalog = ts; user id = sa; password=pASS1111;
-        private string SQLServerConnString = @"Provider=sqloledb;data source=DESKTOP-B6OO0H7\VEKSQLSERVER;initial catalog = ts; user id = sa; password=pASS1111;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
+        private string SQLServerConnString1 = @"Provider=sqloledb;data source=DESKTOP-B6OO0H7\VEKSQLSERVER;initial catalog = ts; user id = sa; password=pASS1111;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
 
 
-        private string SQLServerConnString1 = @"Provider=sqloledb;Data Source =VivekPC\SQL;Initial Catalog=ts;Integrated Security=SSPI;User Id=sa;Password=LionGirnar007;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
+        private string SQLServerConnString = @"Provider=sqloledb;Data Source =VivekPC\SQL;Initial Catalog=ts;Integrated Security=SSPI;User Id=sa;Password=LionGirnar007;MultipleActiveResultSets=True";// providerName="System.Data.SqlClient";
 
         private string connStringFr = @"Provider=VFPOLEDB.1;Data Source=";// E:\client_data\nossack\dist_ii.dbc;providerName=System.Data.OleDb";
         private string dataSourceFr = @"\dist_ii.dbc;providerName=System.Data.OleDb";
